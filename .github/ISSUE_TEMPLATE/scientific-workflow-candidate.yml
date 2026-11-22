@@ -1,0 +1,101 @@
+name: Scientific workflow candidate
+description: Propose a researched paper result for a future AkôFlow workflow
+title: "[Candidate]: "
+labels:
+  - research
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue describes a researched proposal. It is not evidence of implementation, execution, validation, or Hub publication.
+  - type: textarea
+    id: scientific-question
+    attributes:
+      label: Scientific question and catalog value
+      description: What question does this answer, and why is it new in the Community Explorer catalog?
+    validations:
+      required: true
+  - type: textarea
+    id: paper
+    attributes:
+      label: Paper and authors
+      description: Full citation in author order, first author, shared-first authorship if declared, year, venue, DOI/arXiv, and links.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Code, data, and licenses
+      description: Repositories, revisions, datasets, checksums or records, and separate licenses/terms for code and data.
+    validations:
+      required: true
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Proposed scope
+      options:
+        - Full reproduction
+        - Reproduction of a paper slice
+        - Method adaptation
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Exact result to reproduce
+      description: Name the figure, table, map, curve, or metric and the smallest useful scenario that preserves the scientific idea.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria fixed before execution
+      description: Reference values, tolerances, invariants, file checks, and pass/fail rules.
+    validations:
+      required: true
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Inputs, parameters, and resources
+      description: Data subset, versions, parameters, seeds, CPU/RAM/storage estimates, expected duration, and network needs.
+    validations:
+      required: true
+  - type: textarea
+    id: dag
+    attributes:
+      label: Proposed workflow and parallel activities
+      description: List each activity, dependencies, independent scientific branches, transfers, aggregation, and outputs.
+    validations:
+      required: true
+  - type: textarea
+    id: artifacts
+    attributes:
+      label: Expected result files and gallery
+      description: Scientific figures, animation when useful, metrics, tables, validation report, and DAG/timeline evidence.
+    validations:
+      required: true
+  - type: textarea
+    id: provenance
+    attributes:
+      label: Provenance, limitations, and risks
+      description: Differences from the paper, synthetic inputs, redistribution limits, methodological caveats, and known blockers.
+    validations:
+      required: true
+  - type: textarea
+    id: open-questions
+    attributes:
+      label: Open questions for review
+      description: Decisions or missing evidence that must be resolved before implementation.
+  - type: checkboxes
+    id: qualification
+    attributes:
+      label: Research checklist
+      options:
+        - label: I compared the scientific question, method, inputs, DAG, and expected result with the current catalog.
+          required: true
+        - label: I distinguished source facts from proposed AkôFlow implementation details.
+          required: true
+        - label: I checked that code and data terms permit the proposed use, or documented the unresolved restriction.
+          required: true
+        - label: I defined scientific validation before implementation.
+          required: true
