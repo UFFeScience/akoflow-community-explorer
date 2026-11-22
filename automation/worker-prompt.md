@@ -6,6 +6,11 @@ Implementation source conventions: /home/ovvesley/Workspace/akoflow-examples
 AkôFlow daemon source/runtime: /home/ovvesley/Workspace/akoflow
 Production project ID: 44e9e6b5-454b-43b9-bf73-240be5e31aab
 
+The account can access Docker non-interactively with `sudo -n docker` and can
+start the official daemon with `sudo -n docker compose up -d` from the AkôFlow
+repository. Do not label an issue blocked merely because the unprivileged
+Docker socket probe fails; verify this sudo path and the daemon preflight API.
+
 Read AGENTS.md and inspect current GitHub issues and local/external state before
 acting. Resume the oldest open actionable issue. If an issue is still research,
 resolve its qualification gaps first. Do not write implementation code until code
