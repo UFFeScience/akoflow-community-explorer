@@ -59,6 +59,11 @@ Each invocation reads the live GitHub issues, resumes the oldest actionable issu
 and leaves durable evidence in the issue and repository. See
 `automation/worker-prompt.md` for the execution and publication gates.
 
+The worker uses `main` as the continuous branch for both this queue repository and
+the implementation repository. It fast-forwards before editing, commits validated
+changes directly, and does not leave completed queue work in topic branches or
+open pull requests.
+
 ## Propose a workflow
 
 Open a **Scientific workflow candidate** issue and complete every applicable

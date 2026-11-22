@@ -17,6 +17,15 @@ resolve its qualification gaps first. Do not write implementation code until cod
 and data licenses, exact result, inputs, acceptance tolerance, novelty, and a
 scientifically parallel DAG are established.
 
+Use `main` as the continuous integration branch in both the Community Explorer
+and implementation repositories. Before editing, verify the worktree is clean,
+switch to `main`, and fast-forward it from `origin/main`. Commit validated
+Community Explorer changes directly to `main` and push them before finishing the
+run. Do not leave queue state or automation changes on a topic branch. For an
+implementation, work from the current implementation `main`, validate it, and
+integrate it back into `main` during the same run; do not accumulate completed
+implementation branches or open pull requests.
+
 For a qualified issue, implement the smallest faithful CPU/Docker workflow, pin
 versions/seeds/inputs, build in an isolated environment, preflight, execute the
 reference scenario through the AkôFlow daemon with at least two slots, validate
