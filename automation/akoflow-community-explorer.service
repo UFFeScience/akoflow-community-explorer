@@ -1,0 +1,13 @@
+[Unit]
+Description=Process the AkôFlow Community Explorer issue queue
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/ovvesley/Workspace/akoflow-community-explorer
+ExecStart=/home/ovvesley/Workspace/akoflow-community-explorer/automation/run-hourly.sh
+Nice=10
+
+[Install]
+WantedBy=default.target

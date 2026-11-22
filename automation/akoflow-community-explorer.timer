@@ -1,0 +1,11 @@
+[Unit]
+Description=Run the Community Explorer queue worker every hour
+
+[Timer]
+OnCalendar=hourly
+Persistent=true
+RandomizedDelaySec=2m
+Unit=akoflow-community-explorer.service
+
+[Install]
+WantedBy=timers.target
