@@ -16,6 +16,9 @@
   write, and restrict writes to publications created for this queue.
 - Publication retries must be idempotent. Search by the issue's persistent
   publication key before creating a publication or version.
+- A disconnected or approval-pending Hub blocks publication only. Record that
+  blocker once and continue all safe queue work that does not require Hub access;
+  never end a worker pass solely to wait for interactive authorization.
 - Close an issue only after anonymous verification of the public page, import YAML,
   recorded completed run, gallery/animation, result links, authorship, citation,
   licenses, and agreement between displayed results and the reference run.

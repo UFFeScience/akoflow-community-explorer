@@ -39,6 +39,10 @@ credentials outside scientific build/execution. Verify the public page anonymous
 including authors/citation, importable YAML, completed recorded run, gallery,
 animation, downloads, and result consistency. Comment durable evidence on the
 issue, apply lifecycle labels, and close only after every public check passes.
+An unavailable, disconnected, or approval-pending Hub blocks only publication.
+Record the exact publication blocker once, then continue qualification,
+implementation, daemon execution, or new-candidate research that does not require
+Hub access. Do not end a run merely to wait for interactive Hub authorization.
 
 If no issue is actionable, research one new non-duplicate paper candidate in the
 rotating scientific domains described by the repository template and open a fully
