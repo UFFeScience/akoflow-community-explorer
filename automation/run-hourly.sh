@@ -8,7 +8,6 @@ state_dir="$workspace/.automation"
 mkdir -p "$state_dir"
 exec /usr/local/bin/codex exec \
   --approve-for-me \
-  --sandbox workspace-write \
   --cd "$workspace" \
   --add-dir /home/ovvesley/Workspace/akoflow-examples \
   --add-dir /home/ovvesley/Workspace/akoflow \
