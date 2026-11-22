@@ -33,6 +33,12 @@ files and science, and prove activity overlap from measured timestamps. Generate
 an English README, scientific figure, measured DAG/timeline image, and an animation
 when the result has a useful evolving dimension. Record image digest, run ID,
 workflow version, environment, measured timings, checksums, and limitations.
+Every generated scientific figure, animation, and measured timeline/DAG used by
+the publication must be committed to the implementation repository and embedded
+directly in the README with an explanatory caption. Before publishing, verify the
+exact committed raw URLs anonymously (HTTP 200, correct media signature, and more
+than one frame for GIFs). Do not rely on untracked/ignored output files, mention a
+gallery without rendering it in the README, or add a decorative placeholder.
 
 Publish idempotently only to the confirmed Community Explorer project. Keep Hub
 credentials outside scientific build/execution. Verify the public page anonymously,
