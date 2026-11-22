@@ -44,7 +44,16 @@ Record the exact publication blocker once, then continue qualification,
 implementation, daemon execution, or new-candidate research that does not require
 Hub access. Do not end a run merely to wait for interactive Hub authorization.
 
-If no issue is actionable, research one new non-duplicate paper candidate in the
-rotating scientific domains described by the repository template and open a fully
-evidenced issue. Never invent completion or performance claims. Finish with a
-concise summary of authoritative changes and the next unresolved action.
+If no issue is actionable, research one new paper candidate in the rotating
+scientific domains described by the repository template. Before selecting or
+opening it, perform a mandatory novelty gate against **all** GitHub issues (open
+and closed), the implementation tree, and the public Community Explorer catalog.
+Compare the scientific question, source paper, equations/method, inputs, DAG, and
+claimed result semantically rather than relying only on title or search terms.
+Record the searches and the closest catalog items in the new issue. A different
+seed, scale, parameter range, or presentation of an already implemented question
+is not a new candidate; treat it as a possible version/profile of the existing
+publication and continue searching for a real catalog gap. Do not open or
+implement a candidate until this gate passes. Never invent completion or
+performance claims. Finish with a concise summary of authoritative changes and
+the next unresolved action.
