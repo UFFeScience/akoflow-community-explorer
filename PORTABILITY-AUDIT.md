@@ -147,8 +147,11 @@ attempt returned HTTP 503 registering its plan and stopped before launching a
 run. The runner now requires a passing execution preflight. The retry passed
 preflight and the daemon accepted `community-caco2-portable-run-v2`. Its
 recovery finished 19/19 activities and passed validation. Public Caco-2 v2
-has 19 embedded contexts and the isolated daemon imported it. Full URI
-execution awaits storage headroom after the OceanBench image import.
+has 19 embedded contexts and the isolated daemon imported it. A second
+isolated installation using `overlay2` started with zero images and a fresh
+BuildKit store. The public URI imported there, all 19 activities required
+reconstruction, and its two-slot run `caco2-hub-v2-clean-overlay` was
+submitted. The earlier shared daemon and its active runs were left running.
 BioCLIP's archived build context validated with four entries. Its preflight
 passed and the daemon accepted `community-bioclip-portable-run-v2`.
 Execution-time prerequisites timed out before it started an activity.
