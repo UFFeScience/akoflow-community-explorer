@@ -189,6 +189,12 @@ Its public URI imported into the isolated daemon, where preflight required
 reconstruction for all 13 activities and run `oceanbench-hub-v3-clean-uri`
 was submitted.
 
+The current URI test uses the existing isolated Docker daemon with its
+`vfs` store. A disposable Docker 29 daemon on this host successfully
+initialized an `overlay2` store, which can share image layers across
+containers in future clean installations. The probe used its own storage
+and completed without changing the active validation daemon.
+
 The daemon timestamps show overlapping scientific branches in the portable
 reference runs for OceanBench (35.952 s), Turing–Schnakenberg (7.222 s),
 Hodgkin–Huxley (1.350 s), Wright–Fisher (0.888 s), and SIR (0.247 s).
