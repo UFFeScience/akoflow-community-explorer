@@ -25,26 +25,32 @@ comparison, and rounding checks. FNO and U-Net inference overlapped from
 The anonymous latest-version YAML check initially found archived build contexts
 in 11 of the 31 public entries. Four additional portable revisions have since
 passed reference execution and anonymous YAML verification, bringing the
-count to 15. CHSH, PDEBench, Ising–Yang and RR Lyrae v2 have since passed reference
+count to 15. CHSH, PDEBench, Ising–Yang, RR Lyrae and Bateman v2 have since passed reference
 execution, scientific validation and anonymous YAML verification. The original
-31-entry cohort now has 19 portable public revisions and 12 pending updates.
+31-entry cohort now has 20 portable public revisions and 11 pending updates.
 RR Lyrae's first portable build failed resolving Docker Hub. Retry
 `community-rrlyrae-portable-run-v2-retry1` rebuilt image digest
 `sha256:70817d6a3e26df122d0989345412d3ffa9ec62faa2c2b2d13ee4a519f3567785`
 and completed 10/10 activities. Its validator passed the period, input,
 figure, and animation checks with absolute period error
 `7.568748147634974e-05` days against the `0.001`-day tolerance. The six
-periodogram branches overlap in measured daemon timestamps.
+periodogram branches overlap in measured daemon timestamps. The public v2
+capture is associated with the separately validated reference run
+`community-rrlyrae-portable-run-v2-retry`.
+Bateman run `community-bateman-decay-portable-run-v2` completed 7/7
+activities and reported `overall_pass: true`.
 
 Buffon and CHSH v2 completed 8/8 and 9/9 activities after URI import in
 the isolated installation. Both reported `overall_pass: true` in their
 validation artifacts. OceanBench and The Well v2 imported and reported a
 required build for 13/13 activities each. OceanBench's public data fetch
 failed on temporary DNS resolution. The Well's build timed out resolving the
-base image. Both retries are queued in the isolated installation. PDEBench, Ising–Yang and Shannon BSC v2 imported from the Hub and
+base image. Both retries are queued in the isolated installation. PDEBench,
+Ising–Yang, Shannon BSC, RR Lyrae and Bateman v2 imported from the Hub and
 reported that builds were required for all activities. Their isolated runs
-are `pdebench-hub-v2-clean-uri`, `ising-hub-v2-clean-uri`, and
-`shannon-hub-v2-clean-uri`.
+are `pdebench-hub-v2-clean-uri`, `ising-hub-v2-clean-uri`,
+`shannon-hub-v2-clean-uri`, `rrlyrae-hub-v2-clean-uri`, and
+`bateman-hub-v2-clean-uri`.
 
 | Workflow | Completed activities | Public revision |
 | --- | ---: | --- |
@@ -56,6 +62,7 @@ are `pdebench-hub-v2-clean-uri`, `ising-hub-v2-clean-uri`, and
 | PDEBench advection | 7/7 | [v2](https://hub.akoflow.com/o/akoflow/pdebench-advection-checkpoint-audit) |
 | Ising–Yang magnetization | 12/12 | [v2](https://hub.akoflow.com/o/akoflow/yang-ising-magnetization-curve) |
 | RR Lyrae period recovery | 10/10 | [v2](https://hub.akoflow.com/o/akoflow/sparse-multiband-rrlyrae-period-recovery) |
+| Bateman decay chain | 7/7 | [v2](https://hub.akoflow.com/o/akoflow/bateman-decay-chain-equilibrium-audit) |
 
 Volterra's portable revision reported “Build required” on all seven activities
 and completed 7/7 in daemon run `community-volterra-predator-prey-run-v2`.
