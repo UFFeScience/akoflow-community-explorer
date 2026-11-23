@@ -38,7 +38,9 @@ periodogram branches overlap in measured daemon timestamps. The public v2
 capture is associated with the separately validated reference run
 `community-rrlyrae-portable-run-v2-retry`.
 Bateman run `community-bateman-decay-portable-run-v2` completed 7/7
-activities and reported `overall_pass: true`.
+activities and reported `overall_pass: true`. Lorenz's reference run
+`community-lorenz-portable-run-v2` was submitted after preflight confirmed
+that all eight activities required a build.
 
 Eight v2 revisions completed after URI import in the isolated installation
 and passed their scientific validators. The run IDs were
