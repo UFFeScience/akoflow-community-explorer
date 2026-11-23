@@ -16,11 +16,11 @@ the daemon.
 | Brachistochrone audit | legacy OCI; local `COPY` sources are bounded | pending migration |
 | Foucault precession | legacy OCI; local `COPY` sources are bounded | pending migration |
 | Hénon map audit | portable build context; all `COPY` sources contained | passed, public v2 |
-| Airy diffraction | legacy OCI; local `COPY` sources are bounded | pending migration |
+| Airy diffraction | portable build context; all `COPY` sources contained | passed, public v2 |
 | Rabi oscillations | legacy OCI; `COPY` sources are bounded; base image is not digest-pinned | pending migration and base pin |
 | Cooley–Tukey FFT | legacy OCI; local `COPY` sources are bounded | pending migration |
 | Debye heat capacity | portable build context; all `COPY` sources contained | passed, public v2 |
 
-Current production-project total: 9 publications, 4 passed, 5 pending. Receipts
+Current production-project total: 9 publications, 5 passed, 4 pending. Receipts
 for other projects or receipts without a project identifier are excluded from
 this production audit.
