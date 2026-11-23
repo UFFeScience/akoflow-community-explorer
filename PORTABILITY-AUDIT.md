@@ -17,10 +17,10 @@ the daemon.
 | Foucault precession | portable build context; all `COPY` sources contained | passed, public v2 |
 | Hénon map audit | portable build context; all `COPY` sources contained | passed, public v2 |
 | Airy diffraction | portable build context; all `COPY` sources contained | passed, public v2 |
-| Rabi oscillations | legacy OCI; `COPY` sources are bounded; base image is not digest-pinned | pending migration and base pin |
+| Rabi oscillations | portable build context; all `COPY` sources contained; base digest pinned | passed, public v2 |
 | Cooley–Tukey FFT | portable build context; all `COPY` sources contained | passed, public v2 |
 | Debye heat capacity | portable build context; all `COPY` sources contained | passed, public v2 |
 
-Current production-project total: 9 publications, 8 passed, 1 pending. Receipts
+Current production-project total: 9 publications, 9 passed, 0 pending. Receipts
 for other projects or receipts without a project identifier are excluded from
 this production audit.
