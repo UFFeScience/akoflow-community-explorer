@@ -38,7 +38,12 @@ periodogram branches overlap in measured daemon timestamps. The public v2
 capture is associated with the separately validated reference run
 `community-rrlyrae-portable-run-v2-retry`.
 Bateman run `community-bateman-decay-portable-run-v2` completed 7/7
-activities and reported `overall_pass: true`. Lorenz's reference run
+activities and reported `overall_pass: true`.
+Newman–Ziff v2, Brachistochrone v2, Debye v2, and Black–Scholes v1 imported
+from their public URIs and reported image builds required on all 20, seven,
+seven, and eight activities. Their isolated runs were submitted as
+`newman-hub-v2-clean-uri`, `brachistochrone-hub-v2-clean-uri`,
+`debye-hub-v2-clean-uri`, and `black-scholes-hub-v1-clean-uri`. Lorenz's reference run
 `community-lorenz-portable-run-v2` was submitted after preflight confirmed
 that all eight activities required a build. Hodgkin–Huxley reference run
 `community-hodgkin-huxley-portable-run-v3` was submitted after fifteen
