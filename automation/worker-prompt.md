@@ -24,9 +24,13 @@ and data licenses, exact result, inputs, acceptance tolerance, novelty, and a
 scientifically parallel DAG are established.
 
 Use `main` as the continuous integration branch in both the Community Explorer
-and implementation repositories. Before editing, verify the worktree is clean,
-switch to `main`, and fast-forward it from `origin/main`. Commit validated
-Community Explorer changes directly to `main` and push them before finishing the
+and implementation repositories. Before editing, fetch `origin/main` and inspect
+the local worktree and branch state. If the shared checkout is clean and can
+fast-forward, work on its updated `main`. If it contains unrelated edits or local
+commits, preserve them and use a separate worktree based on `origin/main`.
+Push validated commits from that worktree to `main` without forcing. If the
+remote advances, integrate the new remote commits in the separate worktree.
+Commit validated Community Explorer changes directly to `main` and push them before finishing the
 run. Do not leave queue state or automation changes on a topic branch. For an
 implementation, work from the current implementation `main`, validate it, and
 integrate it back into `main` during the same run; do not accumulate completed

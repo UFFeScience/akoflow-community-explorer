@@ -55,7 +55,7 @@ completed all 15 activities and passed validation. Public Hodgkin–Huxley
 v2 includes 15 archived contexts. Isolated run `hodgkin-hub-v2-clean-uri`
 was submitted from the URI.
 
-The hourly queue has also added the [Planck blackbody spectrum audit](https://hub.akoflow.com/o/akoflow/issue-53-planck-blackbody-radiation-audit) outside the original 31-entry cohort. Its public v1 YAML includes eight archived build contexts and its recorded public result is completed. [Issue #53](https://github.com/UFFeScience/akoflow-community-explorer/issues/53) records the isolated clean run evidence. [Issue #54](https://github.com/UFFeScience/akoflow-community-explorer/issues/54) is the next qualified candidate.
+The hourly queue has also added the [Planck blackbody spectrum audit](https://hub.akoflow.com/o/akoflow/issue-53-planck-blackbody-radiation-audit) outside the original 31-entry cohort. Its public v1 YAML includes eight archived build contexts and its recorded public result is completed. [Issue #53](https://github.com/UFFeScience/akoflow-community-explorer/issues/53) records the isolated clean run evidence. The hourly queue also published the [Kepler equal-area audit](https://hub.akoflow.com/o/akoflow/community-explorer-issue-54-kepler-equal-area-v1). [Issue #54](https://github.com/UFFeScience/akoflow-community-explorer/issues/54) records an eight-activity isolated URI run with matching validation and checksums.
 
 The latest anonymous audit checked each publication's project, latest version,
 and every activity's build source and embedded context. The following latest
@@ -211,7 +211,11 @@ and completed without changing the active validation daemon.
 The hourly worker later restarted the shared validation daemon while
 URI tests were active. The worker prompt now directs it to check active
 executions, keep shared tests running, and use a separate validation
-instance when the shared one is busy.
+instance when the shared one is busy. Nine execution jobs in that isolated
+daemon reached terminal failure after their queue leases expired, despite
+the execution API retaining the running state. The replacement Lorenz test
+`lorenz-hub-v2-clean-overlay` was imported from the published URI and
+submitted on the separate overlay-backed daemon.
 
 The daemon timestamps show overlapping scientific branches in the portable
 reference runs for OceanBench (35.952 s), Turing–Schnakenberg (7.222 s),
