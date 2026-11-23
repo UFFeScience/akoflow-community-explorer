@@ -86,7 +86,9 @@ all nine activities and passed validation. Public v2 includes nine archived
 contexts. Isolated run `turing-hub-v2-clean-uri` was submitted from the URI.
 WeatherBench 2 and Caco-2 first runs failed before completing an activity.
 The daemon accepted WeatherBench 2 recovery job
-`37903585255d8ccf514ed00898b49f53` and the run is active again.
+`37903585255d8ccf514ed00898b49f53` and Caco-2 recovery job
+`114bee0b19b33ac20543aa540caef99b`. Both continue from their original
+execution records. Caco-2 had no reusable activities.
 
 The SIR threshold reference run `community-sir-threshold-sweep-portable-run-v3`
 was submitted after all twelve activities requested image reconstruction.
