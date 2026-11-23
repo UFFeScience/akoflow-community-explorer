@@ -25,19 +25,21 @@ comparison, and rounding checks. FNO and U-Net inference overlapped from
 The anonymous latest-version YAML check initially found archived build contexts
 in 11 of the 31 public entries. Four additional portable revisions have since
 passed reference execution and anonymous YAML verification, bringing the
-count to 15. CHSH v2 has since passed its nine-activity reference run,
-scientific validation, and anonymous YAML verification, bringing the original
-31-entry cohort to 16 portable public revisions and 15 pending updates.
-RR Lyrae's portable reference run `community-rrlyrae-portable-run-v2` is
-underway. Preflight confirmed image reconstruction on all ten activities.
+count to 15. CHSH, PDEBench and Ising–Yang v2 have since passed reference
+execution, scientific validation and anonymous YAML verification. The original
+31-entry cohort now has 18 portable public revisions and 13 pending updates.
+RR Lyrae's first portable build failed resolving Docker Hub. Retry
+`community-rrlyrae-portable-run-v2-retry` is underway.
 
-OceanBench and Buffon v2 imported successfully from their public URIs into
-the isolated installation. Preflight confirmed image reconstruction was
-required for 13/13 and 8/8 activities, respectively. Runs
-`oceanbench-hub-v2-clean-uri` and `buffon-hub-v2-clean-uri` are in progress.
-Shannon BSC and The Well still await isolated URI execution.
-CHSH v2 imported into the same isolated installation and reported a required
-image build for 9/9 activities. Run `chsh-hub-v2-clean-uri` is in progress.
+Buffon and CHSH v2 completed 8/8 and 9/9 activities after URI import in
+the isolated installation. Both reported `overall_pass: true` in their
+validation artifacts. OceanBench and The Well v2 imported and reported a
+required build for 13/13 activities each. OceanBench's public data fetch
+failed on temporary DNS resolution. The Well's build timed out resolving the
+base image. Both retries are queued in the isolated installation. PDEBench, Ising–Yang and Shannon BSC v2 imported from the Hub and
+reported that builds were required for all activities. Their isolated runs
+are `pdebench-hub-v2-clean-uri`, `ising-hub-v2-clean-uri`, and
+`shannon-hub-v2-clean-uri`.
 
 | Workflow | Completed activities | Public revision |
 | --- | ---: | --- |
@@ -46,6 +48,8 @@ image build for 9/9 activities. Run `chsh-hub-v2-clean-uri` is in progress.
 | The Well radiative layer | 13/13 | [v2](https://hub.akoflow.com/o/akoflow/the-well-radiative-mixing-layer) |
 | OceanBench GLONet | 13/13 | [v2](https://hub.akoflow.com/o/akoflow/oceanbench-glonet-metric-reproduction) |
 | CHSH singlet correlation | 9/9 | [v2](https://hub.akoflow.com/o/akoflow/chsh-singlet-correlation-audit) |
+| PDEBench advection | 7/7 | [v2](https://hub.akoflow.com/o/akoflow/pdebench-advection-checkpoint-audit) |
+| Ising–Yang magnetization | 12/12 | [v2](https://hub.akoflow.com/o/akoflow/yang-ising-magnetization-curve) |
 
 Volterra's portable revision reported “Build required” on all seven activities
 and completed 7/7 in daemon run `community-volterra-predator-prey-run-v2`.
