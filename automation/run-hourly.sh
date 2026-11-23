@@ -6,7 +6,7 @@ prompt_file="$workspace/automation/worker-prompt.md"
 state_dir="$workspace/.automation"
 
 mkdir -p "$state_dir"
-exec /usr/local/bin/codex exec \
+exec "${AKOFLOW_CODEX_BIN:-codex}" exec \
   --sandbox danger-full-access \
   -c 'approval_policy="never"' \
   --cd "$workspace" \

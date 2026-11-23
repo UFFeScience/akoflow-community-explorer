@@ -1,0 +1,121 @@
+[
+  {
+    "artifactBuildRef": "recipe-build-443184c7c9fd2a696d7367a13bb3ab3701a3f2b28e516c91e143b6040c6d29b0",
+    "compressedBytes": 5355,
+    "entries": 4,
+    "expandedBytes": 13963,
+    "status": "upgraded",
+    "workflow": "quantum-foundations/chsh-singlet"
+  },
+  {
+    "artifactBuildRef": "recipe-build-e20a5c48eacd5635e39d773aad52140451d3543fa4be80ed5175449969471483",
+    "compressedBytes": 3798,
+    "entries": 3,
+    "expandedBytes": 9579,
+    "status": "upgraded",
+    "workflow": "astronomy/rrlyrae-period-recovery"
+  },
+  {
+    "artifactBuildRef": "recipe-build-f706279dfde80fd0030997b035bd042cea47c91bb587ea4be0e4a03d7cd35b65",
+    "compressedBytes": 5202,
+    "entries": 4,
+    "expandedBytes": 12358,
+    "status": "upgraded",
+    "workflow": "statistical-physics/ising-yang-phase-transition"
+  },
+  {
+    "error": "context exceeds archive limits at inputs/turbulent_radiative_layer_tcool_0.03.hdf5",
+    "status": "failed",
+    "workflow": "astronomy/the-well-radiative-layer"
+  },
+  {
+    "artifactBuildRef": "recipe-build-4c2d006fc9ba2dd274df073ebc99b3334f7abbf567e9c5549bc4124833d25fe6",
+    "compressedBytes": 4136,
+    "entries": 4,
+    "expandedBytes": 8574,
+    "status": "upgraded",
+    "workflow": "nuclear-physics/bateman-decay-chain"
+  },
+  {
+    "artifactBuildRef": "recipe-build-8cbd39716b02ea922385470513f51fc281e92c4284895f81935b2a353d95390d",
+    "compressedBytes": 3860,
+    "entries": 4,
+    "expandedBytes": 9057,
+    "status": "upgraded",
+    "workflow": "chemical-kinetics/robertson-stiff-solvers"
+  },
+  {
+    "error": "context exceeds archive limits at inputs/snapshot/public/glo12_1degree_2024_V2/20240103.zarr/eastward_sea_water_velocity/1.30.0.0",
+    "status": "failed",
+    "workflow": "oceanography/oceanbench-glonet"
+  },
+  {
+    "artifactBuildRef": "recipe-build-75261b94315311ab1879562b74a586b77bb0852b6980a8461a980ae5abbc39c0",
+    "compressedBytes": 5650,
+    "entries": 3,
+    "expandedBytes": 15899,
+    "status": "upgraded",
+    "workflow": "drug-discovery/caco2-tdc-baselines"
+  },
+  {
+    "artifactBuildRef": "recipe-build-ee19f9191c926f60cada5c9a5439b6f9a1afcd534d064720c0ba4c92f450e35a",
+    "compressedBytes": 4873,
+    "entries": 4,
+    "expandedBytes": 12028,
+    "status": "upgraded",
+    "workflow": "neuroscience/hodgkin-huxley-boundary"
+  },
+  {
+    "artifactBuildRef": "recipe-build-bdc6be0f2d52424aac149047ed4387c99c906964579f13f85da0cde06af67d01",
+    "compressedBytes": 7740,
+    "entries": 7,
+    "expandedBytes": 21121,
+    "status": "upgraded",
+    "workflow": "computational-fluid-dynamics/mfc-sod-refinement"
+  },
+  {
+    "error": "context exceeds archive limits at inputs/1D_Advection_Sols_beta4.0.hdf5.head",
+    "status": "failed",
+    "workflow": "scientific-ml/pdebench-advection"
+  },
+  {
+    "artifactBuildRef": "recipe-build-ef413e7b10780a7c8fbf28389c7c16cb83d1115264130276f9e2d05b0555f2d0",
+    "compressedBytes": 4796,
+    "entries": 3,
+    "expandedBytes": 12900,
+    "status": "upgraded",
+    "workflow": "bioimage-analysis/stardist-equivariance"
+  },
+  {
+    "artifactBuildRef": "recipe-build-fb5fe7408b76252d4466a12154bc5c086b39e6feb11202cfd3fcf458e8cbfc8a",
+    "compressedBytes": 4722,
+    "entries": 4,
+    "expandedBytes": 11996,
+    "status": "upgraded",
+    "workflow": "epidemiology/sir-threshold-sweep"
+  },
+  {
+    "artifactBuildRef": "recipe-build-10cffde990df1c00dfd6ff3a177bb495f9e6f14d0e10b499ec54ed161140cde2",
+    "compressedBytes": 3934,
+    "entries": 5,
+    "expandedBytes": 7363,
+    "status": "upgraded",
+    "workflow": "nonlinear-dynamics/lorenz-bounded-sensitivity"
+  },
+  {
+    "artifactBuildRef": "recipe-build-052e4121c40a3bc5ed58d23f0479f4227916a60797b28fe1b6833b0d54b795dc",
+    "compressedBytes": 768831,
+    "entries": 4,
+    "expandedBytes": 839183,
+    "status": "upgraded",
+    "workflow": "biodiversity/bioclip-rare-species"
+  },
+  {
+    "artifactBuildRef": "recipe-build-e6024f00c630adf65b90309bfec5828706e9c2173ccc59ac98b8f46fecaa4f67",
+    "compressedBytes": 3746,
+    "entries": 4,
+    "expandedBytes": 8481,
+    "status": "upgraded",
+    "workflow": "ecology/volterra-predator-prey"
+  }
+]

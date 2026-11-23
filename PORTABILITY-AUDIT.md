@@ -3,6 +3,50 @@
 Scope: publications with receipts for production project
 `44e9e6b5-454b-43b9-bf73-240be5e31aab`.
 
+The table below records the initial receipt-based audit. The expanded audit
+covers all 31 workflow definitions in the Community Explorer namespace,
+including publications without local receipts. All 31 definitions now select
+build recipes in the local worktree. OceanBench, The Well, and PDEBench
+download and verify pinned public inputs at image build time because the
+datasets exceed the recipe archive limit. Their portable reference runs
+are `community-oceanbench-glonet-run-v3`,
+`community-well-radiative-layer-portable-run-v2`, and
+`community-pdebench-advection-portable-run-v4`. Earlier OceanBench and
+PDEBench attempts were cancelled after their network operations stopped
+progressing. The subsequent PDEBench attempt failed in input preparation.
+The current retry uses the checksum implementation tested on Python 3.10.
+
+The anonymous latest-version YAML check initially found archived build contexts
+in 11 of the 31 public entries. Four additional portable revisions have since
+passed reference execution and anonymous YAML verification, bringing the
+count to 15. The remaining 16 need publication updates. Clean execution
+from the public URI is pending for these four revisions.
+
+| Workflow | Completed activities | Public revision |
+| --- | ---: | --- |
+| Shannon BSC | 8/8 | [v2](https://hub.akoflow.com/o/akoflow/shannon-bsc-capacity-audit) |
+| Buffon needle | 8/8 | [v2](https://hub.akoflow.com/o/akoflow/buffon-needle-pi-audit) |
+| The Well radiative layer | 13/13 | [v2](https://hub.akoflow.com/o/akoflow/the-well-radiative-mixing-layer) |
+| OceanBench GLONet | 13/13 | [v2](https://hub.akoflow.com/o/akoflow/oceanbench-glonet-metric-reproduction) |
+
+Volterra's portable revision reported “Build required” on all seven activities
+and completed 7/7 in daemon run `community-volterra-predator-prey-run-v2`.
+The corrected revision is public as Volterra version 2. Import via
+`akoflow://hub/publications/36509a08-f4f3-43d3-9a20-ffe47116fb16/versions/2`
+returned seven build sources and seven archived contexts on the existing
+daemon. The URI also imported into an isolated AkôFlow database with an empty
+Docker image store and a fresh BuildKit instance. All seven activities
+reported that the image needed to be built. AkôFlow rebuilt the image and
+completed 7/7 activities in `volterra-hub-v2-clean-uri` against the imported
+definition. The final `validation.json` reported `passed: true`. Version 1
+remains public pending a version-scoped retirement operation.
+
+Keep one public, verified portable version per workflow. Verify the replacement
+through anonymous Hub import and execution before retiring the legacy version.
+The daemon's publication deletion endpoint removes the entire publication, so
+it must never be used to retire v1 from a publication that also holds the
+verified replacement.
+
 An item passes only after its public YAML contains an archived AkôFlow build
 context, every Dockerfile `COPY`/`ADD` source is contained by that context, the
 base image is pinned by digest, an unmaterialized preflight reports that a build
@@ -21,6 +65,6 @@ the daemon.
 | Cooley–Tukey FFT | portable build context; all `COPY` sources contained | passed, public v2 |
 | Debye heat capacity | portable build context; all `COPY` sources contained | passed, public v2 |
 
-Current production-project total: 9 publications, 9 passed, 0 pending. Receipts
-for other projects or receipts without a project identifier are excluded from
-this production audit.
+Initial receipt-based sample: 9 publications, all with successful reference
+runs and portable public revisions. The expanded 31-workflow audit above
+includes entries without local receipts.
