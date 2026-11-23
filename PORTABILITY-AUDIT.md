@@ -27,7 +27,7 @@ in 11 of the 31 public entries. Four additional portable revisions have since
 passed reference execution and anonymous YAML verification, bringing the
 count to 15. CHSH, PDEBench, Ising–Yang, RR Lyrae, Bateman and Robertson v2 have since passed reference
 execution, scientific validation and anonymous YAML verification. The original
-31-entry cohort now has 28 portable public revisions and 3 pending updates.
+31-entry cohort now has 30 portable public revisions and 1 pending update.
 RR Lyrae's first portable build failed resolving Docker Hub. Retry
 `community-rrlyrae-portable-run-v2-retry1` rebuilt image digest
 `sha256:70817d6a3e26df122d0989345412d3ffa9ec62faa2c2b2d13ee4a519f3567785`
@@ -63,9 +63,7 @@ public revisions still require replacement.
 
 | Publication | Public version | Activities with archived build context |
 | --- | ---: | ---: |
-| [caco2-scaffold-split-baselines](https://hub.akoflow.com/o/akoflow/caco2-scaffold-split-baselines) | 1 | 0/19 |
 | [bioclip-rare-species-evaluation](https://hub.akoflow.com/o/akoflow/bioclip-rare-species-evaluation) | 1 | 0/12 |
-| [weatherbench2-era5-score-audit](https://hub.akoflow.com/o/akoflow/weatherbench2-era5-score-audit) | 1 | 0/10 |
 
 First reference runs for Turing–Schnakenberg and Wright–Fisher completed
 their prepare activities before executable preparation timed out on the parallel
@@ -100,8 +98,9 @@ above the publication source snapshot limit of 24 MiB. The compact recipe
 downloads the same pinned public inputs during the build and checks all
 hashes. Both NetCDF files matched byte-for-byte. Its archive is 4,826
 bytes and the expanded plan context is 93,722 bytes. Reference run
-`community-weatherbench2-score-compact-run-v3` passed preflight and was
-submitted.
+`community-weatherbench2-score-compact-run-v3` completed 10/10 activities
+and passed validation. Public WeatherBench 2 v2 has 10 embedded contexts.
+Isolated run `weatherbench-hub-v2-clean-uri` was submitted from the URI.
 
 The SIR threshold reference run `community-sir-threshold-sweep-portable-run-v3`
 was submitted after all twelve activities requested image reconstruction.
@@ -146,7 +145,10 @@ portable workflow, plan, and runner are on the examples main branch. The
 archived build context validated with three entries. The first submission
 attempt returned HTTP 503 registering its plan and stopped before launching a
 run. The runner now requires a passing execution preflight. The retry passed
-preflight and the daemon accepted `community-caco2-portable-run-v2`.
+preflight and the daemon accepted `community-caco2-portable-run-v2`. Its
+recovery finished 19/19 activities and passed validation. Public Caco-2 v2
+has 19 embedded contexts and the isolated daemon imported it. Full URI
+execution awaits storage headroom after the OceanBench image import.
 BioCLIP's archived build context validated with four entries. Its preflight
 passed and the daemon accepted `community-bioclip-portable-run-v2`.
 Execution-time prerequisites timed out before it started an activity.
@@ -240,6 +242,8 @@ publications in the original cohort.
 | SIR threshold and final size | 12/12 | [v2](https://hub.akoflow.com/o/akoflow/sir-threshold-final-size-sweep) |
 | Wright–Fisher fixation | 28/28 | [v2](https://hub.akoflow.com/o/akoflow/kimura-wright-fisher-fixation) |
 | MFC Sod refinement | 12/12 | [v2](https://hub.akoflow.com/o/akoflow/mfc-sod-shock-tube-refinement) |
+| WeatherBench 2 | 10/10 | [v2](https://hub.akoflow.com/o/akoflow/weatherbench2-era5-score-audit) |
+| Caco-2 scaffold split | 19/19 | [v2](https://hub.akoflow.com/o/akoflow/caco2-scaffold-split-baselines) |
 
 Volterra's portable revision reported “Build required” on all seven activities
 and completed 7/7 in daemon run `community-volterra-predator-prey-run-v2`.
