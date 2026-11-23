@@ -25,9 +25,9 @@ comparison, and rounding checks. FNO and U-Net inference overlapped from
 The anonymous latest-version YAML check initially found archived build contexts
 in 11 of the 31 public entries. Four additional portable revisions have since
 passed reference execution and anonymous YAML verification, bringing the
-count to 15. CHSH, PDEBench and Ising–Yang v2 have since passed reference
+count to 15. CHSH, PDEBench, Ising–Yang and RR Lyrae v2 have since passed reference
 execution, scientific validation and anonymous YAML verification. The original
-31-entry cohort now has 18 portable public revisions and 13 pending updates.
+31-entry cohort now has 19 portable public revisions and 12 pending updates.
 RR Lyrae's first portable build failed resolving Docker Hub. Retry
 `community-rrlyrae-portable-run-v2-retry1` rebuilt image digest
 `sha256:70817d6a3e26df122d0989345412d3ffa9ec62faa2c2b2d13ee4a519f3567785`
@@ -55,6 +55,7 @@ are `pdebench-hub-v2-clean-uri`, `ising-hub-v2-clean-uri`, and
 | CHSH singlet correlation | 9/9 | [v2](https://hub.akoflow.com/o/akoflow/chsh-singlet-correlation-audit) |
 | PDEBench advection | 7/7 | [v2](https://hub.akoflow.com/o/akoflow/pdebench-advection-checkpoint-audit) |
 | Ising–Yang magnetization | 12/12 | [v2](https://hub.akoflow.com/o/akoflow/yang-ising-magnetization-curve) |
+| RR Lyrae period recovery | 10/10 | [v2](https://hub.akoflow.com/o/akoflow/sparse-multiband-rrlyrae-period-recovery) |
 
 Volterra's portable revision reported “Build required” on all seven activities
 and completed 7/7 in daemon run `community-volterra-predator-prey-run-v2`.
