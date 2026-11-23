@@ -233,7 +233,8 @@ runs `weatherbench-hub-v2-clean-overlay` and
 `sir-hub-v2-clean-overlay` were submitted and accepted by that daemon. Wright–Fisher, StarDist, and MFC Sod
 also imported into the overlay-backed daemon and passed execution preflight.
 Their 28, 12, and 12 activities require reconstruction from the public
-recipe. These tests are staged behind the active builds.
+recipe. The daemon accepted runs `wright-fisher-hub-v2-clean-overlay`,
+`stardist-hub-v2-clean-overlay`, and `mfc-hub-v2-clean-overlay`.
 
 The daemon timestamps show overlapping scientific branches in the portable
 reference runs for OceanBench (35.952 s), Turing–Schnakenberg (7.222 s),
