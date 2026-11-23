@@ -55,6 +55,8 @@ completed all 15 activities and passed validation. Public Hodgkin–Huxley
 v2 includes 15 archived contexts. Isolated run `hodgkin-hub-v2-clean-uri`
 was submitted from the URI.
 
+The hourly queue has also added the [Planck blackbody spectrum audit](https://hub.akoflow.com/o/akoflow/issue-53-planck-blackbody-radiation-audit) outside the original 31-entry cohort. Its public v1 YAML includes eight archived build contexts and its recorded public result is completed. [Issue #53](https://github.com/UFFeScience/akoflow-community-explorer/issues/53) records the isolated clean run evidence. [Issue #54](https://github.com/UFFeScience/akoflow-community-explorer/issues/54) is the next qualified candidate.
+
 The latest anonymous audit checked each publication's project, latest version,
 and every activity's build source and embedded context. The following latest
 public revisions still require replacement.
