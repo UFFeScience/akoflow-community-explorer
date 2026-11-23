@@ -66,7 +66,10 @@ was submitted after all twelve activities requested image reconstruction.
 Turing–Schnakenberg run `community-turing-portable-run-v2` was submitted
 after all nine activities requested image reconstruction. Wright–Fisher run
 `community-wright-fisher-portable-run-v2` was submitted after all 28
-activities requested an image build.
+activities requested an image build. The StarDist portable definition and
+schedule are registered. Its first preflight timed out on artifact
+compatibility. The daemon accepted `community-stardist-portable-run-v2`;
+the runner now requires a passing preflight before future submissions.
 
 Eleven v2 revisions completed after URI import in the isolated installation
 and passed their scientific validators. The run IDs were
