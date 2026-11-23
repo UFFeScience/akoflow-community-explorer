@@ -20,8 +20,10 @@ Each candidate issue must identify:
   and expected artifacts;
 - why the candidate adds a new scientific question or method to the catalog;
 - provenance, redistribution constraints, limitations, risks, and open questions;
-- a proposed README/gallery plan, including a scientific figure and measured DAG
-  or timeline evidence.
+- a proposed README/gallery plan, including a result-bearing scientific figure,
+  a result-bearing animation, and measured DAG and/or timeline evidence. An
+  animation may be omitted only when the workflow has no honest evolving
+  dimension; the scientific reason must be recorded in both the issue and README.
 
 Prefer candidates with at least two independent scientific activities that can run
 in parallel: ensembles, geographic tiles, parameter sweeps, independent

@@ -30,8 +30,12 @@ For a qualified issue, implement the smallest faithful CPU/Docker workflow, pin
 versions/seeds/inputs, build in an isolated environment, preflight, execute the
 reference scenario through the AkôFlow daemon with at least two slots, validate
 files and science, and prove activity overlap from measured timestamps. Generate
-an English README, scientific figure, measured DAG/timeline image, and an animation
-when the result has a useful evolving dimension. Record image digest, run ID,
+an English README, at least one result-bearing scientific figure, a measured DAG
+and/or timeline image, and a result-bearing animation. Treat animation as a
+publication requirement whenever time, iteration, parameter sweep, convergence,
+state transition, or another meaningful evolving dimension exists. If no honest
+evolving view exists, document the concrete scientific reason in the issue and
+README instead of manufacturing decorative motion. Record image digest, run ID,
 workflow version, environment, measured timings, checksums, and limitations.
 Every generated scientific figure, animation, and measured timeline/DAG used by
 the publication must be committed to the implementation repository and embedded

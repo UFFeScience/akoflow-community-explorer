@@ -20,7 +20,8 @@
   blocker once and continue all safe queue work that does not require Hub access;
   never end a worker pass solely to wait for interactive authorization.
 - Close an issue only after anonymous verification of the public page, import YAML,
-  recorded completed run, gallery/animation, result links, authorship, citation,
+  recorded completed run, embedded result figure, result-bearing animation,
+  measured DAG and/or timeline, result links, authorship, citation,
   licenses, and agreement between displayed results and the reference run.
 - Preserve unrelated work and credentials. Never print secrets or place them in
   source, logs, images, results, or issue comments.
