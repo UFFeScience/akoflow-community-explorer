@@ -80,22 +80,25 @@ reference run was submitted on the first attempt. The Caco-2 baseline's
 portable workflow, plan, and runner are on the examples main branch. The
 archived build context validated with three entries.
 
-Eleven v2 revisions completed after URI import in the isolated installation
+Thirteen v2 revisions completed after URI import in the isolated installation
 and passed their scientific validators. The run IDs were
 `volterra-hub-v2-clean-uri`, `buffon-hub-v2-clean-uri`,
 `chsh-hub-v2-clean-uri`, `pdebench-hub-v2-clean-uri`,
 `ising-hub-v2-clean-uri`, `shannon-hub-v2-clean-uri`,
 `well-hub-v2-clean-uri-retry`, `bateman-hub-v2-clean-uri`,
-`rrlyrae-hub-v2-clean-uri-retry`, `robertson-hub-v2-clean-uri`, and
-`foucault-hub-v2-clean-uri`. Foucault completed 9/9 activities and its
+`rrlyrae-hub-v2-clean-uri-retry`, `robertson-hub-v2-clean-uri`,
+`foucault-hub-v2-clean-uri`, `rabi-hub-v2-clean-uri`, and
+`cooley-hub-v2-clean-uri`. Foucault completed 9/9 activities and its
 validator reported `passed: true`.
 Rabi, Hénon, and Airy diffraction v2 imported from the Hub and reported
 required builds for all eight, eight, and seven activities, respectively.
 Their isolated runs are `rabi-hub-v2-clean-uri`, `henon-hub-v2-clean-uri`,
 and `airy-hub-v2-clean-uri`. Jarzynski and Cooley–Tukey v2 also
 imported from the Hub and reported required builds on all 22 and eight
-activities. Their isolated runs are `jarzynski-hub-v2-clean-uri` and
-`cooley-hub-v2-clean-uri`.
+activities. Rabi and Cooley–Tukey each completed eight activities and passed
+scientific validation. Jarzynski run `jarzynski-hub-v2-clean-uri` failed
+during container startup after the prepare activity completed. The other
+branches were cancelled after the local runtime deadline expired.
 OceanBench v2 recovered some input files but failed twice on transient DNS
 errors during the public data fetch. OceanBench reference run
 `community-oceanbench-glonet-run-v4` uses bounded backoff for public downloads
