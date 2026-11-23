@@ -10,6 +10,12 @@ The account can access Docker non-interactively with `sudo -n docker` and can
 start the official daemon with `sudo -n docker compose up -d` from the AkôFlow
 repository. Do not label an issue blocked merely because the unprivileged
 Docker socket probe fails; verify this sudo path and the daemon preflight API.
+Before using a validation daemon, check its active executions and who owns the
+instance. Leave shared or unrelated active executions running. A slow build or
+an API observation timeout alone is insufficient grounds to restart a daemon.
+Use a separate clean instance for validation if the existing instance is busy,
+with independent storage and a distinct endpoint. Prefer layer-sharing storage
+when supported and check free disk space before starting a large image build.
 
 Read AGENTS.md and inspect current GitHub issues and local/external state before
 acting. Resume the oldest open actionable issue. If an issue is still research,

@@ -205,6 +205,10 @@ The current URI test uses the existing isolated Docker daemon with its
 initialized an `overlay2` store, which can share image layers across
 containers in future clean installations. The probe used its own storage
 and completed without changing the active validation daemon.
+The hourly worker later restarted the shared validation daemon while
+URI tests were active. The worker prompt now directs it to check active
+executions, keep shared tests running, and use a separate validation
+instance when the shared one is busy.
 
 The daemon timestamps show overlapping scientific branches in the portable
 reference runs for OceanBench (35.952 s), Turing–Schnakenberg (7.222 s),
