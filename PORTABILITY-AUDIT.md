@@ -70,6 +70,8 @@ activities requested an image build. The StarDist portable definition and
 schedule are registered. Its first preflight timed out on artifact
 compatibility. The daemon accepted `community-stardist-portable-run-v2`;
 the runner now requires a passing preflight before future submissions.
+MFC Sod reference run `community-mfc-sod-portable-run-v3` was submitted
+with a passing preflight and required builds on all 12 activities.
 
 Eleven v2 revisions completed after URI import in the isolated installation
 and passed their scientific validators. The run IDs were
