@@ -226,7 +226,10 @@ overlay-backed daemon and preflight required reconstruction for all 13
 activities. Turing–Schnakenberg and Hodgkin–Huxley were imported again
 from their public v2 URIs and submitted as `turing-hub-v2-clean-overlay`
 and `hodgkin-hub-v2-clean-overlay`. Preflight reported build requirements
-for all nine and 15 activities on the separate daemon.
+for all nine and 15 activities on the separate daemon. WeatherBench 2 and SIR
+also imported from their public v2 URIs into the overlay-backed instance.
+Preflight passed with 10 and 12 required image builds, respectively. The
+runs are staged while the current builds and executions finish.
 
 The daemon timestamps show overlapping scientific branches in the portable
 reference runs for OceanBench (35.952 s), Turing–Schnakenberg (7.222 s),
