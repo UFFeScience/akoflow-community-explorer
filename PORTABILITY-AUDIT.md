@@ -189,6 +189,13 @@ Its public URI imported into the isolated daemon, where preflight required
 reconstruction for all 13 activities and run `oceanbench-hub-v3-clean-uri`
 was submitted.
 
+The daemon timestamps show overlapping scientific branches in the portable
+reference runs for OceanBench (35.952 s), Turing–Schnakenberg (7.222 s),
+Hodgkin–Huxley (1.350 s), Wright–Fisher (0.888 s), and SIR (0.247 s).
+The two-slot Lorenz v2 capture passed scientific validation with no measured
+branch overlap. The Lorenz README documents overlap separately for its
+original v1 run. None of these portability checks measures speedup.
+
 The anonymous gallery audit checked all 21 portable public publications.
 Seventeen already served a figure and an animation. Foucault, Cooley–Tukey,
 Airy diffraction, and Hénon had repository-relative media paths in their Hub
