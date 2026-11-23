@@ -138,6 +138,10 @@ run. The runner now requires a passing execution preflight. The retry passed
 preflight and the daemon accepted `community-caco2-portable-run-v2`.
 BioCLIP's archived build context validated with four entries. Its preflight
 passed and the daemon accepted `community-bioclip-portable-run-v2`.
+Execution-time prerequisites timed out before it started an activity.
+The revised two-slot plan passed preflight with all twelve assignments
+preserved. Submission is deferred while the large isolated OceanBench build
+and production reference runs share the remaining storage.
 
 Twenty revisions completed after URI import in the isolated installation
 and passed their scientific validators. The run IDs were
