@@ -26,6 +26,16 @@ resolve its qualification gaps first. Do not write implementation code until cod
 and data licenses, exact result, inputs, acceptance tolerance, novelty, and a
 scientifically parallel DAG are established.
 
+During the legacy portability backfill, also read PORTABILITY-AUDIT.md each
+pass and check the already submitted runs before starting new builds. The
+BioCLIP replacement depends on reference run
+`community-bioclip-portable-run-v2-two-slot`. Once it completes and its
+scientific validator passes, update the existing BioCLIP publication with the
+portable revision and verify anonymous import and execution from the public
+URI on clean storage. Record each confirmed backfill result in the audit.
+Only retire an older version after its replacement passes the clean URI run,
+and only through an operation scoped to that version.
+
 Use `main` as the continuous integration branch in both the Community Explorer
 and implementation repositories. Before editing, fetch `origin/main` and inspect
 the local worktree and branch state. If the shared checkout is clean and can
