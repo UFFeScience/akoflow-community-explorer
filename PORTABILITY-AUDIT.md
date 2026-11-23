@@ -13,14 +13,24 @@ are `community-oceanbench-glonet-run-v3`,
 `community-well-radiative-layer-portable-run-v2`, and
 `community-pdebench-advection-portable-run-v4`. Earlier OceanBench and
 PDEBench attempts were cancelled after their network operations stopped
-progressing. The subsequent PDEBench attempt failed in input preparation.
-The current retry uses the checksum implementation tested on Python 3.10.
+progressing. PDEBench's later build `community-pdebench-advection-portable-run-v7`
+stalled during the DaRUS dataset download and failed in image preparation.
+The worker is testing smaller HTTP ranges before submitting another build.
 
 The anonymous latest-version YAML check initially found archived build contexts
 in 11 of the 31 public entries. Four additional portable revisions have since
 passed reference execution and anonymous YAML verification, bringing the
-count to 15. The remaining 16 need publication updates. Clean execution
-from the public URI is pending for these four revisions.
+count to 15. CHSH v2 has since passed its nine-activity reference run,
+scientific validation, and anonymous YAML verification, bringing the original
+31-entry cohort to 16 portable public revisions and 15 pending updates.
+
+OceanBench and Buffon v2 imported successfully from their public URIs into
+the isolated installation. Preflight confirmed image reconstruction was
+required for 13/13 and 8/8 activities, respectively. Runs
+`oceanbench-hub-v2-clean-uri` and `buffon-hub-v2-clean-uri` are in progress.
+Shannon BSC and The Well still await isolated URI execution.
+CHSH v2 imported into the same isolated installation and reported a required
+image build for 9/9 activities. Run `chsh-hub-v2-clean-uri` is in progress.
 
 | Workflow | Completed activities | Public revision |
 | --- | ---: | --- |
@@ -28,6 +38,7 @@ from the public URI is pending for these four revisions.
 | Buffon needle | 8/8 | [v2](https://hub.akoflow.com/o/akoflow/buffon-needle-pi-audit) |
 | The Well radiative layer | 13/13 | [v2](https://hub.akoflow.com/o/akoflow/the-well-radiative-mixing-layer) |
 | OceanBench GLONet | 13/13 | [v2](https://hub.akoflow.com/o/akoflow/oceanbench-glonet-metric-reproduction) |
+| CHSH singlet correlation | 9/9 | [v2](https://hub.akoflow.com/o/akoflow/chsh-singlet-correlation-audit) |
 
 Volterra's portable revision reported “Build required” on all seven activities
 and completed 7/7 in daemon run `community-volterra-predator-prey-run-v2`.
