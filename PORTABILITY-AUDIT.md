@@ -89,6 +89,11 @@ The daemon accepted WeatherBench 2 recovery job
 `37903585255d8ccf514ed00898b49f53` and Caco-2 recovery job
 `114bee0b19b33ac20543aa540caef99b`. Both continue from their original
 execution records. Caco-2 had no reusable activities.
+WeatherBench 2 recovery completed ten activities and passed validation.
+The publication preview rejected that run with `source_unavailable` because
+its immutable planning context was unavailable. The daemon accepted the new
+reference run `community-weatherbench2-score-portable-reference-v2` after
+a passing preflight to record that context from the beginning.
 
 The SIR threshold reference run `community-sir-threshold-sweep-portable-run-v3`
 was submitted after all twelve activities requested image reconstruction.
@@ -111,6 +116,7 @@ and twelve checks confirmed that an image build was required.
 MFC Sod reference run `community-mfc-sod-portable-run-v3` was submitted
 with a passing preflight and required builds on all 12 activities. Its
 execution-time prerequisite check timed out before an activity started.
+The daemon accepted recovery job `91c40a95e59234fdb882aeeaa00a7af7`.
 SIR's first run also stopped after its prepare activity, while preparing
 executables for the parallel branches. Its two-slot reference run
 `community-sir-threshold-sweep-portable-run-v3-two-slot` passed preflight
