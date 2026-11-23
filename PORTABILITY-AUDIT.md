@@ -44,6 +44,26 @@ that all eight activities required a build. Hodgkin–Huxley reference run
 `community-hodgkin-huxley-portable-run-v3` was submitted after fifteen
 activities reported a required build.
 
+The latest anonymous audit checked each publication's project, latest version,
+and every activity's build source and embedded context. The following latest
+public revisions still require replacement.
+
+| Publication | Public version | Activities with archived build context |
+| --- | ---: | ---: |
+| [caco2-scaffold-split-baselines](https://hub.akoflow.com/o/akoflow/caco2-scaffold-split-baselines) | 1 | 0/19 |
+| [bioclip-rare-species-evaluation](https://hub.akoflow.com/o/akoflow/bioclip-rare-species-evaluation) | 1 | 0/12 |
+| [lorenz-bounded-sensitivity-ensemble](https://hub.akoflow.com/o/akoflow/lorenz-bounded-sensitivity-ensemble) | 1 | 0/8 |
+| [turing-schnakenberg-pattern-selection](https://hub.akoflow.com/o/akoflow/turing-schnakenberg-pattern-selection) | 1 | 0/9 |
+| [kimura-wright-fisher-fixation](https://hub.akoflow.com/o/akoflow/kimura-wright-fisher-fixation) | 1 | 0/28 |
+| [hodgkin-huxley-excitation-boundary](https://hub.akoflow.com/o/akoflow/hodgkin-huxley-excitation-boundary) | 1 | 0/15 |
+| [sir-threshold-final-size-sweep](https://hub.akoflow.com/o/akoflow/sir-threshold-final-size-sweep) | 1 | 0/12 |
+| [stardist-equivariance-sweep](https://hub.akoflow.com/o/akoflow/stardist-equivariance-sweep) | 1 | 0/12 |
+| [mfc-sod-shock-tube-refinement](https://hub.akoflow.com/o/akoflow/mfc-sod-shock-tube-refinement) | 1 | 0/12 |
+| [weatherbench2-era5-score-audit](https://hub.akoflow.com/o/akoflow/weatherbench2-era5-score-audit) | 1 | 0/10 |
+
+The SIR threshold reference run `community-sir-threshold-sweep-portable-run-v3`
+was submitted after all twelve activities requested image reconstruction.
+
 Eight v2 revisions completed after URI import in the isolated installation
 and passed their scientific validators. The run IDs were
 `volterra-hub-v2-clean-uri`, `buffon-hub-v2-clean-uri`,
