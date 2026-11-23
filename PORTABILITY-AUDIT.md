@@ -97,7 +97,7 @@ preflight and the daemon accepted `community-caco2-portable-run-v2`.
 BioCLIP's archived build context validated with four entries. Its preflight
 passed and the daemon accepted `community-bioclip-portable-run-v2`.
 
-Nineteen revisions completed after URI import in the isolated installation
+Twenty revisions completed after URI import in the isolated installation
 and passed their scientific validators. The run IDs were
 `volterra-hub-v2-clean-uri`, `buffon-hub-v2-clean-uri`,
 `chsh-hub-v2-clean-uri`, `pdebench-hub-v2-clean-uri`,
@@ -107,8 +107,8 @@ and passed their scientific validators. The run IDs were
 `foucault-hub-v2-clean-uri`, `rabi-hub-v2-clean-uri`,
 `cooley-hub-v2-clean-uri`, `henon-hub-v2-clean-uri`, and
 `airy-hub-v2-clean-uri`, `jarzynski-hub-v2-clean-uri-retry`,
-`brachistochrone-hub-v2-clean-uri`, `debye-hub-v2-clean-uri`, and
-`black-scholes-hub-v1-clean-uri`. Foucault completed 9/9 activities and its
+`brachistochrone-hub-v2-clean-uri`, `debye-hub-v2-clean-uri`,
+`black-scholes-hub-v1-clean-uri`, and `newman-hub-v2-clean-uri`. Foucault completed 9/9 activities and its
 validator reported `passed: true`.
 Rabi, Hénon, and Airy diffraction v2 imported from the Hub and reported
 required builds for all eight, eight, and seven activities, respectively.
@@ -129,8 +129,10 @@ and retains the pinned manifest and object checksums. BuildKit record
 `l9jd82b8rjh9pd6aqe9i6gwxr` completed the download, verification and Docker
 image export with manifest
 `sha256:f5d830ecbcca7b5077264884d6abf3d91c8e1a21d7abebc254391a11cf8178b1`.
-The reference workflow has completed its prepare activity and started the
-four first scientific branches. Scientific validation remains pending.
+The reference run completed four activities before local container startup
+timed out. The daemon accepted recovery job `12f3ec8f9096b138491090d6e88af2c4`
+in continue mode, with four reusable activities and no pending cleanup.
+Scientific validation remains pending.
 
 The anonymous gallery audit checked all 21 portable public publications.
 Seventeen already served a figure and an animation. Foucault, Cooley–Tukey,
