@@ -60,7 +60,11 @@ The hourly queue has also added the [Planck blackbody spectrum audit](https://hu
 An anonymous refresh checked the 31 original publications plus Planck and
 Kepler. Every activity in 32 of the 33 latest YAML definitions resolves to
 an embedded build context. BioCLIP v1 is the sole exception, at 0/12
-activities, and its replacement reference run is still active.
+activities, and its replacement reference run is still active. An archive audit
+verified the 32 embedded context and Dockerfile SHA-256 digests, checked
+that archived paths are relative with regular files or directories, and
+confirmed that each Dockerfile's local `COPY` and `ADD` inputs are present.
+The audit uses the repository's base-image pin validation.
 
 The latest anonymous audit checked each publication's project, latest version,
 and every activity's build source and embedded context. The following latest
