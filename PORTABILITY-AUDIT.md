@@ -40,7 +40,9 @@ capture is associated with the separately validated reference run
 Bateman run `community-bateman-decay-portable-run-v2` completed 7/7
 activities and reported `overall_pass: true`. Lorenz's reference run
 `community-lorenz-portable-run-v2` was submitted after preflight confirmed
-that all eight activities required a build.
+that all eight activities required a build. Hodgkin–Huxley reference run
+`community-hodgkin-huxley-portable-run-v3` was submitted after fifteen
+activities reported a required build.
 
 Eight v2 revisions completed after URI import in the isolated installation
 and passed their scientific validators. The run IDs were
