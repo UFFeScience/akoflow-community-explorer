@@ -162,7 +162,7 @@ validation files available. Free host storage increased by about 16 GB
 during cleanup. The daemon then accepted
 `community-bioclip-portable-run-v2-two-slot` with a passing preflight.
 
-Twenty revisions completed after URI import in the isolated installation
+Twenty-one revisions completed after URI import in the isolated installation
 and passed their scientific validators. The run IDs were
 `volterra-hub-v2-clean-uri`, `buffon-hub-v2-clean-uri`,
 `chsh-hub-v2-clean-uri`, `pdebench-hub-v2-clean-uri`,
@@ -173,7 +173,8 @@ and passed their scientific validators. The run IDs were
 `cooley-hub-v2-clean-uri`, `henon-hub-v2-clean-uri`, and
 `airy-hub-v2-clean-uri`, `jarzynski-hub-v2-clean-uri-retry`,
 `brachistochrone-hub-v2-clean-uri`, `debye-hub-v2-clean-uri`,
-`black-scholes-hub-v1-clean-uri`, and `newman-hub-v2-clean-uri`. Foucault completed 9/9 activities and its
+`black-scholes-hub-v1-clean-uri`, `newman-hub-v2-clean-uri`, and
+`lorenz-hub-v2-clean-overlay`. Foucault completed 9/9 activities and its
 validator reported `passed: true`.
 Rabi, Hénon, and Airy diffraction v2 imported from the Hub and reported
 required builds for all eight, eight, and seven activities, respectively.
@@ -215,7 +216,14 @@ instance when the shared one is busy. Nine execution jobs in that isolated
 daemon reached terminal failure after their queue leases expired, despite
 the execution API retaining the running state. The replacement Lorenz test
 `lorenz-hub-v2-clean-overlay` was imported from the published URI and
-submitted on the separate overlay-backed daemon.
+submitted on the separate overlay-backed daemon. It completed 8/8
+activities and passed validation. After confirming the original OceanBench
+job had reached terminal failure and no containers referenced its image,
+the scratch Docker image was removed from the old validation daemon. Free
+storage increased by about 27 GB during cleanup. The new run
+`oceanbench-hub-v3-clean-overlay` imported the v3 public URI into the
+overlay-backed daemon and preflight required reconstruction for all 13
+activities.
 
 The daemon timestamps show overlapping scientific branches in the portable
 reference runs for OceanBench (35.952 s), Turing–Schnakenberg (7.222 s),
