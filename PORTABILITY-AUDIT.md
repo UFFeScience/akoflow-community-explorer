@@ -27,7 +27,7 @@ in 11 of the 31 public entries. Four additional portable revisions have since
 passed reference execution and anonymous YAML verification, bringing the
 count to 15. CHSH, PDEBench, Ising–Yang, RR Lyrae, Bateman and Robertson v2 have since passed reference
 execution, scientific validation and anonymous YAML verification. The original
-31-entry cohort now has 21 portable public revisions and 10 pending updates.
+31-entry cohort now has 22 portable public revisions and 9 pending updates after StarDist v2.
 RR Lyrae's first portable build failed resolving Docker Hub. Retry
 `community-rrlyrae-portable-run-v2-retry1` rebuilt image digest
 `sha256:70817d6a3e26df122d0989345412d3ffa9ec62faa2c2b2d13ee4a519f3567785`
@@ -62,7 +62,6 @@ public revisions still require replacement.
 | [kimura-wright-fisher-fixation](https://hub.akoflow.com/o/akoflow/kimura-wright-fisher-fixation) | 1 | 0/28 |
 | [hodgkin-huxley-excitation-boundary](https://hub.akoflow.com/o/akoflow/hodgkin-huxley-excitation-boundary) | 1 | 0/15 |
 | [sir-threshold-final-size-sweep](https://hub.akoflow.com/o/akoflow/sir-threshold-final-size-sweep) | 1 | 0/12 |
-| [stardist-equivariance-sweep](https://hub.akoflow.com/o/akoflow/stardist-equivariance-sweep) | 1 | 0/12 |
 | [mfc-sod-shock-tube-refinement](https://hub.akoflow.com/o/akoflow/mfc-sod-shock-tube-refinement) | 1 | 0/12 |
 | [weatherbench2-era5-score-audit](https://hub.akoflow.com/o/akoflow/weatherbench2-era5-score-audit) | 1 | 0/10 |
 
@@ -72,7 +71,8 @@ branches. Both reproduced images are now present in the daemon's image store.
 The daemon accepted Turing–Schnakenberg recovery job
 `0a04acd43037d42728853dfe3481d05b` in continue mode, reusing its prepare
 activity. Lorenz completed five activities before local container startup
-timed out. Its recovery preview returned HTTP 503.
+timed out. A later recovery preview allowed continuation without reusable
+activities. The daemon accepted recovery job `8cc3769f9aa74b10eb5fbd6ed84c5499`.
 WeatherBench 2 and Caco-2 first runs failed before completing an activity.
 
 The SIR threshold reference run `community-sir-threshold-sweep-portable-run-v3`
@@ -84,6 +84,10 @@ activities requested an image build. The StarDist portable definition and
 schedule are registered. Its first preflight timed out on artifact
 compatibility. The daemon accepted `community-stardist-portable-run-v2`;
 the runner now requires a passing preflight before future submissions.
+The reference run completed all 12 activities and passed validation. Its
+public v2 YAML embeds a build context for each activity. Run
+`stardist-hub-v2-clean-uri` was submitted after a successful URI import
+and twelve checks confirmed that an image build was required.
 MFC Sod reference run `community-mfc-sod-portable-run-v3` was submitted
 with a passing preflight and required builds on all 12 activities.
 WeatherBench 2's portable workflow, runner, and schedule are on the examples
@@ -160,6 +164,7 @@ publications in the original cohort.
 | RR Lyrae period recovery | 10/10 | [v2](https://hub.akoflow.com/o/akoflow/sparse-multiband-rrlyrae-period-recovery) |
 | Bateman decay chain | 7/7 | [v2](https://hub.akoflow.com/o/akoflow/bateman-decay-chain-equilibrium-audit) |
 | Robertson stiff solver | 7/7 | [v2](https://hub.akoflow.com/o/akoflow/robertson-stiff-solver-agreement) |
+| StarDist equivariance | 12/12 | [v2](https://hub.akoflow.com/o/akoflow/stardist-equivariance-sweep) |
 
 Volterra's portable revision reported “Build required” on all seven activities
 and completed 7/7 in daemon run `community-volterra-predator-prey-run-v2`.
