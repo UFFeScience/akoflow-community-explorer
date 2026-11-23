@@ -223,7 +223,10 @@ the scratch Docker image was removed from the old validation daemon. Free
 storage increased by about 27 GB during cleanup. The new run
 `oceanbench-hub-v3-clean-overlay` imported the v3 public URI into the
 overlay-backed daemon and preflight required reconstruction for all 13
-activities.
+activities. Turing–Schnakenberg and Hodgkin–Huxley were imported again
+from their public v2 URIs and submitted as `turing-hub-v2-clean-overlay`
+and `hodgkin-hub-v2-clean-overlay`. Preflight reported build requirements
+for all nine and 15 activities on the separate daemon.
 
 The daemon timestamps show overlapping scientific branches in the portable
 reference runs for OceanBench (35.952 s), Turing–Schnakenberg (7.222 s),
