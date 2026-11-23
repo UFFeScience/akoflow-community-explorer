@@ -3,6 +3,14 @@
 Scope: publications with receipts for production project
 `44e9e6b5-454b-43b9-bf73-240be5e31aab`.
 
+BioCLIP v2 is public and imported from its public Hub page in the isolated
+daemon with all 12 activities. Each activity carries a portable build source.
+The original portable reference completed all activities and passed validation.
+Its capture exceeded the Hub YAML size limit, so v2 was published as a
+workflow-only revision. The compact recipe downloads the identical classifier
+from a pinned public commit and verifies its SHA-256 digest. Full execution
+of that revision from the public URI is pending.
+
 The table below records the initial receipt-based audit. The expanded audit
 covers all 31 workflow definitions in the Community Explorer namespace,
 including publications without local receipts. All 31 definitions now select
