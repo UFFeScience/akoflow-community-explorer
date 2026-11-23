@@ -125,6 +125,13 @@ image export with manifest
 The reference workflow has completed its prepare activity and started the
 four first scientific branches. Scientific validation remains pending.
 
+The anonymous gallery audit checked all 21 portable public publications.
+Seventeen already served a figure and an animation. Foucault, Cooley–Tukey,
+Airy diffraction, and Hénon had repository-relative media paths in their Hub
+READMEs. The paths now use 17 publicly verified image URLs pinned to examples
+commit `ac00512ccd40322d79d536565b4ede01c659a1c6`. Their public pages render
+figures and expose animations without signing in.
+
 | Workflow | Completed activities | Public revision |
 | --- | ---: | --- |
 | Shannon BSC | 8/8 | [v2](https://hub.akoflow.com/o/akoflow/shannon-bsc-capacity-audit) |
