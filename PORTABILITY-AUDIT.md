@@ -69,6 +69,10 @@ public revisions still require replacement.
 First reference runs for Turing–Schnakenberg and Wright–Fisher completed
 their prepare activities before executable preparation timed out on the parallel
 branches. Both reproduced images are now present in the daemon's image store.
+The daemon accepted Turing–Schnakenberg recovery job
+`0a04acd43037d42728853dfe3481d05b` in continue mode, reusing its prepare
+activity. Lorenz completed five activities before local container startup
+timed out. Its recovery preview returned HTTP 503.
 WeatherBench 2 and Caco-2 first runs failed before completing an activity.
 
 The SIR threshold reference run `community-sir-threshold-sweep-portable-run-v3`
@@ -139,7 +143,10 @@ Seventeen already served a figure and an animation. Foucault, Cooley–Tukey,
 Airy diffraction, and Hénon had repository-relative media paths in their Hub
 READMEs. The paths now use 17 publicly verified image URLs pinned to examples
 commit `ac00512ccd40322d79d536565b4ede01c659a1c6`. Their public pages render
-figures and expose animations without signing in.
+figures and expose animations without signing in. The other ten public
+publications also served at least one figure and one animation via the
+URLs listed in their Hub READMEs. This verifies media access for all 31
+publications in the original cohort.
 
 | Workflow | Completed activities | Public revision |
 | --- | ---: | --- |
