@@ -27,7 +27,7 @@ in 11 of the 31 public entries. Four additional portable revisions have since
 passed reference execution and anonymous YAML verification, bringing the
 count to 15. CHSH, PDEBench, Ising–Yang, RR Lyrae, Bateman and Robertson v2 have since passed reference
 execution, scientific validation and anonymous YAML verification. The original
-31-entry cohort now has 23 portable public revisions and 8 pending updates after StarDist and Lorenz v2.
+31-entry cohort now has 25 portable public revisions and 6 pending updates.
 RR Lyrae's first portable build failed resolving Docker Hub. Retry
 `community-rrlyrae-portable-run-v2-retry1` rebuilt image digest
 `sha256:70817d6a3e26df122d0989345412d3ffa9ec62faa2c2b2d13ee4a519f3567785`
@@ -50,7 +50,10 @@ that all eight activities required a build. Hodgkin–Huxley reference run
 activities reported a required build. Its first run completed preparation
 and timed out while starting the parallel branches. The two-slot reference
 run `community-hodgkin-huxley-portable-run-v3-two-slot` passed preflight
-and was accepted with the same workflow and scientific parameters.
+and was accepted with the same workflow and scientific parameters. It
+completed all 15 activities and passed validation. Public Hodgkin–Huxley
+v2 includes 15 archived contexts. Isolated run `hodgkin-hub-v2-clean-uri`
+was submitted from the URI.
 
 The latest anonymous audit checked each publication's project, latest version,
 and every activity's build source and embedded context. The following latest
@@ -60,9 +63,7 @@ public revisions still require replacement.
 | --- | ---: | ---: |
 | [caco2-scaffold-split-baselines](https://hub.akoflow.com/o/akoflow/caco2-scaffold-split-baselines) | 1 | 0/19 |
 | [bioclip-rare-species-evaluation](https://hub.akoflow.com/o/akoflow/bioclip-rare-species-evaluation) | 1 | 0/12 |
-| [turing-schnakenberg-pattern-selection](https://hub.akoflow.com/o/akoflow/turing-schnakenberg-pattern-selection) | 1 | 0/9 |
 | [kimura-wright-fisher-fixation](https://hub.akoflow.com/o/akoflow/kimura-wright-fisher-fixation) | 1 | 0/28 |
-| [hodgkin-huxley-excitation-boundary](https://hub.akoflow.com/o/akoflow/hodgkin-huxley-excitation-boundary) | 1 | 0/15 |
 | [sir-threshold-final-size-sweep](https://hub.akoflow.com/o/akoflow/sir-threshold-final-size-sweep) | 1 | 0/12 |
 | [mfc-sod-shock-tube-refinement](https://hub.akoflow.com/o/akoflow/mfc-sod-shock-tube-refinement) | 1 | 0/12 |
 | [weatherbench2-era5-score-audit](https://hub.akoflow.com/o/akoflow/weatherbench2-era5-score-audit) | 1 | 0/10 |
@@ -82,7 +83,9 @@ with two local slots and the same scientific parameters. It completed
 eight embedded build contexts. `lorenz-hub-v2-clean-uri` was submitted
 after all eight activities required reconstruction on URI import.
 Turing–Schnakenberg also passed preflight with two local slots and was
-submitted as `community-turing-portable-run-v2-two-slot`.
+submitted as `community-turing-portable-run-v2-two-slot`. It completed
+all nine activities and passed validation. Public v2 includes nine archived
+contexts. Isolated run `turing-hub-v2-clean-uri` was submitted from the URI.
 WeatherBench 2 and Caco-2 first runs failed before completing an activity.
 
 The SIR threshold reference run `community-sir-threshold-sweep-portable-run-v3`
@@ -102,7 +105,9 @@ MFC Sod reference run `community-mfc-sod-portable-run-v3` was submitted
 with a passing preflight and required builds on all 12 activities. Its
 execution-time prerequisite check timed out before an activity started.
 SIR's first run also stopped after its prepare activity, while preparing
-executables for the parallel branches.
+executables for the parallel branches. Its two-slot reference run
+`community-sir-threshold-sweep-portable-run-v3-two-slot` passed preflight
+and was submitted with the same scientific settings.
 WeatherBench 2's portable workflow, runner, and schedule are on the examples
 main branch. The archived context validated with nine entries. Production
 registration returned HTTP 503 before dispatch while persisting its request
@@ -183,6 +188,8 @@ publications in the original cohort.
 | Robertson stiff solver | 7/7 | [v2](https://hub.akoflow.com/o/akoflow/robertson-stiff-solver-agreement) |
 | StarDist equivariance | 12/12 | [v2](https://hub.akoflow.com/o/akoflow/stardist-equivariance-sweep) |
 | Lorenz bounded sensitivity | 8/8 | [v2](https://hub.akoflow.com/o/akoflow/lorenz-bounded-sensitivity-ensemble) |
+| Turing–Schnakenberg | 9/9 | [v2](https://hub.akoflow.com/o/akoflow/turing-schnakenberg-pattern-selection) |
+| Hodgkin–Huxley | 15/15 | [v2](https://hub.akoflow.com/o/akoflow/hodgkin-huxley-excitation-boundary) |
 
 Volterra's portable revision reported “Build required” on all seven activities
 and completed 7/7 in daemon run `community-volterra-predator-prey-run-v2`.
