@@ -9,6 +9,20 @@
   image preparation step.
 - Run the selected reference scenario through the AkôFlow daemon. A local helper
   run is a preflight, not execution evidence.
+- Treat clean-machine importability as a publication gate for every workflow.
+  Published activities must resolve their executable from an AkôFlow portable
+  build recipe (`source.type: build`), not from a host-only image tag or digest.
+- Keep every Dockerfile `COPY` or `ADD` source inside the registered, versioned
+  build context. Reject absolute paths, parent traversal (`../`), host mounts,
+  generated files absent from the context, and undeclared network downloads.
+  Pin the base image by digest and record both recipe and context digests.
+- Test portability from an unmaterialized state: import the public YAML, confirm
+  preflight requests the missing build, let AkôFlow reconstruct the image, and
+  rerun the full reference scenario through the daemon. Anonymous verification
+  must confirm that the public YAML embeds the build origin, context archive,
+  and digests needed to repeat that reconstruction on another machine.
+- Apply the same portability audit and daemon rerun to legacy publications.
+  A previously successful local run does not waive this gate.
 - Do not claim parallel speedup without a matching one-slot run. Always prove
   overlap among independent scientific activities from measured timestamps.
 - Publish only validated results to Community Explorer project
