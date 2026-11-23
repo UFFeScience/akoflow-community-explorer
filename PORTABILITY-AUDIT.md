@@ -27,7 +27,7 @@ in 11 of the 31 public entries. Four additional portable revisions have since
 passed reference execution and anonymous YAML verification, bringing the
 count to 15. CHSH, PDEBench, Ising–Yang, RR Lyrae, Bateman and Robertson v2 have since passed reference
 execution, scientific validation and anonymous YAML verification. The original
-31-entry cohort now has 27 portable public revisions and 4 pending updates.
+31-entry cohort now has 28 portable public revisions and 3 pending updates.
 RR Lyrae's first portable build failed resolving Docker Hub. Retry
 `community-rrlyrae-portable-run-v2-retry1` rebuilt image digest
 `sha256:70817d6a3e26df122d0989345412d3ffa9ec62faa2c2b2d13ee4a519f3567785`
@@ -65,7 +65,6 @@ public revisions still require replacement.
 | --- | ---: | ---: |
 | [caco2-scaffold-split-baselines](https://hub.akoflow.com/o/akoflow/caco2-scaffold-split-baselines) | 1 | 0/19 |
 | [bioclip-rare-species-evaluation](https://hub.akoflow.com/o/akoflow/bioclip-rare-species-evaluation) | 1 | 0/12 |
-| [mfc-sod-shock-tube-refinement](https://hub.akoflow.com/o/akoflow/mfc-sod-shock-tube-refinement) | 1 | 0/12 |
 | [weatherbench2-era5-score-audit](https://hub.akoflow.com/o/akoflow/weatherbench2-era5-score-audit) | 1 | 0/10 |
 
 First reference runs for Turing–Schnakenberg and Wright–Fisher completed
@@ -95,7 +94,14 @@ WeatherBench 2 recovery completed ten activities and passed validation.
 The publication preview rejected that run with `source_unavailable` because
 its immutable planning context was unavailable. The daemon accepted the new
 reference run `community-weatherbench2-score-portable-reference-v2` after
-a passing preflight to record that context from the beginning.
+a passing preflight. It passed validation but publication still returned
+`source_unavailable`. The portable plan context measured 36,760,714 bytes,
+above the publication source snapshot limit of 24 MiB. The compact recipe
+downloads the same pinned public inputs during the build and checks all
+hashes. Both NetCDF files matched byte-for-byte. Its archive is 4,826
+bytes and the expanded plan context is 93,722 bytes. Reference run
+`community-weatherbench2-score-compact-run-v3` passed preflight and was
+submitted.
 
 The SIR threshold reference run `community-sir-threshold-sweep-portable-run-v3`
 was submitted after all twelve activities requested image reconstruction.
@@ -119,6 +125,9 @@ MFC Sod reference run `community-mfc-sod-portable-run-v3` was submitted
 with a passing preflight and required builds on all 12 activities. Its
 execution-time prerequisite check timed out before an activity started.
 The daemon accepted recovery job `91c40a95e59234fdb882aeeaa00a7af7`.
+The recovered reference run completed all 12 activities and validation
+passed. Public MFC Sod v2 contains 12 archived contexts, and isolated test
+`mfc-hub-v2-clean-uri` was submitted from its URI.
 SIR's first run also stopped after its prepare activity, while preparing
 executables for the parallel branches. Its two-slot reference run
 `community-sir-threshold-sweep-portable-run-v3-two-slot` passed preflight
@@ -230,6 +239,7 @@ publications in the original cohort.
 | Hodgkin–Huxley | 15/15 | [v2](https://hub.akoflow.com/o/akoflow/hodgkin-huxley-excitation-boundary) |
 | SIR threshold and final size | 12/12 | [v2](https://hub.akoflow.com/o/akoflow/sir-threshold-final-size-sweep) |
 | Wright–Fisher fixation | 28/28 | [v2](https://hub.akoflow.com/o/akoflow/kimura-wright-fisher-fixation) |
+| MFC Sod refinement | 12/12 | [v2](https://hub.akoflow.com/o/akoflow/mfc-sod-shock-tube-refinement) |
 
 Volterra's portable revision reported “Build required” on all seven activities
 and completed 7/7 in daemon run `community-volterra-predator-prey-run-v2`.
