@@ -140,8 +140,11 @@ BioCLIP's archived build context validated with four entries. Its preflight
 passed and the daemon accepted `community-bioclip-portable-run-v2`.
 Execution-time prerequisites timed out before it started an activity.
 The revised two-slot plan passed preflight with all twelve assignments
-preserved. Submission is deferred while the large isolated OceanBench build
-and production reference runs share the remaining storage.
+preserved. Four unreferenced Docker image caches from completed URI checks were
+removed from the isolated test daemon, leaving their run records and
+validation files available. Free host storage increased by about 16 GB
+during cleanup. The daemon then accepted
+`community-bioclip-portable-run-v2-two-slot` with a passing preflight.
 
 Twenty revisions completed after URI import in the isolated installation
 and passed their scientific validators. The run IDs were
