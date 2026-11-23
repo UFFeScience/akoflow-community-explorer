@@ -76,7 +76,9 @@ WeatherBench 2's portable workflow, runner, and schedule are on the examples
 main branch. The archived context validated with nine entries. Production
 registration returned HTTP 503 before dispatch while persisting its request
 audit. The revised workflow and schedule were absent on follow-up, and no
-reference run was submitted on the first attempt. The Caco-2 baseline's
+reference run was submitted on the first attempt. The follow-up registration
+and preflight passed, and the daemon accepted
+`community-weatherbench2-score-portable-run-v2`. The Caco-2 baseline's
 portable workflow, plan, and runner are on the examples main branch. The
 archived build context validated with three entries.
 
