@@ -25,9 +25,9 @@ comparison, and rounding checks. FNO and U-Net inference overlapped from
 The anonymous latest-version YAML check initially found archived build contexts
 in 11 of the 31 public entries. Four additional portable revisions have since
 passed reference execution and anonymous YAML verification, bringing the
-count to 15. CHSH, PDEBench, Ising–Yang, RR Lyrae and Bateman v2 have since passed reference
+count to 15. CHSH, PDEBench, Ising–Yang, RR Lyrae, Bateman and Robertson v2 have since passed reference
 execution, scientific validation and anonymous YAML verification. The original
-31-entry cohort now has 20 portable public revisions and 11 pending updates.
+31-entry cohort now has 21 portable public revisions and 10 pending updates.
 RR Lyrae's first portable build failed resolving Docker Hub. Retry
 `community-rrlyrae-portable-run-v2-retry1` rebuilt image digest
 `sha256:70817d6a3e26df122d0989345412d3ffa9ec62faa2c2b2d13ee4a519f3567785`
@@ -40,17 +40,19 @@ capture is associated with the separately validated reference run
 Bateman run `community-bateman-decay-portable-run-v2` completed 7/7
 activities and reported `overall_pass: true`.
 
-Buffon and CHSH v2 completed 8/8 and 9/9 activities after URI import in
-the isolated installation. Both reported `overall_pass: true` in their
-validation artifacts. OceanBench and The Well v2 imported and reported a
-required build for 13/13 activities each. OceanBench's public data fetch
-failed on temporary DNS resolution. The Well's build timed out resolving the
-base image. Both retries are queued in the isolated installation. PDEBench,
-Ising–Yang, Shannon BSC, RR Lyrae and Bateman v2 imported from the Hub and
-reported that builds were required for all activities. Their isolated runs
-are `pdebench-hub-v2-clean-uri`, `ising-hub-v2-clean-uri`,
-`shannon-hub-v2-clean-uri`, `rrlyrae-hub-v2-clean-uri`, and
-`bateman-hub-v2-clean-uri`.
+Eight v2 revisions completed after URI import in the isolated installation
+and passed their scientific validators. The run IDs were
+`volterra-hub-v2-clean-uri`, `buffon-hub-v2-clean-uri`,
+`chsh-hub-v2-clean-uri`, `pdebench-hub-v2-clean-uri`,
+`ising-hub-v2-clean-uri`, `shannon-hub-v2-clean-uri`,
+`well-hub-v2-clean-uri-retry`, and `bateman-hub-v2-clean-uri`.
+OceanBench v2 recovered some input files but failed twice on transient DNS
+errors during the public data fetch. OceanBench reference run
+`community-oceanbench-glonet-run-v4` uses bounded backoff for public downloads
+and retains the pinned manifest and object checksums. RR Lyrae v2's first
+isolated build timed out resolving the base image. Its retry
+`rrlyrae-hub-v2-clean-uri-retry` was submitted. Robertson v2 imported through
+the public URI and was submitted as `robertson-hub-v2-clean-uri`.
 
 | Workflow | Completed activities | Public revision |
 | --- | ---: | --- |
@@ -63,6 +65,7 @@ are `pdebench-hub-v2-clean-uri`, `ising-hub-v2-clean-uri`,
 | Ising–Yang magnetization | 12/12 | [v2](https://hub.akoflow.com/o/akoflow/yang-ising-magnetization-curve) |
 | RR Lyrae period recovery | 10/10 | [v2](https://hub.akoflow.com/o/akoflow/sparse-multiband-rrlyrae-period-recovery) |
 | Bateman decay chain | 7/7 | [v2](https://hub.akoflow.com/o/akoflow/bateman-decay-chain-equilibrium-audit) |
+| Robertson stiff solver | 7/7 | [v2](https://hub.akoflow.com/o/akoflow/robertson-stiff-solver-agreement) |
 
 Volterra's portable revision reported “Build required” on all seven activities
 and completed 7/7 in daemon run `community-volterra-predator-prey-run-v2`.
