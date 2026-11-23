@@ -29,7 +29,12 @@ count to 15. CHSH, PDEBench and Ising–Yang v2 have since passed reference
 execution, scientific validation and anonymous YAML verification. The original
 31-entry cohort now has 18 portable public revisions and 13 pending updates.
 RR Lyrae's first portable build failed resolving Docker Hub. Retry
-`community-rrlyrae-portable-run-v2-retry` is underway.
+`community-rrlyrae-portable-run-v2-retry1` rebuilt image digest
+`sha256:70817d6a3e26df122d0989345412d3ffa9ec62faa2c2b2d13ee4a519f3567785`
+and completed 10/10 activities. Its validator passed the period, input,
+figure, and animation checks with absolute period error
+`7.568748147634974e-05` days against the `0.001`-day tolerance. The six
+periodogram branches overlap in measured daemon timestamps.
 
 Buffon and CHSH v2 completed 8/8 and 9/9 activities after URI import in
 the isolated installation. Both reported `overall_pass: true` in their
