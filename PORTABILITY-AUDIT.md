@@ -13,7 +13,7 @@ the daemon.
 | --- | --- | --- |
 | Newman–Ziff percolation | portable build context; all `COPY` sources contained | passed, public v2 |
 | Jarzynski dragged trap | portable build context; all `COPY` sources contained | passed, public v2 |
-| Brachistochrone audit | legacy OCI; local `COPY` sources are bounded | pending migration |
+| Brachistochrone audit | portable build context; all `COPY` sources contained | passed, public v2 |
 | Foucault precession | legacy OCI; local `COPY` sources are bounded | pending migration |
 | Hénon map audit | portable build context; all `COPY` sources contained | passed, public v2 |
 | Airy diffraction | portable build context; all `COPY` sources contained | passed, public v2 |
@@ -21,6 +21,6 @@ the daemon.
 | Cooley–Tukey FFT | portable build context; all `COPY` sources contained | passed, public v2 |
 | Debye heat capacity | portable build context; all `COPY` sources contained | passed, public v2 |
 
-Current production-project total: 9 publications, 6 passed, 3 pending. Receipts
+Current production-project total: 9 publications, 7 passed, 2 pending. Receipts
 for other projects or receipts without a project identifier are excluded from
 this production audit.
