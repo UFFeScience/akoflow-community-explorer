@@ -63,20 +63,20 @@ public revisions still require replacement.
 
 The SIR threshold reference run `community-sir-threshold-sweep-portable-run-v3`
 was submitted after all twelve activities requested image reconstruction.
+Turing–Schnakenberg run `community-turing-portable-run-v2` was submitted
+after all nine activities requested image reconstruction.
 
-Eight v2 revisions completed after URI import in the isolated installation
+Ten v2 revisions completed after URI import in the isolated installation
 and passed their scientific validators. The run IDs were
 `volterra-hub-v2-clean-uri`, `buffon-hub-v2-clean-uri`,
 `chsh-hub-v2-clean-uri`, `pdebench-hub-v2-clean-uri`,
 `ising-hub-v2-clean-uri`, `shannon-hub-v2-clean-uri`,
-`well-hub-v2-clean-uri-retry`, and `bateman-hub-v2-clean-uri`.
+`well-hub-v2-clean-uri-retry`, `bateman-hub-v2-clean-uri`,
+`rrlyrae-hub-v2-clean-uri-retry`, and `robertson-hub-v2-clean-uri`.
 OceanBench v2 recovered some input files but failed twice on transient DNS
 errors during the public data fetch. OceanBench reference run
 `community-oceanbench-glonet-run-v4` uses bounded backoff for public downloads
-and retains the pinned manifest and object checksums. RR Lyrae v2's first
-isolated build timed out resolving the base image. Its retry
-`rrlyrae-hub-v2-clean-uri-retry` was submitted. Robertson v2 imported through
-the public URI and was submitted as `robertson-hub-v2-clean-uri`.
+and retains the pinned manifest and object checksums.
 
 | Workflow | Completed activities | Public revision |
 | --- | ---: | --- |
