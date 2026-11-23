@@ -11,12 +11,16 @@ download and verify pinned public inputs at image build time because the
 datasets exceed the recipe archive limit. Their portable reference runs
 are `community-oceanbench-glonet-run-v3`,
 `community-well-radiative-layer-portable-run-v2`, and
-`community-pdebench-advection-portable-run-v4`. Earlier OceanBench and
+`community-pdebench-advection-portable-run-v8`. Earlier OceanBench and
 PDEBench attempts were cancelled after their network operations stopped
 progressing. PDEBench's later build `community-pdebench-advection-portable-run-v7`
 stalled during the DaRUS dataset download and failed in image preparation.
-The worker submitted `community-pdebench-advection-portable-run-v8` with
-smaller HTTP ranges after testing the frozen dataset download.
+Version 8 restored the frozen 823,298,048-byte slice in verified 64 MiB ranges,
+rebuilt image digest
+`sha256:451b5a699d5eb16e2d364c732f9fcb1c488ae7dd9e8f02d47a70da62bf43a52e`,
+and completed 7/7 activities. Its validator passed all required-file,
+comparison, and rounding checks. FNO and U-Net inference overlapped from
+`1795417547.912340` through `1795417574.536844` in daemon timestamps.
 
 The anonymous latest-version YAML check initially found archived build contexts
 in 11 of the 31 public entries. Four additional portable revisions have since
