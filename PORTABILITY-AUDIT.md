@@ -170,6 +170,11 @@ removed from the isolated test daemon, leaving their run records and
 validation files available. Free host storage increased by about 16 GB
 during cleanup. The daemon then accepted
 `community-bioclip-portable-run-v2-two-slot` with a passing preflight.
+The reference run has completed five activities and is executing two inference
+branches. The BioCLIP README currently cites
+`community-bioclip-rare-species-run-v4` and its four-slot measurements. Refresh
+the recorded measurements, checksums, and linked gallery from the new validated
+capture before publishing the portable revision.
 
 Twenty-one revisions completed after URI import in the isolated installation
 and passed their scientific validators. The run IDs were
