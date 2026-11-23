@@ -76,7 +76,9 @@ WeatherBench 2's portable workflow, runner, and schedule are on the examples
 main branch. The archived context validated with nine entries. Production
 registration returned HTTP 503 before dispatch while persisting its request
 audit. The revised workflow and schedule were absent on follow-up, and no
-reference run was submitted.
+reference run was submitted on the first attempt. The Caco-2 baseline's
+portable workflow, plan, and runner are on the examples main branch. The
+archived build context validated with three entries.
 
 Eleven v2 revisions completed after URI import in the isolated installation
 and passed their scientific validators. The run IDs were
@@ -97,7 +99,11 @@ activities. Their isolated runs are `jarzynski-hub-v2-clean-uri` and
 OceanBench v2 recovered some input files but failed twice on transient DNS
 errors during the public data fetch. OceanBench reference run
 `community-oceanbench-glonet-run-v4` uses bounded backoff for public downloads
-and retains the pinned manifest and object checksums.
+and retains the pinned manifest and object checksums. BuildKit record
+`l9jd82b8rjh9pd6aqe9i6gwxr` completed the download, verification and Docker
+image export with manifest
+`sha256:f5d830ecbcca7b5077264884d6abf3d91c8e1a21d7abebc254391a11cf8178b1`.
+The reference workflow execution is pending completion.
 
 | Workflow | Completed activities | Public revision |
 | --- | ---: | --- |
