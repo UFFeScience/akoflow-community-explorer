@@ -68,15 +68,19 @@ after all nine activities requested image reconstruction. Wright–Fisher run
 `community-wright-fisher-portable-run-v2` was submitted after all 28
 activities requested an image build.
 
-Ten v2 revisions completed after URI import in the isolated installation
+Eleven v2 revisions completed after URI import in the isolated installation
 and passed their scientific validators. The run IDs were
 `volterra-hub-v2-clean-uri`, `buffon-hub-v2-clean-uri`,
 `chsh-hub-v2-clean-uri`, `pdebench-hub-v2-clean-uri`,
 `ising-hub-v2-clean-uri`, `shannon-hub-v2-clean-uri`,
 `well-hub-v2-clean-uri-retry`, `bateman-hub-v2-clean-uri`,
-`rrlyrae-hub-v2-clean-uri-retry`, and `robertson-hub-v2-clean-uri`.
-Foucault v2 imported by URI and reported nine required builds. Run
-`foucault-hub-v2-clean-uri` was submitted to the isolated installation.
+`rrlyrae-hub-v2-clean-uri-retry`, `robertson-hub-v2-clean-uri`, and
+`foucault-hub-v2-clean-uri`. Foucault completed 9/9 activities and its
+validator reported `passed: true`.
+Rabi, Hénon, and Airy diffraction v2 imported from the Hub and reported
+required builds for all eight, eight, and seven activities, respectively.
+Their isolated runs are `rabi-hub-v2-clean-uri`, `henon-hub-v2-clean-uri`,
+and `airy-hub-v2-clean-uri`.
 OceanBench v2 recovered some input files but failed twice on transient DNS
 errors during the public data fetch. OceanBench reference run
 `community-oceanbench-glonet-run-v4` uses bounded backoff for public downloads
