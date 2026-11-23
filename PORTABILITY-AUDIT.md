@@ -70,9 +70,12 @@ their prepare activities before executable preparation timed out on the parallel
 branches. Both reproduced images are now present in the daemon's image store.
 The daemon accepted Turing–Schnakenberg recovery job
 `0a04acd43037d42728853dfe3481d05b` in continue mode, reusing its prepare
-activity. Lorenz completed five activities before local container startup
+activity, but the retry also timed out starting local containers. Lorenz completed five activities before local container startup
 timed out. A later recovery preview allowed continuation without reusable
 activities. The daemon accepted recovery job `8cc3769f9aa74b10eb5fbd6ed84c5499`.
+That retry also hit startup deadlines. A new reference run
+`community-lorenz-portable-run-v2-two-slot` passed preflight and was submitted
+with two local slots. It uses the same workflow and scientific parameters.
 WeatherBench 2 and Caco-2 first runs failed before completing an activity.
 
 The SIR threshold reference run `community-sir-threshold-sweep-portable-run-v3`
