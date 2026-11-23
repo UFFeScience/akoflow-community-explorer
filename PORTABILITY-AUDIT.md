@@ -236,6 +236,13 @@ Their 28, 12, and 12 activities require reconstruction from the public
 recipe. The daemon accepted runs `wright-fisher-hub-v2-clean-overlay`,
 `stardist-hub-v2-clean-overlay`, and `mfc-hub-v2-clean-overlay`.
 
+Portable image preparation is serialized by the daemon. Its
+[reproduction code](https://github.com/UFFeScience/akoflow/blob/3f2067b6e3e180cd0bd27d8c122f4abf2588d8d0/internal/application/build/portable.go#L236-L285)
+locks before the image cache lookup and holds that lock throughout the build.
+As a result, the long OceanBench build can delay preparation for other
+activities on the same instance, even if their images are already cached.
+The queue worker now schedules long builds accordingly.
+
 The daemon timestamps show overlapping scientific branches in the portable
 reference runs for OceanBench (35.952 s), Turing–Schnakenberg (7.222 s),
 Hodgkin–Huxley (1.350 s), Wright–Fisher (0.888 s), and SIR (0.247 s).

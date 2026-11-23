@@ -16,6 +16,9 @@ an API observation timeout alone is insufficient grounds to restart a daemon.
 Use a separate clean instance for validation if the existing instance is busy,
 with independent storage and a distinct endpoint. Prefer layer-sharing storage
 when supported and check free disk space before starting a large image build.
+The daemon serializes portable image preparation, including cache lookups.
+Let a long recipe build finish before sending unrelated validation runs to that
+same daemon, or use an independent instance if the host has capacity.
 
 Read AGENTS.md and inspect current GitHub issues and local/external state before
 acting. Resume the oldest open actionable issue. If an issue is still research,
