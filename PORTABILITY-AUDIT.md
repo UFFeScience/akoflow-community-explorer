@@ -80,7 +80,10 @@ validator reported `passed: true`.
 Rabi, Hénon, and Airy diffraction v2 imported from the Hub and reported
 required builds for all eight, eight, and seven activities, respectively.
 Their isolated runs are `rabi-hub-v2-clean-uri`, `henon-hub-v2-clean-uri`,
-and `airy-hub-v2-clean-uri`.
+and `airy-hub-v2-clean-uri`. Jarzynski and Cooley–Tukey v2 also
+imported from the Hub and reported required builds on all 22 and eight
+activities. Their isolated runs are `jarzynski-hub-v2-clean-uri` and
+`cooley-hub-v2-clean-uri`.
 OceanBench v2 recovered some input files but failed twice on transient DNS
 errors during the public data fetch. OceanBench reference run
 `community-oceanbench-glonet-run-v4` uses bounded backoff for public downloads
