@@ -47,7 +47,10 @@ seven, and eight activities. Their isolated runs were submitted as
 `community-lorenz-portable-run-v2` was submitted after preflight confirmed
 that all eight activities required a build. Hodgkin–Huxley reference run
 `community-hodgkin-huxley-portable-run-v3` was submitted after fifteen
-activities reported a required build.
+activities reported a required build. Its first run completed preparation
+and timed out while starting the parallel branches. The two-slot reference
+run `community-hodgkin-huxley-portable-run-v3-two-slot` passed preflight
+and was accepted with the same workflow and scientific parameters.
 
 The latest anonymous audit checked each publication's project, latest version,
 and every activity's build source and embedded context. The following latest
@@ -96,7 +99,10 @@ public v2 YAML embeds a build context for each activity. Run
 `stardist-hub-v2-clean-uri` was submitted after a successful URI import
 and twelve checks confirmed that an image build was required.
 MFC Sod reference run `community-mfc-sod-portable-run-v3` was submitted
-with a passing preflight and required builds on all 12 activities.
+with a passing preflight and required builds on all 12 activities. Its
+execution-time prerequisite check timed out before an activity started.
+SIR's first run also stopped after its prepare activity, while preparing
+executables for the parallel branches.
 WeatherBench 2's portable workflow, runner, and schedule are on the examples
 main branch. The archived context validated with nine entries. Production
 registration returned HTTP 503 before dispatch while persisting its request
