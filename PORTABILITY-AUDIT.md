@@ -15,7 +15,8 @@ are `community-oceanbench-glonet-run-v3`,
 PDEBench attempts were cancelled after their network operations stopped
 progressing. PDEBench's later build `community-pdebench-advection-portable-run-v7`
 stalled during the DaRUS dataset download and failed in image preparation.
-The worker is testing smaller HTTP ranges before submitting another build.
+The worker submitted `community-pdebench-advection-portable-run-v8` with
+smaller HTTP ranges after testing the frozen dataset download.
 
 The anonymous latest-version YAML check initially found archived build contexts
 in 11 of the 31 public entries. Four additional portable revisions have since
@@ -23,6 +24,8 @@ passed reference execution and anonymous YAML verification, bringing the
 count to 15. CHSH v2 has since passed its nine-activity reference run,
 scientific validation, and anonymous YAML verification, bringing the original
 31-entry cohort to 16 portable public revisions and 15 pending updates.
+RR Lyrae's portable reference run `community-rrlyrae-portable-run-v2` is
+underway. Preflight confirmed image reconstruction on all ten activities.
 
 OceanBench and Buffon v2 imported successfully from their public URIs into
 the isolated installation. Preflight confirmed image reconstruction was
