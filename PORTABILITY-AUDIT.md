@@ -89,6 +89,8 @@ archived build context validated with three entries. The first submission
 attempt returned HTTP 503 registering its plan and stopped before launching a
 run. The runner now requires a passing execution preflight. The retry passed
 preflight and the daemon accepted `community-caco2-portable-run-v2`.
+BioCLIP's archived build context validated with four entries. Its preflight
+passed and the daemon accepted `community-bioclip-portable-run-v2`.
 
 Sixteen revisions completed after URI import in the isolated installation
 and passed their scientific validators. The run IDs were
@@ -120,7 +122,8 @@ and retains the pinned manifest and object checksums. BuildKit record
 `l9jd82b8rjh9pd6aqe9i6gwxr` completed the download, verification and Docker
 image export with manifest
 `sha256:f5d830ecbcca7b5077264884d6abf3d91c8e1a21d7abebc254391a11cf8178b1`.
-The reference workflow execution is pending completion.
+The reference workflow has completed its prepare activity and started the
+four first scientific branches. Scientific validation remains pending.
 
 | Workflow | Completed activities | Public revision |
 | --- | ---: | --- |
