@@ -72,6 +72,11 @@ compatibility. The daemon accepted `community-stardist-portable-run-v2`;
 the runner now requires a passing preflight before future submissions.
 MFC Sod reference run `community-mfc-sod-portable-run-v3` was submitted
 with a passing preflight and required builds on all 12 activities.
+WeatherBench 2's portable workflow, runner, and schedule are on the examples
+main branch. The archived context validated with nine entries. Production
+registration returned HTTP 503 before dispatch while persisting its request
+audit. The revised workflow and schedule were absent on follow-up, and no
+reference run was submitted.
 
 Eleven v2 revisions completed after URI import in the isolated installation
 and passed their scientific validators. The run IDs were
