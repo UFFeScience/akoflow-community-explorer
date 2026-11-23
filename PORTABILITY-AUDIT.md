@@ -27,7 +27,7 @@ in 11 of the 31 public entries. Four additional portable revisions have since
 passed reference execution and anonymous YAML verification, bringing the
 count to 15. CHSH, PDEBench, Ising–Yang, RR Lyrae, Bateman and Robertson v2 have since passed reference
 execution, scientific validation and anonymous YAML verification. The original
-31-entry cohort now has 22 portable public revisions and 9 pending updates after StarDist v2.
+31-entry cohort now has 23 portable public revisions and 8 pending updates after StarDist and Lorenz v2.
 RR Lyrae's first portable build failed resolving Docker Hub. Retry
 `community-rrlyrae-portable-run-v2-retry1` rebuilt image digest
 `sha256:70817d6a3e26df122d0989345412d3ffa9ec62faa2c2b2d13ee4a519f3567785`
@@ -57,7 +57,6 @@ public revisions still require replacement.
 | --- | ---: | ---: |
 | [caco2-scaffold-split-baselines](https://hub.akoflow.com/o/akoflow/caco2-scaffold-split-baselines) | 1 | 0/19 |
 | [bioclip-rare-species-evaluation](https://hub.akoflow.com/o/akoflow/bioclip-rare-species-evaluation) | 1 | 0/12 |
-| [lorenz-bounded-sensitivity-ensemble](https://hub.akoflow.com/o/akoflow/lorenz-bounded-sensitivity-ensemble) | 1 | 0/8 |
 | [turing-schnakenberg-pattern-selection](https://hub.akoflow.com/o/akoflow/turing-schnakenberg-pattern-selection) | 1 | 0/9 |
 | [kimura-wright-fisher-fixation](https://hub.akoflow.com/o/akoflow/kimura-wright-fisher-fixation) | 1 | 0/28 |
 | [hodgkin-huxley-excitation-boundary](https://hub.akoflow.com/o/akoflow/hodgkin-huxley-excitation-boundary) | 1 | 0/15 |
@@ -75,7 +74,12 @@ timed out. A later recovery preview allowed continuation without reusable
 activities. The daemon accepted recovery job `8cc3769f9aa74b10eb5fbd6ed84c5499`.
 That retry also hit startup deadlines. A new reference run
 `community-lorenz-portable-run-v2-two-slot` passed preflight and was submitted
-with two local slots. It uses the same workflow and scientific parameters.
+with two local slots and the same scientific parameters. It completed
+8/8 activities and passed scientific validation. Lorenz v2 is public with
+eight embedded build contexts. `lorenz-hub-v2-clean-uri` was submitted
+after all eight activities required reconstruction on URI import.
+Turing–Schnakenberg also passed preflight with two local slots and was
+submitted as `community-turing-portable-run-v2-two-slot`.
 WeatherBench 2 and Caco-2 first runs failed before completing an activity.
 
 The SIR threshold reference run `community-sir-threshold-sweep-portable-run-v3`
@@ -172,6 +176,7 @@ publications in the original cohort.
 | Bateman decay chain | 7/7 | [v2](https://hub.akoflow.com/o/akoflow/bateman-decay-chain-equilibrium-audit) |
 | Robertson stiff solver | 7/7 | [v2](https://hub.akoflow.com/o/akoflow/robertson-stiff-solver-agreement) |
 | StarDist equivariance | 12/12 | [v2](https://hub.akoflow.com/o/akoflow/stardist-equivariance-sweep) |
+| Lorenz bounded sensitivity | 8/8 | [v2](https://hub.akoflow.com/o/akoflow/lorenz-bounded-sensitivity-ensemble) |
 
 Volterra's portable revision reported “Build required” on all seven activities
 and completed 7/7 in daemon run `community-volterra-predator-prey-run-v2`.
