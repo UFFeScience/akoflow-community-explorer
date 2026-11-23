@@ -82,9 +82,10 @@ and preflight passed, and the daemon accepted
 portable workflow, plan, and runner are on the examples main branch. The
 archived build context validated with three entries. The first submission
 attempt returned HTTP 503 registering its plan and stopped before launching a
-run. The runner now requires a passing execution preflight.
+run. The runner now requires a passing execution preflight. The retry passed
+preflight and the daemon accepted `community-caco2-portable-run-v2`.
 
-Fifteen v2 revisions completed after URI import in the isolated installation
+Sixteen revisions completed after URI import in the isolated installation
 and passed their scientific validators. The run IDs were
 `volterra-hub-v2-clean-uri`, `buffon-hub-v2-clean-uri`,
 `chsh-hub-v2-clean-uri`, `pdebench-hub-v2-clean-uri`,
@@ -93,7 +94,7 @@ and passed their scientific validators. The run IDs were
 `rrlyrae-hub-v2-clean-uri-retry`, `robertson-hub-v2-clean-uri`,
 `foucault-hub-v2-clean-uri`, `rabi-hub-v2-clean-uri`,
 `cooley-hub-v2-clean-uri`, `henon-hub-v2-clean-uri`, and
-`airy-hub-v2-clean-uri`. Foucault completed 9/9 activities and its
+`airy-hub-v2-clean-uri`, and `jarzynski-hub-v2-clean-uri-retry`. Foucault completed 9/9 activities and its
 validator reported `passed: true`.
 Rabi, Hénon, and Airy diffraction v2 imported from the Hub and reported
 required builds for all eight, eight, and seven activities, respectively.
@@ -105,7 +106,8 @@ scientific validation, as did Hénon (8/8) and Airy diffraction (7/7).
 Jarzynski run `jarzynski-hub-v2-clean-uri` failed
 during container startup after the prepare activity completed. The other
 branches were cancelled after the local runtime deadline expired. The
-isolated daemon accepted retry `jarzynski-hub-v2-clean-uri-retry`.
+isolated retry `jarzynski-hub-v2-clean-uri-retry` completed successfully
+and reported `overall_pass: true`.
 OceanBench v2 recovered some input files but failed twice on transient DNS
 errors during the public data fetch. OceanBench reference run
 `community-oceanbench-glonet-run-v4` uses bounded backoff for public downloads
