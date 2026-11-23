@@ -27,7 +27,7 @@ in 11 of the 31 public entries. Four additional portable revisions have since
 passed reference execution and anonymous YAML verification, bringing the
 count to 15. CHSH, PDEBench, Ising–Yang, RR Lyrae, Bateman and Robertson v2 have since passed reference
 execution, scientific validation and anonymous YAML verification. The original
-31-entry cohort now has 26 portable public revisions and 5 pending updates.
+31-entry cohort now has 27 portable public revisions and 4 pending updates.
 RR Lyrae's first portable build failed resolving Docker Hub. Retry
 `community-rrlyrae-portable-run-v2-retry1` rebuilt image digest
 `sha256:70817d6a3e26df122d0989345412d3ffa9ec62faa2c2b2d13ee4a519f3567785`
@@ -63,7 +63,6 @@ public revisions still require replacement.
 | --- | ---: | ---: |
 | [caco2-scaffold-split-baselines](https://hub.akoflow.com/o/akoflow/caco2-scaffold-split-baselines) | 1 | 0/19 |
 | [bioclip-rare-species-evaluation](https://hub.akoflow.com/o/akoflow/bioclip-rare-species-evaluation) | 1 | 0/12 |
-| [kimura-wright-fisher-fixation](https://hub.akoflow.com/o/akoflow/kimura-wright-fisher-fixation) | 1 | 0/28 |
 | [mfc-sod-shock-tube-refinement](https://hub.akoflow.com/o/akoflow/mfc-sod-shock-tube-refinement) | 1 | 0/12 |
 | [weatherbench2-era5-score-audit](https://hub.akoflow.com/o/akoflow/weatherbench2-era5-score-audit) | 1 | 0/10 |
 
@@ -86,6 +85,8 @@ submitted as `community-turing-portable-run-v2-two-slot`. It completed
 all nine activities and passed validation. Public v2 includes nine archived
 contexts. Isolated run `turing-hub-v2-clean-uri` was submitted from the URI.
 WeatherBench 2 and Caco-2 first runs failed before completing an activity.
+The daemon accepted WeatherBench 2 recovery job
+`37903585255d8ccf514ed00898b49f53` and the run is active again.
 
 The SIR threshold reference run `community-sir-threshold-sweep-portable-run-v3`
 was submitted after all twelve activities requested image reconstruction.
@@ -94,7 +95,10 @@ after all nine activities requested image reconstruction. Wright–Fisher run
 `community-wright-fisher-portable-run-v2` was submitted after all 28
 activities requested an image build. Its two-slot reference run
 `community-wright-fisher-portable-run-v2-two-slot` passed preflight and
-was accepted. The StarDist portable definition and
+was accepted and completed all 28 activities with scientific validation
+passing. Public Wright–Fisher v2 embeds all 28 build contexts. Isolated
+run `wright-fisher-hub-v2-clean-uri` was submitted from its public URI.
+The StarDist portable definition and
 schedule are registered. Its first preflight timed out on artifact
 compatibility. The daemon accepted `community-stardist-portable-run-v2`;
 the runner now requires a passing preflight before future submissions.
@@ -195,6 +199,7 @@ publications in the original cohort.
 | Turing–Schnakenberg | 9/9 | [v2](https://hub.akoflow.com/o/akoflow/turing-schnakenberg-pattern-selection) |
 | Hodgkin–Huxley | 15/15 | [v2](https://hub.akoflow.com/o/akoflow/hodgkin-huxley-excitation-boundary) |
 | SIR threshold and final size | 12/12 | [v2](https://hub.akoflow.com/o/akoflow/sir-threshold-final-size-sweep) |
+| Wright–Fisher fixation | 28/28 | [v2](https://hub.akoflow.com/o/akoflow/kimura-wright-fisher-fixation) |
 
 Volterra's portable revision reported “Build required” on all seven activities
 and completed 7/7 in daemon run `community-volterra-predator-prey-run-v2`.
