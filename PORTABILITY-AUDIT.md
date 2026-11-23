@@ -143,7 +143,11 @@ image export with manifest
 The reference run completed four activities before local container startup
 timed out. The daemon accepted recovery job `12f3ec8f9096b138491090d6e88af2c4`
 in continue mode, with four reusable activities and no pending cleanup.
-Scientific validation remains pending.
+Recovery completed all 13 activities and `validation.json` reported
+`passed: true`. OceanBench v3 is public with 13 embedded build contexts.
+Its public URI imported into the isolated daemon, where preflight required
+reconstruction for all 13 activities and run `oceanbench-hub-v3-clean-uri`
+was submitted.
 
 The anonymous gallery audit checked all 21 portable public publications.
 Seventeen already served a figure and an animation. Foucault, Cooley–Tukey,
@@ -160,7 +164,7 @@ publications in the original cohort.
 | Shannon BSC | 8/8 | [v2](https://hub.akoflow.com/o/akoflow/shannon-bsc-capacity-audit) |
 | Buffon needle | 8/8 | [v2](https://hub.akoflow.com/o/akoflow/buffon-needle-pi-audit) |
 | The Well radiative layer | 13/13 | [v2](https://hub.akoflow.com/o/akoflow/the-well-radiative-mixing-layer) |
-| OceanBench GLONet | 13/13 | [v2](https://hub.akoflow.com/o/akoflow/oceanbench-glonet-metric-reproduction) |
+| OceanBench GLONet | 13/13 | [v3](https://hub.akoflow.com/o/akoflow/oceanbench-glonet-metric-reproduction) |
 | CHSH singlet correlation | 9/9 | [v2](https://hub.akoflow.com/o/akoflow/chsh-singlet-correlation-audit) |
 | PDEBench advection | 7/7 | [v2](https://hub.akoflow.com/o/akoflow/pdebench-advection-checkpoint-audit) |
 | Ising–Yang magnetization | 12/12 | [v2](https://hub.akoflow.com/o/akoflow/yang-ising-magnetization-curve) |
