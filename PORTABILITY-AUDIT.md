@@ -66,6 +66,11 @@ public revisions still require replacement.
 | [mfc-sod-shock-tube-refinement](https://hub.akoflow.com/o/akoflow/mfc-sod-shock-tube-refinement) | 1 | 0/12 |
 | [weatherbench2-era5-score-audit](https://hub.akoflow.com/o/akoflow/weatherbench2-era5-score-audit) | 1 | 0/10 |
 
+First reference runs for Turing–Schnakenberg and Wright–Fisher completed
+their prepare activities before executable preparation timed out on the parallel
+branches. Both reproduced images are now present in the daemon's image store.
+WeatherBench 2 and Caco-2 first runs failed before completing an activity.
+
 The SIR threshold reference run `community-sir-threshold-sweep-portable-run-v3`
 was submitted after all twelve activities requested image reconstruction.
 Turing–Schnakenberg run `community-turing-portable-run-v2` was submitted
@@ -92,7 +97,7 @@ preflight and the daemon accepted `community-caco2-portable-run-v2`.
 BioCLIP's archived build context validated with four entries. Its preflight
 passed and the daemon accepted `community-bioclip-portable-run-v2`.
 
-Sixteen revisions completed after URI import in the isolated installation
+Nineteen revisions completed after URI import in the isolated installation
 and passed their scientific validators. The run IDs were
 `volterra-hub-v2-clean-uri`, `buffon-hub-v2-clean-uri`,
 `chsh-hub-v2-clean-uri`, `pdebench-hub-v2-clean-uri`,
@@ -101,7 +106,9 @@ and passed their scientific validators. The run IDs were
 `rrlyrae-hub-v2-clean-uri-retry`, `robertson-hub-v2-clean-uri`,
 `foucault-hub-v2-clean-uri`, `rabi-hub-v2-clean-uri`,
 `cooley-hub-v2-clean-uri`, `henon-hub-v2-clean-uri`, and
-`airy-hub-v2-clean-uri`, and `jarzynski-hub-v2-clean-uri-retry`. Foucault completed 9/9 activities and its
+`airy-hub-v2-clean-uri`, `jarzynski-hub-v2-clean-uri-retry`,
+`brachistochrone-hub-v2-clean-uri`, `debye-hub-v2-clean-uri`, and
+`black-scholes-hub-v1-clean-uri`. Foucault completed 9/9 activities and its
 validator reported `passed: true`.
 Rabi, Hénon, and Airy diffraction v2 imported from the Hub and reported
 required builds for all eight, eight, and seven activities, respectively.
