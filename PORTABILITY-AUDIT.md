@@ -230,7 +230,10 @@ for all nine and 15 activities on the separate daemon. WeatherBench 2 and SIR
 also imported from their public v2 URIs into the overlay-backed instance.
 Preflight passed with 10 and 12 required image builds, respectively. The
 runs `weatherbench-hub-v2-clean-overlay` and
-`sir-hub-v2-clean-overlay` were submitted and accepted by that daemon.
+`sir-hub-v2-clean-overlay` were submitted and accepted by that daemon. Wright–Fisher, StarDist, and MFC Sod
+also imported into the overlay-backed daemon and passed execution preflight.
+Their 28, 12, and 12 activities require reconstruction from the public
+recipe. These tests are staged behind the active builds.
 
 The daemon timestamps show overlapping scientific branches in the portable
 reference runs for OceanBench (35.952 s), Turing–Schnakenberg (7.222 s),
