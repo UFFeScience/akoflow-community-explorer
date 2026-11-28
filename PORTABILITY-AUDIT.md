@@ -556,3 +556,18 @@ the image, completed 257 activities, and reproduced all 259 checksums,
 including the 256 tile CSVs and three aggregate artifacts.
 [Clean execution evidence](https://github.com/UFFeScience/akoflow-examples/blob/421086b/computer-vision/tiled-intensity-projection/evidence/reference/clean-public-uri-run.json).
 [Import evidence](https://github.com/UFFeScience/akoflow-examples/blob/231a00f/computer-vision/tiled-intensity-projection/evidence/reference/public-uri-import.json).
+
+## Robust marker fusion v1
+
+The [public marker-fusion workflow](https://hub.akoflow.com/o/akoflow/community-explorer-issue-675-robust-marker-fusion?version=1)
+is available at
+`akoflow://hub/publications/3d095c37-2643-408e-999c-3093db15f24f/versions/1`.
+The four-slot reference completed 257 activities, including 256
+independent scenarios and a checked aggregate. All 256 scenario CSVs
+matched a separate offline run of the same image. Anonymous downloads
+covered the measured PNG, GIF, timeline and summary. All 257 activities
+in the public YAML use the same verified 4,026-byte context with the
+Dockerfile, source files and dependency lock. All 257 preflight checks
+requested reconstruction on the clean daemon. End-to-end checksum
+verification is in progress.
+[Import evidence](https://github.com/UFFeScience/akoflow-examples/blob/b57111d/computer-vision/robust-marker-fusion/evidence/reference/public-uri-import.json).
