@@ -504,6 +504,11 @@ containers and volumes were removed after preserving
 [Import evidence](https://github.com/UFFeScience/akoflow-examples/blob/016e1f5/computational-fluid-dynamics/lbm-shear-wave/evidence/reference/public-uri-import.json).
 
 
+All five measured scheduling profiles completed 1,026 activities each
+with the same 2,056 checksums. The per-profile report records unusable
+timestamp intervals and measured occupancy as a lower bound.
+[Scheduling profiles](https://github.com/UFFeScience/akoflow-examples/blob/dbbba9bb3c0e60014079999367cbe5364949dbac/computational-fluid-dynamics/lbm-shear-wave/evidence/reference/profile-summary.csv).
+
 ## Microscopy video stabilization v1
 
 The [public microscopy workflow](https://hub.akoflow.com/o/akoflow/community-explorer-issue-532-microscopy-stabilization?version=1)
