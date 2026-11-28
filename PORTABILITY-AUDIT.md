@@ -462,7 +462,7 @@ images anonymously for all 40 workflows and verified at least one valid
 static figure and one animation containing multiple frames per publication.
 
 Rainfall infiltration v1 was imported anonymously using
-.
+`akoflow://hub/publications/a8d814ff-23eb-4a60-9b72-1646baadfb36/versions/1`.
 Its isolated execution started with an empty Docker image store, reconstructed
 the portable recipe, and finished 514/514 activities. Validation covered 512
 batches and 131,072 soil columns. The CSV, PNG and eight-frame GIF matched the
