@@ -513,7 +513,8 @@ The reference completed 769 activities, with peak overlap of four sequence
 tasks. Anonymous download checks verified its measured PNG, forty-frame
 GIF, occupancy timeline, 153,600-row dataset and condition summary.
 The public URI imported into an isolated daemon. Preflight requested
-image reconstruction, the image was built in its initially empty store,
-and sequence tasks completed on the rebuilt image. Full clean-run
-checksum verification is in progress.
+image reconstruction in the empty image store. The daemon rebuilt the image,
+completed all 769 activities, and reproduced all 772 checksums, including
+768 sequence CSVs, both aggregate CSVs, the PNG and the GIF.
+[Clean execution evidence](https://github.com/UFFeScience/akoflow-examples/blob/32cdcc1/computer-vision/microscopy-video-stabilization/evidence/reference/clean-public-uri-run.json).
 [Reference evidence](https://github.com/UFFeScience/akoflow-examples/blob/9af8ae4/computer-vision/microscopy-video-stabilization/evidence/reference/reference-run.json).
