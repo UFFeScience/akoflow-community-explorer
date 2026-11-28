@@ -27,6 +27,11 @@ Before submitting a benchmark, look for that issue's active runs and profiling
 processes across the primary and validation daemons on this host. Resume the
 existing campaign on its original endpoint. Use another daemon for a clean
 import check after the timed campaign, without duplicating its measurements.
+When two timed campaigns would use the same physical CPUs, check all active
+campaigns on that host before launching another. Separate AkôFlow containers
+and databases alone do not imply separate CPUs. If concurrent measurements
+already occurred, preserve the runs, record their overlap from live run
+timestamps, and identify that load in the comparison.
 
 Read AGENTS.md and inspect current GitHub issues and local/external state before
 acting. Resume existing work and rank actionable candidates by independent
