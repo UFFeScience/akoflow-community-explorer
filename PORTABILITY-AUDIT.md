@@ -22,6 +22,19 @@ URIs. Their daemon validation reports all passed.
 | `community-sisdr-hub-v1-clean` | 3 |
 | `community-monash-hub-v1-clean` | 7 |
 | `community-gap-bfs-hub-v1-clean` | 3 |
+| `community-sobol-hub-v1-clean` | 130 |
+
+Scrambled Sobol v1 was imported anonymously from
+`akoflow::o/akoflow/community-explorer-issue-107-sobol-ensemble:latest` into
+the isolated overlay daemon. The public YAML contains a build source and
+archived context on all 130 activities, with recipe digest
+`sha256:aefd17db428025e2f6396a252e070dd121277c126a40f185b0b68ae69783b540`
+and context digest
+`sha256:d0603330f08aa3146bcd5740960985eefc840e554cba042a616bc02792f25bbc`.
+Run `community-sobol-hub-v1-clean` completed 130/130 activities in 159.019
+seconds. Its validator passed 128 replicas, 1,408 estimates, 11 prefixes and
+11 animation frames. The estimates CSV, convergence CSV, PNG and GIF SHA-256
+digests match the recorded four-slot reference exactly.
 
 BioCLIP v2 is public and imported from its public Hub page in the isolated
 daemon with all 12 activities. Each activity carries a portable build source.
