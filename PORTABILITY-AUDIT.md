@@ -23,6 +23,7 @@ URIs. Their daemon validation reports all passed.
 | `community-monash-hub-v1-clean` | 7 |
 | `community-gap-bfs-hub-v1-clean` | 3 |
 | `community-sobol-hub-v1-clean` | 130 |
+| `community-inpe-deter-hub-v1-clean` | 74 |
 
 Scrambled Sobol v1 was imported anonymously from
 `akoflow::o/akoflow/community-explorer-issue-107-sobol-ensemble:latest` into
@@ -35,6 +36,18 @@ Run `community-sobol-hub-v1-clean` completed 130/130 activities in 159.019
 seconds. Its validator passed 128 replicas, 1,408 estimates, 11 prefixes and
 11 animation frames. The estimates CSV, convergence CSV, PNG and GIF SHA-256
 digests match the recorded four-slot reference exactly.
+
+INPE DETER v1 was imported anonymously from
+`akoflow://hub/publications/5c1296ca-9f5d-4ccb-aecd-b163b03e0d25/versions/1`
+into the isolated overlay daemon. All 74 activities embed the compact build
+origin and archived context, with recipe digest
+`sha256:64e8b11b3ea9b6a7069eb785359ae1ef1157304dae1493b3150c836f0627ec64`
+and context digest
+`sha256:478fc6930a97aac997b4fab184ab8f6db9e151a8ad4a68cf99281d7b61e149e9`.
+Run `community-inpe-deter-hub-v1-clean` reconstructed the image and completed
+74/74 activities. Its validator passed 72 monthly partitions, 334,054 alert
+records, 2,491 reference groups, and 72 animation frames. The two result CSVs,
+map, and animation match the portable reference SHA-256 values exactly.
 
 BioCLIP v2 is public and imported from its public Hub page in the isolated
 daemon with all 12 activities. Each activity carries a portable build source.
