@@ -17,6 +17,7 @@ URIs. Their daemon validation reports all passed.
 | `wright-fisher-hub-v2-clean-overlay` | 28 |
 | `stardist-hub-v2-clean-overlay` | 12 |
 | `mfc-hub-v2-clean-overlay` | 12 |
+| `bioclip-hub-v2-clean-overlay` | 12 |
 | `community-prodes-hub-v1-clean` | 4 |
 | `community-sisdr-hub-v1-clean` | 3 |
 | `community-monash-hub-v1-clean` | 7 |
@@ -31,6 +32,13 @@ from a pinned public commit and verifies its SHA-256 digest. The isolated run
 `bioclip-hub-v2-clean-overlay` completed all 12 activities from the public v2
 revision and passed all seven validation checks. Its validator SHA-256 is
 `ce246762397e95414b73e5bef798eeb5922d51660fa6d96d3fbee46bb851f451`.
+The clean run completed in 2,952.159 seconds with 5,785.670 compute-seconds
+and 12.136 transfer-seconds. Its `predictions.csv` and result figure are
+byte-identical to the validated reference (`334fd145...7f018` and
+`7d19307a...2b39c`). The four measured inference overlaps were 738.300,
+669.637, 619.317, and 661.889 seconds. These timestamps prove activity
+overlap; no parallel speedup is claimed because there is no matching one-slot
+control.
 
 The table below records the initial receipt-based audit. The expanded audit
 covers all 31 workflow definitions in the Community Explorer namespace,
