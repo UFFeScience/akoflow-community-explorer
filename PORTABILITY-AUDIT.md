@@ -386,8 +386,8 @@ daemon. The URI also imported into an isolated AkôFlow database with an empty
 Docker image store and a fresh BuildKit instance. All seven activities
 reported that the image needed to be built. AkôFlow rebuilt the image and
 completed 7/7 activities in `volterra-hub-v2-clean-uri` against the imported
-definition. The final `validation.json` reported `passed: true`. Version 1
-remains public pending a version-scoped retirement operation.
+definition. The final `validation.json` reported `passed: true`. The version-scoped
+retirement below subsequently removed v1 from public access.
 
 Keep one public, verified portable version per workflow. Verify the replacement
 through anonymous Hub import and execution before retiring the legacy version.
@@ -418,7 +418,7 @@ Initial receipt-based sample: 9 publications, all with successful reference
 runs and portable public revisions. The expanded 31-workflow audit above
 includes entries without local receipts.
 
-## Public versions pending retirement
+## Public version retirement
 
 The anonymous project inventory contained 40 publications. The
 [retirement candidates](PORTABILITY-RETIREMENT-CANDIDATES.json) record the 31
@@ -449,3 +449,14 @@ Local Dockerfile inputs are present inside the archive, archive paths are safe,
 and the base images are pinned. Each downloaded YAML matches its published
 version hash. The inspection checks the package itself. The daemon execution
 evidence is recorded in the clean-run sections above.
+
+
+On 2026-11-28 the version-scoped Hub API
+[retired 31 older versions](PORTABILITY-RETIREMENT-RESULTS.json) across
+30 publications. After each retirement the old YAML returned 404 or 410 and
+the replacement retained its verified SHA-256. A final anonymous project
+inventory returned **40 public workflows with one public version each**.
+
+The [public media audit](PORTABILITY-PUBLIC-MEDIA.json) retrieved the README
+images anonymously for all 40 workflows and verified at least one valid
+static figure and one animation containing multiple frames per publication.

@@ -1,0 +1,362 @@
+[
+  {
+    "publicationId": "5c1296ca-9f5d-4ccb-aecd-b163b03e0d25",
+    "slug": "community-explorer-issue-326-inpe-deter-monthly-alerts",
+    "verifiedFigures": 2,
+    "verifiedAnimations": [
+      72
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "0e03851e-c5f1-42f4-84be-ac7d2ab1a52b",
+    "slug": "community-explorer-issue-116-ngspice-rlc-ensemble",
+    "verifiedFigures": 3,
+    "verifiedAnimations": [
+      5
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "831911fd-f820-46a0-8c35-112e9d12ef3e",
+    "slug": "community-explorer-issue-107-sobol-ensemble",
+    "verifiedFigures": 3,
+    "verifiedAnimations": [
+      11
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "e8035136-11c6-45c0-9a25-cc51bf30bc7f",
+    "slug": "community-explorer-issue-71-gap-bfs",
+    "verifiedFigures": 2,
+    "verifiedAnimations": [
+      6
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "8c62ed69-0125-4649-a644-db7166bb0617",
+    "slug": "community-explorer-issue-65-monash-tourism",
+    "verifiedFigures": 2,
+    "verifiedAnimations": [
+      3
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "a79a7c81-1677-48ae-bab9-a3e76375bb8d",
+    "slug": "community-explorer-issue-69-si-sdr-audit",
+    "verifiedFigures": 2,
+    "verifiedAnimations": [
+      7
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "c306eca7-c586-4f5c-915e-94bc067cf8a7",
+    "slug": "community-explorer-issue-63-prodes-annual-audit",
+    "verifiedFigures": 2,
+    "verifiedAnimations": [
+      6
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "8e98e0af-1904-46bf-8365-b438d4334852",
+    "slug": "bioclip-rare-species-evaluation",
+    "verifiedFigures": 2,
+    "verifiedAnimations": [
+      7
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "ca445733-bded-4db7-966e-245a0168212c",
+    "slug": "community-explorer-issue-54-kepler-equal-area-v1",
+    "verifiedFigures": 3,
+    "verifiedAnimations": [
+      24
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "6a0df415-decf-4d5e-a5d1-fe08c0614a19",
+    "slug": "caco2-scaffold-split-baselines",
+    "verifiedFigures": 1,
+    "verifiedAnimations": [
+      3
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "93c225a0-401a-444b-ad21-dddf0852fa1b",
+    "slug": "weatherbench2-era5-score-audit",
+    "verifiedFigures": 3,
+    "verifiedAnimations": [
+      20
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "9b23b434-80aa-4139-a4ac-5a3abd19cf67",
+    "slug": "mfc-sod-shock-tube-refinement",
+    "verifiedFigures": 2,
+    "verifiedAnimations": [
+      11
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "de41e976-67f4-405e-8bd4-afba85496324",
+    "slug": "issue-53-planck-blackbody-radiation-audit",
+    "verifiedFigures": 3,
+    "verifiedAnimations": [
+      12
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "790e5aef-207d-409b-8a11-79db6f16063a",
+    "slug": "kimura-wright-fisher-fixation",
+    "verifiedFigures": 3,
+    "verifiedAnimations": [
+      101
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "34e57b08-7fc5-4343-8173-4af2b6a3f6ee",
+    "slug": "sir-threshold-final-size-sweep",
+    "verifiedFigures": 2,
+    "verifiedAnimations": [
+      8
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "1ea20b57-5afd-4a11-8399-e629bad8ff67",
+    "slug": "hodgkin-huxley-excitation-boundary",
+    "verifiedFigures": 2,
+    "verifiedAnimations": [
+      11
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "561d7297-9747-4dfe-8cf1-c5d84220490c",
+    "slug": "turing-schnakenberg-pattern-selection",
+    "verifiedFigures": 2,
+    "verifiedAnimations": [
+      13
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "7a0b07b5-d87e-4049-a835-3c0694387e0f",
+    "slug": "lorenz-bounded-sensitivity-ensemble",
+    "verifiedFigures": 3,
+    "verifiedAnimations": [
+      60
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "0f2c1803-b55c-41ea-9d86-9e40331763f6",
+    "slug": "oceanbench-glonet-metric-reproduction",
+    "verifiedFigures": 3,
+    "verifiedAnimations": [
+      10
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "38a33bff-bfbe-414d-85dc-e88f741a77e2",
+    "slug": "stardist-equivariance-sweep",
+    "verifiedFigures": 3,
+    "verifiedAnimations": [
+      8
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "68796b3b-104b-4a2a-876c-9770bfe81492",
+    "slug": "community-explorer-issue-36-henon-map-v1",
+    "verifiedFigures": 3,
+    "verifiedAnimations": [
+      80
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "57999cfa-0c42-46ad-98c8-2e2547c41839",
+    "slug": "community-explorer-issue-37-airy-diffraction-v1",
+    "verifiedFigures": 4,
+    "verifiedAnimations": [
+      21
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "c7798e7d-6372-4f3d-9dd8-f79ae97f31b7",
+    "slug": "community-explorer-issue-40-cooley-tukey-fft-v1",
+    "verifiedFigures": 2,
+    "verifiedAnimations": [
+      4
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "f67f3cd3-de44-48cc-a8ab-f171f9a4132b",
+    "slug": "community-explorer-issue-44-foucault-precession-v1",
+    "verifiedFigures": 4,
+    "verifiedAnimations": [
+      48
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "bf6b8253-d7dc-4ec6-a14e-dd2dcad64e2e",
+    "slug": "robertson-stiff-solver-agreement",
+    "verifiedFigures": 2,
+    "verifiedAnimations": [
+      12
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "a588ed45-9cfb-467a-8579-8eed40bbc2e4",
+    "slug": "bateman-decay-chain-equilibrium-audit",
+    "verifiedFigures": 3,
+    "verifiedAnimations": [
+      21
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "450fd3cb-853e-4cfc-9c2b-9106f4025b2e",
+    "slug": "sparse-multiband-rrlyrae-period-recovery",
+    "verifiedFigures": 1,
+    "verifiedAnimations": [
+      30
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "19401a3b-9698-4809-bf51-1ded0ce0da33",
+    "slug": "yang-ising-magnetization-curve",
+    "verifiedFigures": 2,
+    "verifiedAnimations": [
+      10
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "ae096f53-a354-4ca7-9200-5561399841da",
+    "slug": "pdebench-advection-checkpoint-audit",
+    "verifiedFigures": 2,
+    "verifiedAnimations": [
+      21
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "a6bbce30-c8ea-4169-bd51-3f82e1e959b5",
+    "slug": "chsh-singlet-correlation-audit",
+    "verifiedFigures": 3,
+    "verifiedAnimations": [
+      9
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "6cd25e50-3814-46b0-8bce-862d23a8c15c",
+    "slug": "the-well-radiative-mixing-layer",
+    "verifiedFigures": 3,
+    "verifiedAnimations": [
+      26
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "aa22819d-3717-42bf-9aba-4a24b99acfb4",
+    "slug": "buffon-needle-pi-audit",
+    "verifiedFigures": 2,
+    "verifiedAnimations": [
+      10
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "44e2376b-e08d-4c28-910a-18f5f0f799d7",
+    "slug": "shannon-bsc-capacity-audit",
+    "verifiedFigures": 2,
+    "verifiedAnimations": [
+      10
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "36509a08-f4f3-43d3-9a20-ffe47116fb16",
+    "slug": "volterra-predator-prey-ensemble",
+    "verifiedFigures": 2,
+    "verifiedAnimations": [
+      101
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "e5285dc8-6a79-4f61-8540-6f68206f2c05",
+    "slug": "community-explorer-issue-52-black-scholes-monte-carlo-v1",
+    "verifiedFigures": 3,
+    "verifiedAnimations": [
+      5
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "b69279b7-1735-470d-9630-b1ea64734e2d",
+    "slug": "community-explorer-issue-49-rabi-oscillations-v1",
+    "verifiedFigures": 3,
+    "verifiedAnimations": [
+      41
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "412e389d-5df6-4a9f-96a7-e4326a57d7ba",
+    "slug": "community-explorer-issue-43-brachistochrone-v1",
+    "verifiedFigures": 4,
+    "verifiedAnimations": [
+      31
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "9130e861-9ee0-4597-aa27-7eac2b28a648",
+    "slug": "debye-lattice-heat-capacity-audit",
+    "verifiedFigures": 3,
+    "verifiedAnimations": [
+      21
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "7178176c-e846-4692-97a4-461a38e01b02",
+    "slug": "community-explorer-issue-51-jarzynski-dragged-trap-v1",
+    "verifiedFigures": 5,
+    "verifiedAnimations": [
+      41
+    ],
+    "errors": []
+  },
+  {
+    "publicationId": "9920b3e6-e614-405e-8cb9-34943a2c2141",
+    "slug": "community-explorer-issue-50-newman-ziff-percolation-v1",
+    "verifiedFigures": 4,
+    "verifiedAnimations": [
+      61
+    ],
+    "errors": []
+  }
+]
