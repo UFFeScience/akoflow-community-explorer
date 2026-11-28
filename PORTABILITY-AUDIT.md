@@ -467,3 +467,17 @@ Its isolated execution started with an empty Docker image store, reconstructed
 the portable recipe, and finished 514/514 activities. Validation covered 512
 batches and 131,072 soil columns. The CSV, PNG and eight-frame GIF matched the
 recorded reference exactly. [Clean-run evidence](https://github.com/UFFeScience/akoflow-examples/blob/877aad2ba162b8bd2ffd51bbb27687200e37ef7e/hydrology/rainfall-infiltration-ensemble/evidence/reference/clean-hub-run.json).
+
+## Synthetic IDW audit v1
+
+The [public IDW workflow](https://hub.akoflow.com/o/akoflow/community-explorer-issue-395-synthetic-idw-audit?version=1)
+is available at
+`akoflow://hub/publications/7e05a7d2-c41e-45db-88d0-c5492099ba77/versions/1`.
+Its [recorded reference execution](https://hub.akoflow.com/o/akoflow/community-explorer-issue-395-synthetic-idw-audit/results/1/executions/cc8e993b-918c-4a17-b337-51a5e20bace5/runs/community-synthetic-idw-run-4-v1/workflow)
+is accessible anonymously and contains the 1,033-activity four-slot run.
+The URI imported into an isolated daemon with empty workflow and image
+stores. All 1,033 activities resolve to the same archived build recipe.
+The YAML, Dockerfile and 785-byte context passed SHA-256 verification.
+The daemon rebuilt its image and began producing matching prediction
+blocks. Full clean-run completion and aggregate checksum verification
+are pending. [Import and reconstruction evidence](https://github.com/UFFeScience/akoflow-examples/blob/5a3a304/geospatial/synthetic-idw-audit/evidence/reference/public-uri-import.json).
