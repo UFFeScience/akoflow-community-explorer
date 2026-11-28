@@ -481,3 +481,9 @@ The YAML, Dockerfile and 785-byte context passed SHA-256 verification.
 The daemon rebuilt its image and began producing matching prediction
 blocks. Full clean-run completion and aggregate checksum verification
 are pending. [Import and reconstruction evidence](https://github.com/UFFeScience/akoflow-examples/blob/5a3a304/geospatial/synthetic-idw-audit/evidence/reference/public-uri-import.json).
+
+The official AkôFlow v1.0.37 image also imported all 1,033 activities,
+but its 30-second preflight deadline interrupted repeated checks for the
+shared recipe. The isolated execution uses the
+[shared-recipe probe fix](https://github.com/UFFeScience/akoflow/pull/519).
+[Official-image preflight evidence](https://github.com/UFFeScience/akoflow-examples/blob/107e762/geospatial/synthetic-idw-audit/evidence/reference/stock-release-preflight.json).
