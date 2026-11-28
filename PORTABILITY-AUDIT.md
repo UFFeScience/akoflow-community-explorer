@@ -24,6 +24,7 @@ URIs. Their daemon validation reports all passed.
 | `community-gap-bfs-hub-v1-clean` | 3 |
 | `community-sobol-hub-v1-clean` | 130 |
 | `community-inpe-deter-hub-v1-clean` | 74 |
+| `community-ngspice-rlc-hub-v1-clean` | 130 |
 
 Scrambled Sobol v1 was imported anonymously from
 `akoflow::o/akoflow/community-explorer-issue-107-sobol-ensemble:latest` into
@@ -48,6 +49,20 @@ Run `community-inpe-deter-hub-v1-clean` reconstructed the image and completed
 74/74 activities. Its validator passed 72 monthly partitions, 334,054 alert
 records, 2,491 reference groups, and 72 animation frames. The two result CSVs,
 map, and animation match the portable reference SHA-256 values exactly.
+
+ngspice RLC v1 was imported anonymously from
+`akoflow://hub/publications/0e03851e-c5f1-42f4-84be-ac7d2ab1a52b/versions/1`
+into the isolated overlay daemon. All 130 activities carry archived build
+contexts with recipe digest
+`sha256:be529b3fb56fdadec5c513d0a1a27b8022da4a010da8f3394bd9dfbe65250093`
+and context digest
+`sha256:e40b0c90574fea219ae57e028bb292ec56df24ac7df2904fb79611a6337fca55`.
+Run `community-ngspice-rlc-hub-v1-clean` completed 130/130 activities and
+validated 128 batches, 4,096 circuits, 1,056,768 samples, and five animation
+frames. Its two CSVs, PNG and GIF match the recorded reference hashes. Isolated
+recovery run `community-ngspice-rlc-retry-kill-isolated` retried four
+interrupted batches as attempt 2 and reproduced those hashes without duplicate
+logical outputs.
 
 BioCLIP v2 is public and imported from its public Hub page in the isolated
 daemon with all 12 activities. Each activity carries a portable build source.
