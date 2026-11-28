@@ -27,6 +27,11 @@ Before submitting a benchmark, look for that issue's active runs and profiling
 processes across the primary and validation daemons on this host. Resume the
 existing campaign on its original endpoint. Use another daemon for a clean
 import check after the timed campaign, without duplicating its measurements.
+Check for a queued collector service even when the candidate daemon has no
+runs. If it is waiting for another benchmark to finish, leave the queued
+service in place. If it exited, inspect its result and the predecessor's
+last validated capture before resuming. Keep waiting services and their
+candidate daemons in the host-local handoff.
 When two timed campaigns would use the same physical CPUs, check all active
 campaigns on that host before launching another. Separate AkôFlow containers
 and databases alone do not imply separate CPUs. If concurrent measurements
