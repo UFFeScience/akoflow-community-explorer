@@ -17,6 +17,10 @@ URIs. Their daemon validation reports all passed.
 | `wright-fisher-hub-v2-clean-overlay` | 28 |
 | `stardist-hub-v2-clean-overlay` | 12 |
 | `mfc-hub-v2-clean-overlay` | 12 |
+| `community-prodes-hub-v1-clean` | 4 |
+| `community-sisdr-hub-v1-clean` | 3 |
+| `community-monash-hub-v1-clean` | 7 |
+| `community-gap-bfs-hub-v1-clean` | 3 |
 
 BioCLIP v2 is public and imported from its public Hub page in the isolated
 daemon with all 12 activities. Each activity carries a portable build source.
@@ -52,7 +56,8 @@ in 11 of the 31 public entries. Four additional portable revisions have since
 passed reference execution and anonymous YAML verification, bringing the
 count to 15. CHSH, PDEBench, Ising–Yang, RR Lyrae, Bateman and Robertson v2 have since passed reference
 execution, scientific validation and anonymous YAML verification. The original
-31-entry cohort now has 30 portable public revisions and 1 pending update.
+31-entry cohort reached 30 portable public revisions before the BioCLIP
+replacement recorded above.
 RR Lyrae's first portable build failed resolving Docker Hub. Retry
 `community-rrlyrae-portable-run-v2-retry1` rebuilt image digest
 `sha256:70817d6a3e26df122d0989345412d3ffa9ec62faa2c2b2d13ee4a519f3567785`
@@ -82,18 +87,17 @@ was submitted from the URI.
 
 The hourly queue has also added the [Planck blackbody spectrum audit](https://hub.akoflow.com/o/akoflow/issue-53-planck-blackbody-radiation-audit) outside the original 31-entry cohort. Its public v1 YAML includes eight archived build contexts and its recorded public result is completed. [Issue #53](https://github.com/UFFeScience/akoflow-community-explorer/issues/53) records the isolated clean run evidence. The hourly queue also published the [Kepler equal-area audit](https://hub.akoflow.com/o/akoflow/community-explorer-issue-54-kepler-equal-area-v1). [Issue #54](https://github.com/UFFeScience/akoflow-community-explorer/issues/54) records an eight-activity isolated URI run with matching validation and checksums.
 
-An anonymous refresh checked the 31 original publications plus Planck and
-Kepler. Every activity in 32 of the 33 latest YAML definitions resolves to
-an embedded build context. BioCLIP v1 is the sole exception, at 0/12
-activities, and its replacement reference run is still active. An archive audit
+An anonymous refresh before BioCLIP v2 checked the 31 original publications
+plus Planck and Kepler. Every activity in 32 of the 33 revisions checked
+resolved to an embedded build context. BioCLIP v1 had 0/12 activities
+with embedded context. An archive audit
 verified the 32 embedded context and Dockerfile SHA-256 digests, checked
 that archived paths are relative with regular files or directories, and
 confirmed that each Dockerfile's local `COPY` and `ADD` inputs are present.
 The audit uses the repository's base-image pin validation.
 
-The latest anonymous audit checked each publication's project, latest version,
-and every activity's build source and embedded context. The following latest
-public revisions still require replacement.
+The same audit verified each publication's project, version, and build
+sources. The following legacy revision was later superseded.
 
 | Publication | Public version | Activities with archived build context |
 | --- | ---: | ---: |
