@@ -478,9 +478,9 @@ is accessible anonymously and contains the 1,033-activity four-slot run.
 The URI imported into an isolated daemon with empty workflow and image
 stores. All 1,033 activities resolve to the same archived build recipe.
 The YAML, Dockerfile and 785-byte context passed SHA-256 verification.
-The daemon rebuilt its image and began producing matching prediction
-blocks. Full clean-run completion and aggregate checksum verification
-are pending. [Import and reconstruction evidence](https://github.com/UFFeScience/akoflow-examples/blob/5a3a304/geospatial/synthetic-idw-audit/evidence/reference/public-uri-import.json).
+The daemon rebuilt its image and completed 1,033/1,033 activities. All
+1,024 prediction blocks and four aggregate outputs matched the reference
+checksums. [Clean execution evidence](https://github.com/UFFeScience/akoflow-examples/blob/fd329ed/geospatial/synthetic-idw-audit/evidence/reference/clean-public-uri-run.json).
 
 The official AkôFlow v1.0.37 image also imported all 1,033 activities,
 but its 30-second preflight deadline interrupted repeated checks for the
