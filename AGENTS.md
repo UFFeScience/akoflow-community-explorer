@@ -1,7 +1,9 @@
 # Community Explorer worker rules
 
-- GitHub issues are the authoritative queue. Work on the oldest open actionable
-  issue before researching or creating another candidate.
+- GitHub issues are the authoritative queue. Resume work in progress, then
+  prioritize candidates with independent scientific branches and meaningful
+  visual and downloadable outputs. Favor qualified work from Brazilian research
+  groups among similarly suitable candidates.
 - Never implement a candidate still blocked on license, data, method, or a missing
   acceptance criterion. Resolve the evidence or label and comment the blocker.
 - Keep scientific build and execution isolated from Hub credentials and the host

@@ -21,18 +21,19 @@ Let a long recipe build finish before sending unrelated validation runs to that
 same daemon, or use an independent instance if the host has capacity.
 
 Read AGENTS.md and inspect current GitHub issues and local/external state before
-acting. Resume the oldest open actionable issue. If an issue is still research,
+acting. Resume existing work and rank actionable candidates by independent
+scientific branches, useful visual outputs, and downloadable result artifacts.
+Include Brazilian papers, datasets, and institutions in candidate searches
+and document the verified affiliation. If an issue is still research,
 resolve its qualification gaps first. Do not write implementation code until code
 and data licenses, exact result, inputs, acceptance tolerance, novelty, and a
 scientifically parallel DAG are established.
 
 During the legacy portability backfill, also read PORTABILITY-AUDIT.md each
 pass and check the already submitted runs before starting new builds. The
-BioCLIP replacement depends on reference run
-`community-bioclip-portable-run-v2-two-slot`. Once it completes and its
-scientific validator passes, update the existing BioCLIP publication with the
-portable revision and verify anonymous import and execution from the public
-URI on clean storage. Record each confirmed backfill result in the audit.
+BioCLIP v2 is already public with a compact recipe. Check for the latest
+published revision and existing runs before retrying clean URI execution.
+Record each confirmed backfill result in the audit.
 Only retire an older version after its replacement passes the clean URI run,
 and only through an operation scoped to that version.
 
@@ -72,6 +73,12 @@ credentials outside scientific build/execution. Verify the public page anonymous
 including authors/citation, importable YAML, completed recorded run, gallery,
 animation, downloads, and result consistency. Comment durable evidence on the
 issue, apply lifecycle labels, and close only after every public check passes.
+After verification, remove the completed candidate's temporary worktree if
+clean, scratch datasets that can be fetched again, and candidate-specific
+unused local images and build caches. Preserve source, committed galleries,
+published artifacts, validation evidence, and resources referenced by active
+runs or services. Check free disk space after cleanup and proceed to the next
+actionable item if capacity permits.
 An unavailable, disconnected, or approval-pending Hub blocks only publication.
 Record the exact publication blocker once, then continue qualification,
 implementation, daemon execution, or new-candidate research that does not require
