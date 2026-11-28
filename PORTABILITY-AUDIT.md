@@ -572,3 +572,17 @@ requested reconstruction on the clean daemon. It rebuilt the image,
 completed all 257 activities, and matched all 259 artifact checksums.
 [Clean execution evidence](https://github.com/UFFeScience/akoflow-examples/blob/1727889/computer-vision/robust-marker-fusion/evidence/reference/clean-public-uri-run.json).
 [Import evidence](https://github.com/UFFeScience/akoflow-examples/blob/b57111d/computer-vision/robust-marker-fusion/evidence/reference/public-uri-import.json).
+
+## Multichannel dynamic time warping v1
+
+The [public multichannel DTW workflow](https://hub.akoflow.com/o/akoflow/community-explorer-issue-671-multichannel-dtw?version=1)
+is available at
+`akoflow://hub/publications/fcadea7c-1563-4d01-bf8b-e1a4f460fe3c/versions/1`.
+The four-slot reference completed all 257 activities with observed overlap
+of four. All 257 CSVs matched the separate offline OCI execution.
+Anonymous downloads covered the cost-matrix PNG, the eight-frame lag
+sweep, the measured timeline and the CSV summary. The anonymous YAML
+embeds the same checksummed 4,009-byte context in every activity.
+All 257 preflight checks requested image reconstruction on an empty
+daemon. Full clean-run checksum verification is in progress.
+[Import evidence](https://github.com/UFFeScience/akoflow-examples/blob/a348683/time-series/multichannel-dtw/evidence/reference/public-uri-import.json).
