@@ -497,5 +497,23 @@ The four-slot reference completed 1,026 activities and validated 1,024
 independent simulations and the equilibrium control. Anonymous download
 checks covered its result media and metrics. The public URI imported into
 empty stores and supplied the same checksummed Dockerfile and 803-byte
-context to all 1,026 activities. The full clean execution is pending.
+context to all 1,026 activities. The daemon rebuilt the image, completed
+all 1,026 activities and matched 2,056 artifact checksums. The isolated
+containers and volumes were removed after preserving
+[clean execution evidence](https://github.com/UFFeScience/akoflow-examples/blob/ffc6173/computational-fluid-dynamics/lbm-shear-wave/evidence/reference/clean-public-uri-run.json).
 [Import evidence](https://github.com/UFFeScience/akoflow-examples/blob/016e1f5/computational-fluid-dynamics/lbm-shear-wave/evidence/reference/public-uri-import.json).
+
+
+## Microscopy video stabilization v1
+
+The [public microscopy workflow](https://hub.akoflow.com/o/akoflow/community-explorer-issue-532-microscopy-stabilization?version=1)
+is available at
+`akoflow://hub/publications/32488dc6-0e85-4957-8914-bdd2e29408ab/versions/1`.
+The reference completed 769 activities, with peak overlap of four sequence
+tasks. Anonymous download checks verified its measured PNG, forty-frame
+GIF, occupancy timeline, 153,600-row dataset and condition summary.
+The public URI imported into an isolated daemon. Preflight requested
+image reconstruction, the image was built in its initially empty store,
+and sequence tasks completed on the rebuilt image. Full clean-run
+checksum verification is in progress.
+[Reference evidence](https://github.com/UFFeScience/akoflow-examples/blob/9af8ae4/computer-vision/microscopy-video-stabilization/evidence/reference/reference-run.json).
