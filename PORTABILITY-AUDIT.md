@@ -588,3 +588,7 @@ daemon. It rebuilt the image, completed all 257 activities and matched all
 259 checksums. The dedicated clean containers and volumes were removed.
 [Clean execution evidence](https://github.com/UFFeScience/akoflow-examples/blob/443845c/time-series/multichannel-dtw/evidence/reference/clean-public-uri-run.json).
 [Import evidence](https://github.com/UFFeScience/akoflow-examples/blob/a348683/time-series/multichannel-dtw/evidence/reference/public-uri-import.json).
+
+## Planar inverse kinematics (#662)
+
+The [public workflow](https://hub.akoflow.com/o/akoflow/community-explorer-issue-662-planar-kinematics?version=1) imported from the versioned URI into an empty daemon and Docker image store. The portable recipe rebuilt locally and completed 257 activities in 312 seconds with all 259 checksums matching the reference. The isolated Docker, BuildKit and daemon containers and their volumes were removed. [Verified execution](https://raw.githubusercontent.com/UFFeScience/akoflow-examples/261d56fea2cf0c4f2d48d8db6afd2278ca63ea70/robotics/planar-inverse-kinematics/evidence/reference/clean-public-uri-run.json).
