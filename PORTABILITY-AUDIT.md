@@ -529,8 +529,11 @@ of four scene tasks. The anonymous gallery and downloadable CSVs match
 the measured artifacts. All 770 activities in the anonymous YAML specify
 the same verified Dockerfile and archived 682-byte context.
 The isolated daemon had no workflows or images before import.
-All 770 cold preflight checks requested reconstruction, and the
-clean reference run is in progress.
+All 770 cold preflight checks requested reconstruction. The daemon rebuilt
+the image, finished all 770 activities, and matched 773 checksums,
+including the calibration, 768 scene CSVs and four aggregate outputs.
+The dedicated clean runner and original timing fixture were removed.
+[Clean execution evidence](https://github.com/UFFeScience/akoflow-examples/blob/25ef6a6/remote-sensing/panchromatic-classification/evidence/reference/clean-public-uri-run.json).
 [Import evidence](https://github.com/UFFeScience/akoflow-examples/blob/8e04478/remote-sensing/panchromatic-classification/evidence/reference/public-uri-import.json).
 
 ## Tiled maximum-intensity projection v1
