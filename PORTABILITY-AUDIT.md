@@ -3,6 +3,21 @@
 Scope: publications with receipts for production project
 `44e9e6b5-454b-43b9-bf73-240be5e31aab`.
 
+The isolated overlay runs below completed after import from the published
+URIs. Their daemon validation reports all passed.
+
+| Run | Completed activities |
+| --- | ---: |
+| `oceanbench-hub-v3-clean-overlay` | 13 |
+| `caco2-hub-v2-clean-overlay` | 19 |
+| `turing-hub-v2-clean-overlay` | 9 |
+| `hodgkin-hub-v2-clean-overlay` | 15 |
+| `weatherbench-hub-v2-clean-overlay` | 10 |
+| `sir-hub-v2-clean-overlay` | 12 |
+| `wright-fisher-hub-v2-clean-overlay` | 28 |
+| `stardist-hub-v2-clean-overlay` | 12 |
+| `mfc-hub-v2-clean-overlay` | 12 |
+
 BioCLIP v2 is public and imported from its public Hub page in the isolated
 daemon with all 12 activities. Each activity carries a portable build source.
 The original portable reference completed all activities and passed validation.
