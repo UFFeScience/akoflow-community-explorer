@@ -23,8 +23,10 @@ daemon with all 12 activities. Each activity carries a portable build source.
 The original portable reference completed all activities and passed validation.
 Its capture exceeded the Hub YAML size limit, so v2 was published as a
 workflow-only revision. The compact recipe downloads the identical classifier
-from a pinned public commit and verifies its SHA-256 digest. Full execution
-of that revision from the public URI is pending.
+from a pinned public commit and verifies its SHA-256 digest. The isolated run
+`bioclip-hub-v2-clean-overlay` completed all 12 activities from the public v2
+revision and passed all seven validation checks. Its validator SHA-256 is
+`ce246762397e95414b73e5bef798eeb5922d51660fa6d96d3fbee46bb851f451`.
 
 The table below records the initial receipt-based audit. The expanded audit
 covers all 31 workflow definitions in the Community Explorer namespace,
