@@ -487,3 +487,15 @@ but its 30-second preflight deadline interrupted repeated checks for the
 shared recipe. The isolated execution uses the
 [shared-recipe probe fix](https://github.com/UFFeScience/akoflow/pull/519).
 [Official-image preflight evidence](https://github.com/UFFeScience/akoflow-examples/blob/107e762/geospatial/synthetic-idw-audit/evidence/reference/stock-release-preflight.json).
+
+## Lattice-Boltzmann shear-wave v1
+
+The [public shear-wave workflow](https://hub.akoflow.com/o/akoflow/community-explorer-issue-450-lbm-shear-wave?version=1)
+is available at
+`akoflow://hub/publications/c6e8246e-6a4c-48ca-914b-50bceae65549/versions/1`.
+The four-slot reference completed 1,026 activities and validated 1,024
+independent simulations and the equilibrium control. Anonymous download
+checks covered its result media and metrics. The public URI imported into
+empty stores and supplied the same checksummed Dockerfile and 803-byte
+context to all 1,026 activities. The full clean execution is pending.
+[Import evidence](https://github.com/UFFeScience/akoflow-examples/blob/016e1f5/computational-fluid-dynamics/lbm-shear-wave/evidence/reference/public-uri-import.json).
