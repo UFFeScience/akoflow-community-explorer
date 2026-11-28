@@ -61,8 +61,11 @@ Run `community-ngspice-rlc-hub-v1-clean` completed 130/130 activities and
 validated 128 batches, 4,096 circuits, 1,056,768 samples, and five animation
 frames. Its two CSVs, PNG and GIF match the recorded reference hashes. Isolated
 recovery run `community-ngspice-rlc-retry-kill-isolated` retried four
-interrupted batches as attempt 2 and reproduced those hashes without duplicate
-logical outputs.
+interrupted batches as attempt 2 and reproduced those hashes. The interrupted
+batch produced a single registered output. Two other retried blocks lost their
+compressed output registrations because the retry reproduced bytes already
+present in its workspace. [AkôFlow issue #565](https://github.com/UFFeScience/akoflow/issues/565)
+tracks the recovery discrepancy. It did not affect the clean public URI run.
 
 BioCLIP v2 is public and imported from its public Hub page in the isolated
 daemon with all 12 activities. Each activity carries a portable build source.
@@ -390,7 +393,8 @@ Keep one public, verified portable version per workflow. Verify the replacement
 through anonymous Hub import and execution before retiring the legacy version.
 The daemon's publication deletion endpoint removes the entire publication, so
 it must never be used to retire v1 from a publication that also holds the
-verified replacement.
+verified replacement. Anonymous checks confirmed that both Volterra and BioCLIP
+still served v1 and v2 YAML. [Hub version retirement](https://github.com/UFFeScience/akoflow-hub/issues/102) tracks the missing operation.
 
 An item passes only after its public YAML contains an archived AkôFlow build
 context, every Dockerfile `COPY`/`ADD` source is contained by that context, the
