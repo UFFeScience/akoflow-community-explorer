@@ -592,3 +592,7 @@ daemon. It rebuilt the image, completed all 257 activities and matched all
 ## Planar inverse kinematics (#662)
 
 The [public workflow](https://hub.akoflow.com/o/akoflow/community-explorer-issue-662-planar-kinematics?version=1) imported from the versioned URI into an empty daemon and Docker image store. The portable recipe rebuilt locally and completed 257 activities in 312 seconds with all 259 checksums matching the reference. The isolated Docker, BuildKit and daemon containers and their volumes were removed. [Verified execution](https://raw.githubusercontent.com/UFFeScience/akoflow-examples/261d56fea2cf0c4f2d48d8db6afd2278ca63ea70/robotics/planar-inverse-kinematics/evidence/reference/clean-public-uri-run.json).
+
+## Particle lattice-walk dispersion (#672)
+
+The [public v1](https://hub.akoflow.com/o/akoflow/community-explorer-issue-672-particle-walk?version=1) imported via its URI into an empty daemon and Docker image store. The rebuilt image completed all 257 activities in 252 seconds, with 264 checksums matching. The three fixture containers and four volumes were removed. [Verified execution](https://raw.githubusercontent.com/UFFeScience/akoflow-examples/25af738ba8aa43303ad791395f0135bc801a515b/computational-fluid-dynamics/particle-random-walk/evidence/reference/clean-public-uri-run.json).
