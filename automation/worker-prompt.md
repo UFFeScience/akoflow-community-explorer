@@ -19,6 +19,10 @@ when supported and check free disk space before starting a large image build.
 The daemon serializes portable image preparation, including cache lookups.
 Let a long recipe build finish before sending unrelated validation runs to that
 same daemon, or use an independent instance if the host has capacity.
+Read `.automation/active-campaigns.md` if present for host-local worktree,
+daemon, and evidence locations. Verify its pointers against the live API,
+process state, and repository before acting. Keep the handoff current when you
+launch, relocate, or finish a campaign. Keep credentials out of the handoff.
 Before submitting a benchmark, look for that issue's active runs and profiling
 processes across the primary and validation daemons on this host. Resume the
 existing campaign on its original endpoint. Use another daemon for a clean
