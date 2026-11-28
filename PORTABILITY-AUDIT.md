@@ -532,3 +532,17 @@ The isolated daemon had no workflows or images before import.
 All 770 cold preflight checks requested reconstruction, and the
 clean reference run is in progress.
 [Import evidence](https://github.com/UFFeScience/akoflow-examples/blob/8e04478/remote-sensing/panchromatic-classification/evidence/reference/public-uri-import.json).
+
+## Tiled maximum-intensity projection v1
+
+The [public projection workflow](https://hub.akoflow.com/o/akoflow/community-explorer-issue-670-tiled-intensity-projection?version=1)
+is available at
+`akoflow://hub/publications/88088095-1f5e-48bf-942c-17295542d09d/versions/1`.
+The measured reference completed 257 activities with peak overlap of four
+tile tasks. Its CSV, PNG, depth-scan GIF and measured timeline were
+verified through anonymous downloads. The public YAML embeds the same
+checksummed 3,384-byte context for every activity, including the Dockerfile,
+dependency lock and both local sources. All 257 cold preflight checks
+requested reconstruction in the empty image store. The clean rerun is
+in progress.
+[Import evidence](https://github.com/UFFeScience/akoflow-examples/blob/231a00f/computer-vision/tiled-intensity-projection/evidence/reference/public-uri-import.json).
