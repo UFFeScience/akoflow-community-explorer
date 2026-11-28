@@ -19,6 +19,10 @@ when supported and check free disk space before starting a large image build.
 The daemon serializes portable image preparation, including cache lookups.
 Let a long recipe build finish before sending unrelated validation runs to that
 same daemon, or use an independent instance if the host has capacity.
+Before submitting a benchmark, look for that issue's active runs and profiling
+processes across the primary and validation daemons on this host. Resume the
+existing campaign on its original endpoint. Use another daemon for a clean
+import check after the timed campaign, without duplicating its measurements.
 
 Read AGENTS.md and inspect current GitHub issues and local/external state before
 acting. Resume existing work and rank actionable candidates by independent
