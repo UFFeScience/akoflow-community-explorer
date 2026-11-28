@@ -10,7 +10,7 @@ A exploração contínua foi encerrada e o timer horário do Community Explorer 
 
 ## Próximo ciclo
 
-1. [#780](https://github.com/UFFeScience/akoflow-community-explorer/issues/780) · Retomar do estado confirmado da referência gaussiana. Conferir se já existe publicação pública, verificar os perfis registrados e reproduzir a importação em ambiente limpo antes de fechar.
+1. [#780](https://github.com/UFFeScience/akoflow-community-explorer/issues/780) · A referência gaussiana e a galeria já estão públicas. Concluir a importação em ambiente limpo, publicar a evidência e a tabela de perfis no Hub e fechar a issue após a validação. [Publicação v1](https://hub.akoflow.com/o/akoflow/community-explorer-issue-780-tiled-gaussian-seams?version=1).
 2. [#395](https://github.com/UFFeScience/akoflow-community-explorer/issues/395) · Repetir a importação e execução completa com uma versão oficial que contenha a correção de preflight de receitas compartilhadas. O resultado com daemon corrigido já está registrado.
 3. Escolher a próxima proposta brasileira pelo valor da figura e dos dados baixáveis, pela independência entre as atividades e pela viabilidade da validação. Há 32 issues abertas com rótulo `blocked` ou `needs-*`, contando cada issue uma única vez. [Fila aberta](https://github.com/UFFeScience/akoflow-community-explorer/issues?q=is%3Aissue+is%3Aopen).
 4. Revisar o material local antes de reiniciar a automação. O checkout principal de `akoflow-examples` tem alterações não comitadas nos exemplos Buffon e Shannon BSC, e os worktrees de DTW e cinemática têm YAMLs não rastreados. Os cinco arquivos do commit local de WeatherBench `0432298` já têm conteúdo idêntico no remoto. As prévias geradas para o chat permanecem no diretório local de artefatos do ciclo.
