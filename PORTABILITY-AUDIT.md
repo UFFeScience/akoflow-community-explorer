@@ -568,6 +568,7 @@ matched a separate offline run of the same image. Anonymous downloads
 covered the measured PNG, GIF, timeline and summary. All 257 activities
 in the public YAML use the same verified 4,026-byte context with the
 Dockerfile, source files and dependency lock. All 257 preflight checks
-requested reconstruction on the clean daemon. End-to-end checksum
-verification is in progress.
+requested reconstruction on the clean daemon. It rebuilt the image,
+completed all 257 activities, and matched all 259 artifact checksums.
+[Clean execution evidence](https://github.com/UFFeScience/akoflow-examples/blob/1727889/computer-vision/robust-marker-fusion/evidence/reference/clean-public-uri-run.json).
 [Import evidence](https://github.com/UFFeScience/akoflow-examples/blob/b57111d/computer-vision/robust-marker-fusion/evidence/reference/public-uri-import.json).
