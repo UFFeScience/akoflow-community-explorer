@@ -439,3 +439,13 @@ Once the version-scoped daemon route and Hub handler are deployed, use
 `--slug` limits the operation to one publication. The driver verifies the
 replacement before each use and checks that the old YAML is unavailable after
 retirement.
+
+## Current public definitions
+
+An anonymous inspection of the [40 latest public definitions](PORTABILITY-PUBLIC-AUDIT.json)
+verified 709 activities. Each activity resolves to an embedded build recipe.
+Both the recipe and archived context match their declared SHA-256 digests.
+Local Dockerfile inputs are present inside the archive, archive paths are safe,
+and the base images are pinned. Each downloaded YAML matches its published
+version hash. The inspection checks the package itself. The daemon execution
+evidence is recorded in the clean-run sections above.

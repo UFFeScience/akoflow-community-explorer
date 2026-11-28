@@ -1,0 +1,362 @@
+[
+  {
+    "publicationId": "5c1296ca-9f5d-4ccb-aecd-b163b03e0d25",
+    "slug": "community-explorer-issue-326-inpe-deter-monthly-alerts",
+    "version": 1,
+    "yamlSHA256": "16f7432163d1dadd447fef477c1181f933f72a4db6b9244fafb2608fc7d930cf",
+    "activities": 74,
+    "portableActivities": 74,
+    "issues": []
+  },
+  {
+    "publicationId": "0e03851e-c5f1-42f4-84be-ac7d2ab1a52b",
+    "slug": "community-explorer-issue-116-ngspice-rlc-ensemble",
+    "version": 1,
+    "yamlSHA256": "8a53dff48e0590ad1f2f10d646ed0597e939edd3101029c88adb747428f3ed95",
+    "activities": 130,
+    "portableActivities": 130,
+    "issues": []
+  },
+  {
+    "publicationId": "831911fd-f820-46a0-8c35-112e9d12ef3e",
+    "slug": "community-explorer-issue-107-sobol-ensemble",
+    "version": 1,
+    "yamlSHA256": "cbd7593fd6187de3e4bac88a8925f35cd699673536054cc5b31659e4e718d1df",
+    "activities": 130,
+    "portableActivities": 130,
+    "issues": []
+  },
+  {
+    "publicationId": "e8035136-11c6-45c0-9a25-cc51bf30bc7f",
+    "slug": "community-explorer-issue-71-gap-bfs",
+    "version": 1,
+    "yamlSHA256": "6ad529af2331d04b72a7df816470c1cde9002ff760c4ab1b00745fff904c90a5",
+    "activities": 3,
+    "portableActivities": 3,
+    "issues": []
+  },
+  {
+    "publicationId": "8c62ed69-0125-4649-a644-db7166bb0617",
+    "slug": "community-explorer-issue-65-monash-tourism",
+    "version": 1,
+    "yamlSHA256": "c7fc0c1fcb3a468b1f1c06317ce499afb9d7303f4a596c67a0299dced11cfc96",
+    "activities": 7,
+    "portableActivities": 7,
+    "issues": []
+  },
+  {
+    "publicationId": "a79a7c81-1677-48ae-bab9-a3e76375bb8d",
+    "slug": "community-explorer-issue-69-si-sdr-audit",
+    "version": 1,
+    "yamlSHA256": "7b5f2162176e05e89e796414d2fb2319e2236a7210117596b046ba0eccf1ade0",
+    "activities": 3,
+    "portableActivities": 3,
+    "issues": []
+  },
+  {
+    "publicationId": "c306eca7-c586-4f5c-915e-94bc067cf8a7",
+    "slug": "community-explorer-issue-63-prodes-annual-audit",
+    "version": 1,
+    "yamlSHA256": "62b4a961c083922fe62575400197ee62759304ddfea657e214638f9ac19d30cd",
+    "activities": 4,
+    "portableActivities": 4,
+    "issues": []
+  },
+  {
+    "publicationId": "8e98e0af-1904-46bf-8365-b438d4334852",
+    "slug": "bioclip-rare-species-evaluation",
+    "version": 2,
+    "yamlSHA256": "2748ee70ff483dbdd1f5918ec3530442836d85809e4961e0667d0b40d49cd4cd",
+    "activities": 12,
+    "portableActivities": 12,
+    "issues": []
+  },
+  {
+    "publicationId": "ca445733-bded-4db7-966e-245a0168212c",
+    "slug": "community-explorer-issue-54-kepler-equal-area-v1",
+    "version": 1,
+    "yamlSHA256": "78c056abeaaa79caab3a48b4be1ec682fce42d9ba4ab9bfb57c8fdbe1ed4d9ea",
+    "activities": 8,
+    "portableActivities": 8,
+    "issues": []
+  },
+  {
+    "publicationId": "6a0df415-decf-4d5e-a5d1-fe08c0614a19",
+    "slug": "caco2-scaffold-split-baselines",
+    "version": 2,
+    "yamlSHA256": "73fa8134447613fc54efe5ffa48e7f3c54a8587f1c9d3f5228490d4257a4c73d",
+    "activities": 19,
+    "portableActivities": 19,
+    "issues": []
+  },
+  {
+    "publicationId": "93c225a0-401a-444b-ad21-dddf0852fa1b",
+    "slug": "weatherbench2-era5-score-audit",
+    "version": 2,
+    "yamlSHA256": "dfe79c734555cf59d7222f4955c3939d873c726fdf4c930ae70d26310b5143c3",
+    "activities": 10,
+    "portableActivities": 10,
+    "issues": []
+  },
+  {
+    "publicationId": "9b23b434-80aa-4139-a4ac-5a3abd19cf67",
+    "slug": "mfc-sod-shock-tube-refinement",
+    "version": 2,
+    "yamlSHA256": "1a83e71322e472fea5163a3b19a2903417d214b7f4b464e280358bdd0b203235",
+    "activities": 12,
+    "portableActivities": 12,
+    "issues": []
+  },
+  {
+    "publicationId": "de41e976-67f4-405e-8bd4-afba85496324",
+    "slug": "issue-53-planck-blackbody-radiation-audit",
+    "version": 1,
+    "yamlSHA256": "3b43069c17db6f9fdb9e52ee9bb8aef8b9533b717f759fb37977588e6985520c",
+    "activities": 8,
+    "portableActivities": 8,
+    "issues": []
+  },
+  {
+    "publicationId": "790e5aef-207d-409b-8a11-79db6f16063a",
+    "slug": "kimura-wright-fisher-fixation",
+    "version": 2,
+    "yamlSHA256": "b4b38cc93031f8dc4352c02886317578b127aab040585ddd98916d42ab17414c",
+    "activities": 28,
+    "portableActivities": 28,
+    "issues": []
+  },
+  {
+    "publicationId": "34e57b08-7fc5-4343-8173-4af2b6a3f6ee",
+    "slug": "sir-threshold-final-size-sweep",
+    "version": 2,
+    "yamlSHA256": "b84140ae893500d9b685f1c9c439ea648a3ca2eabd93bc013e08525094a259b3",
+    "activities": 12,
+    "portableActivities": 12,
+    "issues": []
+  },
+  {
+    "publicationId": "1ea20b57-5afd-4a11-8399-e629bad8ff67",
+    "slug": "hodgkin-huxley-excitation-boundary",
+    "version": 2,
+    "yamlSHA256": "d35600e7b32ea3595f40acb43edf9488f4218455eccd709ca804d118edceb21c",
+    "activities": 15,
+    "portableActivities": 15,
+    "issues": []
+  },
+  {
+    "publicationId": "561d7297-9747-4dfe-8cf1-c5d84220490c",
+    "slug": "turing-schnakenberg-pattern-selection",
+    "version": 2,
+    "yamlSHA256": "739b1a1b5a8c2868b163dd5df67a3b76d97d933dfd7b9e8d6c4ac43e1c9421f3",
+    "activities": 9,
+    "portableActivities": 9,
+    "issues": []
+  },
+  {
+    "publicationId": "7a0b07b5-d87e-4049-a835-3c0694387e0f",
+    "slug": "lorenz-bounded-sensitivity-ensemble",
+    "version": 2,
+    "yamlSHA256": "90e813d66ca4dd4e0e03af061bb545eab93f3d53cbc47c3244d41a7461cee2c2",
+    "activities": 8,
+    "portableActivities": 8,
+    "issues": []
+  },
+  {
+    "publicationId": "0f2c1803-b55c-41ea-9d86-9e40331763f6",
+    "slug": "oceanbench-glonet-metric-reproduction",
+    "version": 3,
+    "yamlSHA256": "1b23a0f0fd78f84e76697308955e2ea5b823adc547f7a0f2d076df196b0628dc",
+    "activities": 13,
+    "portableActivities": 13,
+    "issues": []
+  },
+  {
+    "publicationId": "38a33bff-bfbe-414d-85dc-e88f741a77e2",
+    "slug": "stardist-equivariance-sweep",
+    "version": 2,
+    "yamlSHA256": "e01c2031cc45d6aac0167d358c53feb6ac45c77133635eee0b3ade4981548fbc",
+    "activities": 12,
+    "portableActivities": 12,
+    "issues": []
+  },
+  {
+    "publicationId": "68796b3b-104b-4a2a-876c-9770bfe81492",
+    "slug": "community-explorer-issue-36-henon-map-v1",
+    "version": 2,
+    "yamlSHA256": "9c34ad167e0f5772ef4d0a08c9913780f655028441c61a1adc44779d35fc7b38",
+    "activities": 8,
+    "portableActivities": 8,
+    "issues": []
+  },
+  {
+    "publicationId": "57999cfa-0c42-46ad-98c8-2e2547c41839",
+    "slug": "community-explorer-issue-37-airy-diffraction-v1",
+    "version": 2,
+    "yamlSHA256": "c07bb9183844cea3381a7644cd2bafa3a6475c309060c1e0cc9076cade554f91",
+    "activities": 7,
+    "portableActivities": 7,
+    "issues": []
+  },
+  {
+    "publicationId": "c7798e7d-6372-4f3d-9dd8-f79ae97f31b7",
+    "slug": "community-explorer-issue-40-cooley-tukey-fft-v1",
+    "version": 2,
+    "yamlSHA256": "d03c55096c68e90148d7520e7f172f61af14886990f3f1a398aed8ab44b9ca4d",
+    "activities": 8,
+    "portableActivities": 8,
+    "issues": []
+  },
+  {
+    "publicationId": "f67f3cd3-de44-48cc-a8ab-f171f9a4132b",
+    "slug": "community-explorer-issue-44-foucault-precession-v1",
+    "version": 2,
+    "yamlSHA256": "fb59e7e384e8c2235e2edfa3ec1294e0c619b033773cc9c35d3e4f7dce6a03a7",
+    "activities": 9,
+    "portableActivities": 9,
+    "issues": []
+  },
+  {
+    "publicationId": "bf6b8253-d7dc-4ec6-a14e-dd2dcad64e2e",
+    "slug": "robertson-stiff-solver-agreement",
+    "version": 2,
+    "yamlSHA256": "dff95bfc9cba482b9d02114d10ac1ade83d1778f93c59a22bc0f9a87f1dfb60e",
+    "activities": 7,
+    "portableActivities": 7,
+    "issues": []
+  },
+  {
+    "publicationId": "a588ed45-9cfb-467a-8579-8eed40bbc2e4",
+    "slug": "bateman-decay-chain-equilibrium-audit",
+    "version": 2,
+    "yamlSHA256": "d22cddf5a40399066d88f3abd14d61f3bbbc22fe21342748f2e4ae0b046693d5",
+    "activities": 7,
+    "portableActivities": 7,
+    "issues": []
+  },
+  {
+    "publicationId": "450fd3cb-853e-4cfc-9c2b-9106f4025b2e",
+    "slug": "sparse-multiband-rrlyrae-period-recovery",
+    "version": 2,
+    "yamlSHA256": "ba5b5eccda21256b8e678aab795eebae759bd3284e95453b271713e01b9eb925",
+    "activities": 10,
+    "portableActivities": 10,
+    "issues": []
+  },
+  {
+    "publicationId": "19401a3b-9698-4809-bf51-1ded0ce0da33",
+    "slug": "yang-ising-magnetization-curve",
+    "version": 2,
+    "yamlSHA256": "bade060a051b2ff67235708acdefbb8a51402c1ecb4c9400559cfbb22ece8d52",
+    "activities": 12,
+    "portableActivities": 12,
+    "issues": []
+  },
+  {
+    "publicationId": "ae096f53-a354-4ca7-9200-5561399841da",
+    "slug": "pdebench-advection-checkpoint-audit",
+    "version": 2,
+    "yamlSHA256": "fd348cd2d5e6b27b7a05ed78282a96790b1bf5e44fe70de9c1b2ddbadaf3f386",
+    "activities": 7,
+    "portableActivities": 7,
+    "issues": []
+  },
+  {
+    "publicationId": "a6bbce30-c8ea-4169-bd51-3f82e1e959b5",
+    "slug": "chsh-singlet-correlation-audit",
+    "version": 2,
+    "yamlSHA256": "c981419f69cb31c72da71e7acfc16ea714797e5db61393bf13de84134be2c338",
+    "activities": 9,
+    "portableActivities": 9,
+    "issues": []
+  },
+  {
+    "publicationId": "6cd25e50-3814-46b0-8bce-862d23a8c15c",
+    "slug": "the-well-radiative-mixing-layer",
+    "version": 2,
+    "yamlSHA256": "d9d9c08a5efa9d9bf7c1e7217c51c75dbf1b4b05cf42efa58030519c7ab4d0d8",
+    "activities": 13,
+    "portableActivities": 13,
+    "issues": []
+  },
+  {
+    "publicationId": "aa22819d-3717-42bf-9aba-4a24b99acfb4",
+    "slug": "buffon-needle-pi-audit",
+    "version": 2,
+    "yamlSHA256": "e5354e2acf0ecbfb24d65dabbe35294cbb163c35e06294361bbf3d0b223bea11",
+    "activities": 8,
+    "portableActivities": 8,
+    "issues": []
+  },
+  {
+    "publicationId": "44e2376b-e08d-4c28-910a-18f5f0f799d7",
+    "slug": "shannon-bsc-capacity-audit",
+    "version": 2,
+    "yamlSHA256": "8dd8da9b1ab05e580133f47d40ee11ded4d9ae1a613964c764bf05f348b3147f",
+    "activities": 8,
+    "portableActivities": 8,
+    "issues": []
+  },
+  {
+    "publicationId": "36509a08-f4f3-43d3-9a20-ffe47116fb16",
+    "slug": "volterra-predator-prey-ensemble",
+    "version": 2,
+    "yamlSHA256": "e87889587f06d34d8d1c935239542a6b71e71e2b865e6ff2b8b8ad0b410c935f",
+    "activities": 7,
+    "portableActivities": 7,
+    "issues": []
+  },
+  {
+    "publicationId": "e5285dc8-6a79-4f61-8540-6f68206f2c05",
+    "slug": "community-explorer-issue-52-black-scholes-monte-carlo-v1",
+    "version": 1,
+    "yamlSHA256": "dc9a1367c73b532984097a8ebcfb834d80278139296d1d1ec5fc6acb186b0e34",
+    "activities": 8,
+    "portableActivities": 8,
+    "issues": []
+  },
+  {
+    "publicationId": "b69279b7-1735-470d-9630-b1ea64734e2d",
+    "slug": "community-explorer-issue-49-rabi-oscillations-v1",
+    "version": 2,
+    "yamlSHA256": "616819e9c88522f763ed4728d93788d96688a877595e0eb1a0207c7e95f93b89",
+    "activities": 8,
+    "portableActivities": 8,
+    "issues": []
+  },
+  {
+    "publicationId": "412e389d-5df6-4a9f-96a7-e4326a57d7ba",
+    "slug": "community-explorer-issue-43-brachistochrone-v1",
+    "version": 2,
+    "yamlSHA256": "782522c678e3ea7d08efa50a607646d97c7ff9da9c79d77e531dbc0ce52251f5",
+    "activities": 7,
+    "portableActivities": 7,
+    "issues": []
+  },
+  {
+    "publicationId": "9130e861-9ee0-4597-aa27-7eac2b28a648",
+    "slug": "debye-lattice-heat-capacity-audit",
+    "version": 2,
+    "yamlSHA256": "6226b26cb4efa1c8628ba78813814fe579c9f8877562ba6b347cd93524fb4e85",
+    "activities": 7,
+    "portableActivities": 7,
+    "issues": []
+  },
+  {
+    "publicationId": "7178176c-e846-4692-97a4-461a38e01b02",
+    "slug": "community-explorer-issue-51-jarzynski-dragged-trap-v1",
+    "version": 2,
+    "yamlSHA256": "b78f32f7747133dc0cb46c496f06dbdfa70f4229da8e67948137836a3122b7e3",
+    "activities": 22,
+    "portableActivities": 22,
+    "issues": []
+  },
+  {
+    "publicationId": "9920b3e6-e614-405e-8cb9-34943a2c2141",
+    "slug": "community-explorer-issue-50-newman-ziff-percolation-v1",
+    "version": 2,
+    "yamlSHA256": "66d80db6c9267b2c497395d0a878f2267c4dbd96369b3b02584a64ccad52505c",
+    "activities": 20,
+    "portableActivities": 20,
+    "issues": []
+  }
+]
