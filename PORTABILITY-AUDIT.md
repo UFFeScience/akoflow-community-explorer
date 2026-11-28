@@ -543,6 +543,8 @@ tile tasks. Its CSV, PNG, depth-scan GIF and measured timeline were
 verified through anonymous downloads. The public YAML embeds the same
 checksummed 3,384-byte context for every activity, including the Dockerfile,
 dependency lock and both local sources. All 257 cold preflight checks
-requested reconstruction in the empty image store. The clean rerun is
-in progress.
+requested reconstruction in the empty image store. The daemon rebuilt
+the image, completed 257 activities, and reproduced all 259 checksums,
+including the 256 tile CSVs and three aggregate artifacts.
+[Clean execution evidence](https://github.com/UFFeScience/akoflow-examples/blob/421086b/computer-vision/tiled-intensity-projection/evidence/reference/clean-public-uri-run.json).
 [Import evidence](https://github.com/UFFeScience/akoflow-examples/blob/231a00f/computer-vision/tiled-intensity-projection/evidence/reference/public-uri-import.json).
