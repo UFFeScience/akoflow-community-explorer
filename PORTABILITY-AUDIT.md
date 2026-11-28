@@ -460,3 +460,10 @@ inventory returned **40 public workflows with one public version each**.
 The [public media audit](PORTABILITY-PUBLIC-MEDIA.json) retrieved the README
 images anonymously for all 40 workflows and verified at least one valid
 static figure and one animation containing multiple frames per publication.
+
+Rainfall infiltration v1 was imported anonymously using
+.
+Its isolated execution started with an empty Docker image store, reconstructed
+the portable recipe, and finished 514/514 activities. Validation covered 512
+batches and 131,072 soil columns. The CSV, PNG and eight-frame GIF matched the
+recorded reference exactly. [Clean-run evidence](https://github.com/UFFeScience/akoflow-examples/blob/877aad2ba162b8bd2ffd51bbb27687200e37ef7e/hydrology/rainfall-infiltration-ensemble/evidence/reference/clean-hub-run.json).
