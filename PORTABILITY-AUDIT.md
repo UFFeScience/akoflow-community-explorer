@@ -518,3 +518,17 @@ completed all 769 activities, and reproduced all 772 checksums, including
 768 sequence CSVs, both aggregate CSVs, the PNG and the GIF.
 [Clean execution evidence](https://github.com/UFFeScience/akoflow-examples/blob/32cdcc1/computer-vision/microscopy-video-stabilization/evidence/reference/clean-public-uri-run.json).
 [Reference evidence](https://github.com/UFFeScience/akoflow-examples/blob/9af8ae4/computer-vision/microscopy-video-stabilization/evidence/reference/reference-run.json).
+
+## INPE panchromatic fusion v1
+
+The [public panchromatic fusion workflow](https://hub.akoflow.com/o/akoflow/community-explorer-issue-554-panchromatic-classification?version=1)
+is available at
+`akoflow://hub/publications/856e238c-acc2-4c89-9aab-7b9ea28031c4/versions/1`.
+The four-slot reference completed all 770 activities with peak overlap
+of four scene tasks. The anonymous gallery and downloadable CSVs match
+the measured artifacts. All 770 activities in the anonymous YAML specify
+the same verified Dockerfile and archived 682-byte context.
+The isolated daemon had no workflows or images before import.
+All 770 cold preflight checks requested reconstruction, and the
+clean reference run is in progress.
+[Import evidence](https://github.com/UFFeScience/akoflow-examples/blob/8e04478/remote-sensing/panchromatic-classification/evidence/reference/public-uri-import.json).
