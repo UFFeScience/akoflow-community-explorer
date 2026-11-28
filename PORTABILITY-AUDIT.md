@@ -394,7 +394,7 @@ through anonymous Hub import and execution before retiring the legacy version.
 The daemon's publication deletion endpoint removes the entire publication, so
 it must never be used to retire v1 from a publication that also holds the
 verified replacement. Anonymous checks confirmed that both Volterra and BioCLIP
-still served v1 and v2 YAML. [Hub version retirement](https://github.com/UFFeScience/akoflow-hub/issues/102) tracks the missing operation.
+served v1 and v2 YAML before the retirement. [Hub version retirement](https://github.com/UFFeScience/akoflow-hub/issues/102) records the rollout and verification.
 
 An item passes only after its public YAML contains an archived AkôFlow build
 context, every Dockerfile `COPY`/`ADD` source is contained by that context, the
