@@ -431,3 +431,11 @@ the verified replacement before applying any retirement.
 BioCLIP v2 uses
 `akoflow://hub/publications/8e98e0af-1904-46bf-8365-b438d4334852/versions/2`.
 The Hénon map publication has ID `68796b3b-104b-4a2a-876c-9770bfe81492`.
+
+Run [the retirement driver](automation/retire_portable_versions.py) to recheck
+the inventory against the current Hub. The default only reads public versions.
+Once the version-scoped daemon route and Hub handler are deployed, use
+`--apply` through the Project's authorized daemon connection. An optional
+`--slug` limits the operation to one publication. The driver verifies the
+replacement before each use and checks that the old YAML is unavailable after
+retirement.
