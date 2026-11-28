@@ -417,3 +417,17 @@ the daemon.
 Initial receipt-based sample: 9 publications, all with successful reference
 runs and portable public revisions. The expanded 31-workflow audit above
 includes entries without local receipts.
+
+## Public versions pending retirement
+
+The anonymous project inventory contained 40 publications. The
+[retirement candidates](PORTABILITY-RETIREMENT-CANDIDATES.json) record the 31
+older versions of 30 publications, their current replacement YAML hashes, and
+the corresponding clean daemon runs. All 30 clean run statuses were
+`completed` and every downloaded replacement matched the version hash from
+the Hub. This inventory is a snapshot. Re-read the active versions and confirm
+the verified replacement before applying any retirement.
+
+BioCLIP v2 uses
+`akoflow://hub/publications/8e98e0af-1904-46bf-8365-b438d4334852/versions/2`.
+The Hénon map publication has ID `68796b3b-104b-4a2a-876c-9770bfe81492`.

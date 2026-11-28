@@ -1,0 +1,393 @@
+[
+  {
+    "slug": "bioclip-rare-species-evaluation",
+    "publicationId": "8e98e0af-1904-46bf-8365-b438d4334852",
+    "publishedOlderVersions": [
+      1
+    ],
+    "replacementVersion": 2,
+    "replacementYAMLSHA256": "2748ee70ff483dbdd1f5918ec3530442836d85809e4961e0667d0b40d49cd4cd",
+    "yamlMatchesHubVersion": true,
+    "archivedContextPresent": true,
+    "cleanRun": "bioclip-hub-v2-clean-overlay",
+    "cleanRunStatus": "completed"
+  },
+  {
+    "slug": "caco2-scaffold-split-baselines",
+    "publicationId": "6a0df415-decf-4d5e-a5d1-fe08c0614a19",
+    "publishedOlderVersions": [
+      1
+    ],
+    "replacementVersion": 2,
+    "replacementYAMLSHA256": "73fa8134447613fc54efe5ffa48e7f3c54a8587f1c9d3f5228490d4257a4c73d",
+    "yamlMatchesHubVersion": true,
+    "archivedContextPresent": true,
+    "cleanRun": "caco2-hub-v2-clean-overlay",
+    "cleanRunStatus": "completed"
+  },
+  {
+    "slug": "weatherbench2-era5-score-audit",
+    "publicationId": "93c225a0-401a-444b-ad21-dddf0852fa1b",
+    "publishedOlderVersions": [
+      1
+    ],
+    "replacementVersion": 2,
+    "replacementYAMLSHA256": "dfe79c734555cf59d7222f4955c3939d873c726fdf4c930ae70d26310b5143c3",
+    "yamlMatchesHubVersion": true,
+    "archivedContextPresent": true,
+    "cleanRun": "weatherbench-hub-v2-clean-overlay",
+    "cleanRunStatus": "completed"
+  },
+  {
+    "slug": "mfc-sod-shock-tube-refinement",
+    "publicationId": "9b23b434-80aa-4139-a4ac-5a3abd19cf67",
+    "publishedOlderVersions": [
+      1
+    ],
+    "replacementVersion": 2,
+    "replacementYAMLSHA256": "1a83e71322e472fea5163a3b19a2903417d214b7f4b464e280358bdd0b203235",
+    "yamlMatchesHubVersion": true,
+    "archivedContextPresent": true,
+    "cleanRun": "mfc-hub-v2-clean-overlay",
+    "cleanRunStatus": "completed"
+  },
+  {
+    "slug": "kimura-wright-fisher-fixation",
+    "publicationId": "790e5aef-207d-409b-8a11-79db6f16063a",
+    "publishedOlderVersions": [
+      1
+    ],
+    "replacementVersion": 2,
+    "replacementYAMLSHA256": "b4b38cc93031f8dc4352c02886317578b127aab040585ddd98916d42ab17414c",
+    "yamlMatchesHubVersion": true,
+    "archivedContextPresent": true,
+    "cleanRun": "wright-fisher-hub-v2-clean-overlay",
+    "cleanRunStatus": "completed"
+  },
+  {
+    "slug": "sir-threshold-final-size-sweep",
+    "publicationId": "34e57b08-7fc5-4343-8173-4af2b6a3f6ee",
+    "publishedOlderVersions": [
+      1
+    ],
+    "replacementVersion": 2,
+    "replacementYAMLSHA256": "b84140ae893500d9b685f1c9c439ea648a3ca2eabd93bc013e08525094a259b3",
+    "yamlMatchesHubVersion": true,
+    "archivedContextPresent": true,
+    "cleanRun": "sir-hub-v2-clean-overlay",
+    "cleanRunStatus": "completed"
+  },
+  {
+    "slug": "hodgkin-huxley-excitation-boundary",
+    "publicationId": "1ea20b57-5afd-4a11-8399-e629bad8ff67",
+    "publishedOlderVersions": [
+      1
+    ],
+    "replacementVersion": 2,
+    "replacementYAMLSHA256": "d35600e7b32ea3595f40acb43edf9488f4218455eccd709ca804d118edceb21c",
+    "yamlMatchesHubVersion": true,
+    "archivedContextPresent": true,
+    "cleanRun": "hodgkin-hub-v2-clean-overlay",
+    "cleanRunStatus": "completed"
+  },
+  {
+    "slug": "turing-schnakenberg-pattern-selection",
+    "publicationId": "561d7297-9747-4dfe-8cf1-c5d84220490c",
+    "publishedOlderVersions": [
+      1
+    ],
+    "replacementVersion": 2,
+    "replacementYAMLSHA256": "739b1a1b5a8c2868b163dd5df67a3b76d97d933dfd7b9e8d6c4ac43e1c9421f3",
+    "yamlMatchesHubVersion": true,
+    "archivedContextPresent": true,
+    "cleanRun": "turing-hub-v2-clean-overlay",
+    "cleanRunStatus": "completed"
+  },
+  {
+    "slug": "lorenz-bounded-sensitivity-ensemble",
+    "publicationId": "7a0b07b5-d87e-4049-a835-3c0694387e0f",
+    "publishedOlderVersions": [
+      1
+    ],
+    "replacementVersion": 2,
+    "replacementYAMLSHA256": "90e813d66ca4dd4e0e03af061bb545eab93f3d53cbc47c3244d41a7461cee2c2",
+    "yamlMatchesHubVersion": true,
+    "archivedContextPresent": true,
+    "cleanRun": "lorenz-hub-v2-clean-overlay",
+    "cleanRunStatus": "completed"
+  },
+  {
+    "slug": "oceanbench-glonet-metric-reproduction",
+    "publicationId": "0f2c1803-b55c-41ea-9d86-9e40331763f6",
+    "publishedOlderVersions": [
+      1,
+      2
+    ],
+    "replacementVersion": 3,
+    "replacementYAMLSHA256": "1b23a0f0fd78f84e76697308955e2ea5b823adc547f7a0f2d076df196b0628dc",
+    "yamlMatchesHubVersion": true,
+    "archivedContextPresent": true,
+    "cleanRun": "oceanbench-hub-v3-clean-overlay",
+    "cleanRunStatus": "completed"
+  },
+  {
+    "slug": "stardist-equivariance-sweep",
+    "publicationId": "38a33bff-bfbe-414d-85dc-e88f741a77e2",
+    "publishedOlderVersions": [
+      1
+    ],
+    "replacementVersion": 2,
+    "replacementYAMLSHA256": "e01c2031cc45d6aac0167d358c53feb6ac45c77133635eee0b3ade4981548fbc",
+    "yamlMatchesHubVersion": true,
+    "archivedContextPresent": true,
+    "cleanRun": "stardist-hub-v2-clean-overlay",
+    "cleanRunStatus": "completed"
+  },
+  {
+    "slug": "community-explorer-issue-36-henon-map-v1",
+    "publicationId": "68796b3b-104b-4a2a-876c-9770bfe81492",
+    "publishedOlderVersions": [
+      1
+    ],
+    "replacementVersion": 2,
+    "replacementYAMLSHA256": "9c34ad167e0f5772ef4d0a08c9913780f655028441c61a1adc44779d35fc7b38",
+    "yamlMatchesHubVersion": true,
+    "archivedContextPresent": true,
+    "cleanRun": "henon-hub-v2-clean-uri",
+    "cleanRunStatus": "completed"
+  },
+  {
+    "slug": "community-explorer-issue-37-airy-diffraction-v1",
+    "publicationId": "57999cfa-0c42-46ad-98c8-2e2547c41839",
+    "publishedOlderVersions": [
+      1
+    ],
+    "replacementVersion": 2,
+    "replacementYAMLSHA256": "c07bb9183844cea3381a7644cd2bafa3a6475c309060c1e0cc9076cade554f91",
+    "yamlMatchesHubVersion": true,
+    "archivedContextPresent": true,
+    "cleanRun": "airy-hub-v2-clean-uri",
+    "cleanRunStatus": "completed"
+  },
+  {
+    "slug": "community-explorer-issue-40-cooley-tukey-fft-v1",
+    "publicationId": "c7798e7d-6372-4f3d-9dd8-f79ae97f31b7",
+    "publishedOlderVersions": [
+      1
+    ],
+    "replacementVersion": 2,
+    "replacementYAMLSHA256": "d03c55096c68e90148d7520e7f172f61af14886990f3f1a398aed8ab44b9ca4d",
+    "yamlMatchesHubVersion": true,
+    "archivedContextPresent": true,
+    "cleanRun": "cooley-hub-v2-clean-uri",
+    "cleanRunStatus": "completed"
+  },
+  {
+    "slug": "community-explorer-issue-44-foucault-precession-v1",
+    "publicationId": "f67f3cd3-de44-48cc-a8ab-f171f9a4132b",
+    "publishedOlderVersions": [
+      1
+    ],
+    "replacementVersion": 2,
+    "replacementYAMLSHA256": "fb59e7e384e8c2235e2edfa3ec1294e0c619b033773cc9c35d3e4f7dce6a03a7",
+    "yamlMatchesHubVersion": true,
+    "archivedContextPresent": true,
+    "cleanRun": "foucault-hub-v2-clean-uri",
+    "cleanRunStatus": "completed"
+  },
+  {
+    "slug": "robertson-stiff-solver-agreement",
+    "publicationId": "bf6b8253-d7dc-4ec6-a14e-dd2dcad64e2e",
+    "publishedOlderVersions": [
+      1
+    ],
+    "replacementVersion": 2,
+    "replacementYAMLSHA256": "dff95bfc9cba482b9d02114d10ac1ade83d1778f93c59a22bc0f9a87f1dfb60e",
+    "yamlMatchesHubVersion": true,
+    "archivedContextPresent": true,
+    "cleanRun": "robertson-hub-v2-clean-uri",
+    "cleanRunStatus": "completed"
+  },
+  {
+    "slug": "bateman-decay-chain-equilibrium-audit",
+    "publicationId": "a588ed45-9cfb-467a-8579-8eed40bbc2e4",
+    "publishedOlderVersions": [
+      1
+    ],
+    "replacementVersion": 2,
+    "replacementYAMLSHA256": "d22cddf5a40399066d88f3abd14d61f3bbbc22fe21342748f2e4ae0b046693d5",
+    "yamlMatchesHubVersion": true,
+    "archivedContextPresent": true,
+    "cleanRun": "bateman-hub-v2-clean-uri",
+    "cleanRunStatus": "completed"
+  },
+  {
+    "slug": "sparse-multiband-rrlyrae-period-recovery",
+    "publicationId": "450fd3cb-853e-4cfc-9c2b-9106f4025b2e",
+    "publishedOlderVersions": [
+      1
+    ],
+    "replacementVersion": 2,
+    "replacementYAMLSHA256": "ba5b5eccda21256b8e678aab795eebae759bd3284e95453b271713e01b9eb925",
+    "yamlMatchesHubVersion": true,
+    "archivedContextPresent": true,
+    "cleanRun": "rrlyrae-hub-v2-clean-uri-retry",
+    "cleanRunStatus": "completed"
+  },
+  {
+    "slug": "yang-ising-magnetization-curve",
+    "publicationId": "19401a3b-9698-4809-bf51-1ded0ce0da33",
+    "publishedOlderVersions": [
+      1
+    ],
+    "replacementVersion": 2,
+    "replacementYAMLSHA256": "bade060a051b2ff67235708acdefbb8a51402c1ecb4c9400559cfbb22ece8d52",
+    "yamlMatchesHubVersion": true,
+    "archivedContextPresent": true,
+    "cleanRun": "ising-hub-v2-clean-uri",
+    "cleanRunStatus": "completed"
+  },
+  {
+    "slug": "pdebench-advection-checkpoint-audit",
+    "publicationId": "ae096f53-a354-4ca7-9200-5561399841da",
+    "publishedOlderVersions": [
+      1
+    ],
+    "replacementVersion": 2,
+    "replacementYAMLSHA256": "fd348cd2d5e6b27b7a05ed78282a96790b1bf5e44fe70de9c1b2ddbadaf3f386",
+    "yamlMatchesHubVersion": true,
+    "archivedContextPresent": true,
+    "cleanRun": "pdebench-hub-v2-clean-uri",
+    "cleanRunStatus": "completed"
+  },
+  {
+    "slug": "chsh-singlet-correlation-audit",
+    "publicationId": "a6bbce30-c8ea-4169-bd51-3f82e1e959b5",
+    "publishedOlderVersions": [
+      1
+    ],
+    "replacementVersion": 2,
+    "replacementYAMLSHA256": "c981419f69cb31c72da71e7acfc16ea714797e5db61393bf13de84134be2c338",
+    "yamlMatchesHubVersion": true,
+    "archivedContextPresent": true,
+    "cleanRun": "chsh-hub-v2-clean-uri",
+    "cleanRunStatus": "completed"
+  },
+  {
+    "slug": "the-well-radiative-mixing-layer",
+    "publicationId": "6cd25e50-3814-46b0-8bce-862d23a8c15c",
+    "publishedOlderVersions": [
+      1
+    ],
+    "replacementVersion": 2,
+    "replacementYAMLSHA256": "d9d9c08a5efa9d9bf7c1e7217c51c75dbf1b4b05cf42efa58030519c7ab4d0d8",
+    "yamlMatchesHubVersion": true,
+    "archivedContextPresent": true,
+    "cleanRun": "well-hub-v2-clean-uri-retry",
+    "cleanRunStatus": "completed"
+  },
+  {
+    "slug": "buffon-needle-pi-audit",
+    "publicationId": "aa22819d-3717-42bf-9aba-4a24b99acfb4",
+    "publishedOlderVersions": [
+      1
+    ],
+    "replacementVersion": 2,
+    "replacementYAMLSHA256": "e5354e2acf0ecbfb24d65dabbe35294cbb163c35e06294361bbf3d0b223bea11",
+    "yamlMatchesHubVersion": true,
+    "archivedContextPresent": true,
+    "cleanRun": "buffon-hub-v2-clean-uri",
+    "cleanRunStatus": "completed"
+  },
+  {
+    "slug": "shannon-bsc-capacity-audit",
+    "publicationId": "44e2376b-e08d-4c28-910a-18f5f0f799d7",
+    "publishedOlderVersions": [
+      1
+    ],
+    "replacementVersion": 2,
+    "replacementYAMLSHA256": "8dd8da9b1ab05e580133f47d40ee11ded4d9ae1a613964c764bf05f348b3147f",
+    "yamlMatchesHubVersion": true,
+    "archivedContextPresent": true,
+    "cleanRun": "shannon-hub-v2-clean-uri",
+    "cleanRunStatus": "completed"
+  },
+  {
+    "slug": "volterra-predator-prey-ensemble",
+    "publicationId": "36509a08-f4f3-43d3-9a20-ffe47116fb16",
+    "publishedOlderVersions": [
+      1
+    ],
+    "replacementVersion": 2,
+    "replacementYAMLSHA256": "e87889587f06d34d8d1c935239542a6b71e71e2b865e6ff2b8b8ad0b410c935f",
+    "yamlMatchesHubVersion": true,
+    "archivedContextPresent": true,
+    "cleanRun": "volterra-hub-v2-clean-uri",
+    "cleanRunStatus": "completed"
+  },
+  {
+    "slug": "community-explorer-issue-49-rabi-oscillations-v1",
+    "publicationId": "b69279b7-1735-470d-9630-b1ea64734e2d",
+    "publishedOlderVersions": [
+      1
+    ],
+    "replacementVersion": 2,
+    "replacementYAMLSHA256": "616819e9c88522f763ed4728d93788d96688a877595e0eb1a0207c7e95f93b89",
+    "yamlMatchesHubVersion": true,
+    "archivedContextPresent": true,
+    "cleanRun": "rabi-hub-v2-clean-uri",
+    "cleanRunStatus": "completed"
+  },
+  {
+    "slug": "community-explorer-issue-43-brachistochrone-v1",
+    "publicationId": "412e389d-5df6-4a9f-96a7-e4326a57d7ba",
+    "publishedOlderVersions": [
+      1
+    ],
+    "replacementVersion": 2,
+    "replacementYAMLSHA256": "782522c678e3ea7d08efa50a607646d97c7ff9da9c79d77e531dbc0ce52251f5",
+    "yamlMatchesHubVersion": true,
+    "archivedContextPresent": true,
+    "cleanRun": "brachistochrone-hub-v2-clean-uri",
+    "cleanRunStatus": "completed"
+  },
+  {
+    "slug": "debye-lattice-heat-capacity-audit",
+    "publicationId": "9130e861-9ee0-4597-aa27-7eac2b28a648",
+    "publishedOlderVersions": [
+      1
+    ],
+    "replacementVersion": 2,
+    "replacementYAMLSHA256": "6226b26cb4efa1c8628ba78813814fe579c9f8877562ba6b347cd93524fb4e85",
+    "yamlMatchesHubVersion": true,
+    "archivedContextPresent": true,
+    "cleanRun": "debye-hub-v2-clean-uri",
+    "cleanRunStatus": "completed"
+  },
+  {
+    "slug": "community-explorer-issue-51-jarzynski-dragged-trap-v1",
+    "publicationId": "7178176c-e846-4692-97a4-461a38e01b02",
+    "publishedOlderVersions": [
+      1
+    ],
+    "replacementVersion": 2,
+    "replacementYAMLSHA256": "b78f32f7747133dc0cb46c496f06dbdfa70f4229da8e67948137836a3122b7e3",
+    "yamlMatchesHubVersion": true,
+    "archivedContextPresent": true,
+    "cleanRun": "jarzynski-hub-v2-clean-uri-retry",
+    "cleanRunStatus": "completed"
+  },
+  {
+    "slug": "community-explorer-issue-50-newman-ziff-percolation-v1",
+    "publicationId": "9920b3e6-e614-405e-8cb9-34943a2c2141",
+    "publishedOlderVersions": [
+      1
+    ],
+    "replacementVersion": 2,
+    "replacementYAMLSHA256": "66d80db6c9267b2c497395d0a878f2267c4dbd96369b3b02584a64ccad52505c",
+    "yamlMatchesHubVersion": true,
+    "archivedContextPresent": true,
+    "cleanRun": "newman-hub-v2-clean-uri",
+    "cleanRunStatus": "completed"
+  }
+]
